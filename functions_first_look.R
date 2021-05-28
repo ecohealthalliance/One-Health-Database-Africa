@@ -539,9 +539,10 @@ ingest_indicators.amr <- function(){
     select(all_of(amr_indicators)) %>%  
     #rename_all(~str_replace_all(., "\\s+", "")) %>%
     rename(Countryname = 'Country name') %>%
+    mutate(Countryname =  stringi::stri_trans_general(str = Countryname, id = "Latin-ASCII")) %>%
     mutate_if(is.character, as.factor) %>%
     mutate(Countryname = fct_recode(Countryname, 
-                                    "Cote d'Ivoire" = "Côte d'Ivoire",
+                                    #"Cote d'Ivoire" = "Côte d'Ivoire",
                                     "Tanzania" = "United Republic of Tanzania"  )) %>% # South Sudan not in doctors data
     filter(Countryname %in% country_names) %>%
     droplevels() %>%
@@ -680,17 +681,117 @@ combi <- combi[-1,] # remove the first row as it is empty.
 ## ** might actually be easier to just select the columns that we want as there are a few that are outside of the eyars that we
 ## are looking to select. Will come back to this one. 
 
-df1 <- select(combi, !c(Element, ))
+# colnames(combi)[181:200]
 
-c2 <- combi %>% 
-  slice(-1) %>%  
-  pivot_longer(cols = AnimalReport:Publicationspercountry, names_to = "indicator", values_to = "value")
-str(combi)
+# We may not need all of these as there may be some repitition with other files
+# can edit accordingly later
 
-combi$Elements
+selected_cols <- c("CountryName", "AnimalReport", "HumanReport", "AnimalandHuman", "Vets2018", "Vets2017", "Vets2016",
+                   "Vets2015", "Vets2014", "Vets2013", "Vets2012", "Vets2011", "Electric2011",  "Electric2012",
+                   "Electric2013", "Electric2014", "Electric2015" , "Electric2016", "Electric2017", "AnimalProtein201113",
+                   "TotalProtein201113", "PercentAnProtein20112013", "Stability2011", "Stability2012", "Stability2013",
+                   "Stability2014", "Stability2015", "GNI2011", "GNI2012", "GNI2013", "GNI2014", "GNI2015",
+                   "GNI2016", "GNI2017", "GNI2018", "RVFany", "SheepGoats2011", "SheepGoats2012",
+                   "SheepGoats2013", "SheepGoats2014", "SheepGoats2015", "SheepGoats2016", "SheepGoats2017",
+                   "Cattle2011", "Cattle2012", "Cattle2013", "Cattle2014", "Cattle2015",  "Cattle2016",
+                   "Cattle2017", "HealthSpend2011", "HealthSpend2012", "HealthSpend2013", "HealthSpend2014",
+                   "HealthSpend2015", "HealthSpend2016", "AgGDP2011", "AgGDP2012", "AgGDP2013", "AgGDP2014",
+                   "AgGDP2015", "AgGDP2016", "AgGDP2017", "AgGDP2018", "Malaria2017", "Malaria2016","Malaria2015",
+                   "Malaria2014", "Malaria2013", "Malaria2012", "Malaria2011", "Publicationspercountry")
+
+df1 <- select(combi, all_of(selected_cols)) %>%
+  mutate(CountryName = as.factor(CountryName)) %>%
+  mutate(CountryName = fct_recode(CountryName, 
+                                  "Gambia" = "Gambia, The",
+                                  "Congo" = "Congo, Rep.",
+                                  "Democratic Republic of the Congo" = "Congo, Dem. Rep.")) %>%
+  filter(CountryName %in% country_names) %>%
+  droplevels() %>%
+  mutate_if(is.character, as.numeric) %>%
+  rename(RVFAnimalReport = AnimalReport, RVFHumanReport = HumanReport, RVFAnimalandHuman = AnimalandHuman, 
+         PercentAnimalProtein20112013 = PercentAnProtein20112013 ) %>%
+  pivot_longer(cols = !CountryName, names_to = "indicator", values_to = "value") %>%
+  mutate_at("value", round, 1) %>%
+  mutate(year = extract_numeric(indicator)) %>%
+  mutate(indicator = tm::removeNumbers(indicator)) %>%
+  mutate(indicator = as.factor(indicator)) %>%
+  mutate(units =  NA) %>%
+  mutate(year = as.factor(year)) %>%
+  rename(country = CountryName) %>%
+  relocate(country, indicator, year, value, units) %>%
+  mutate(indicator = fct_recode(indicator, 
+                         "Malaria_incidence_per_1000_population_at_risk" = "Malaria")) %>% # rename malaria indicator
+  mutate(units = case_when(indicator == "Electric" ~ "percent_population_with_access_to_electricity",
+                           indicator == "Vets" ~ "Number",
+                           indicator == "AnimalProtein" ~ "gr/caput/day",
+                           indicator == "TotalProtein" ~ "gr/caput/day",
+                           indicator == "PercentAnimalProtein" ~ "percent",
+                           indicator == "Stability" ~ "Aggregate indicator in  units of a normal  standard distribution (~ - 2.5-2.5) - Political Stability and  Absence of Violence/Terrorism",
+                           indicator == "GNI" ~ "USD per capita",
+                           indicator == "SheepGoats" ~ "Livestock Units",
+                           indicator == "Cattle" ~ "Livestock Units",
+                           indicator == "HealthSpend" ~ "USD per capita",
+                           indicator == "AgGDP"  ~ "percent of GDP",
+                           indicator == "Malaria_incidence_per_1000_population_at_risk" ~ "Number",
+                           indicator == "Publicationspercountry" ~ "Number"))
 
 
+ingest_indicators.combined_data_sheet <- function(){
+  combi <- read_xlsx("data/Combined data sheet_African countries.xlsx")
+  combi <- combi[-1,] # remove the first row as it is empty.
+  
+  selected_cols <- c("CountryName", "AnimalReport", "HumanReport", "AnimalandHuman", "Vets2018", "Vets2017", "Vets2016",
+                     "Vets2015", "Vets2014", "Vets2013", "Vets2012", "Vets2011", "Electric2011",  "Electric2012",
+                     "Electric2013", "Electric2014", "Electric2015" , "Electric2016", "Electric2017", "AnimalProtein201113",
+                     "TotalProtein201113", "PercentAnProtein20112013", "Stability2011", "Stability2012", "Stability2013",
+                     "Stability2014", "Stability2015", "GNI2011", "GNI2012", "GNI2013", "GNI2014", "GNI2015",
+                     "GNI2016", "GNI2017", "GNI2018", "RVFany", "SheepGoats2011", "SheepGoats2012",
+                     "SheepGoats2013", "SheepGoats2014", "SheepGoats2015", "SheepGoats2016", "SheepGoats2017",
+                     "Cattle2011", "Cattle2012", "Cattle2013", "Cattle2014", "Cattle2015",  "Cattle2016",
+                     "Cattle2017", "HealthSpend2011", "HealthSpend2012", "HealthSpend2013", "HealthSpend2014",
+                     "HealthSpend2015", "HealthSpend2016", "AgGDP2011", "AgGDP2012", "AgGDP2013", "AgGDP2014",
+                     "AgGDP2015", "AgGDP2016", "AgGDP2017", "AgGDP2018", "Malaria2017", "Malaria2016","Malaria2015",
+                     "Malaria2014", "Malaria2013", "Malaria2012", "Malaria2011", "Publicationspercountry")
+  
+  df1 <- select(combi, all_of(selected_cols)) %>%
+    mutate(CountryName = as.factor(CountryName)) %>%
+    mutate(CountryName = fct_recode(CountryName, 
+                                    "Gambia" = "Gambia, The",
+                                    "Congo" = "Congo, Rep.",
+                                    "Democratic Republic of the Congo" = "Congo, Dem. Rep.")) %>%
+    filter(CountryName %in% country_names) %>%
+    droplevels() %>%
+    mutate_if(is.character, as.numeric) %>%
+    rename(RVFAnimalReport = AnimalReport, RVFHumanReport = HumanReport, RVFAnimalandHuman = AnimalandHuman, 
+           PercentAnimalProtein20112013 = PercentAnProtein20112013 ) %>%
+    pivot_longer(cols = !CountryName, names_to = "indicator", values_to = "value") %>%
+    mutate_at("value", round, 1) %>%
+    mutate(year = extract_numeric(indicator)) %>%
+    mutate(indicator = tm::removeNumbers(indicator)) %>%
+    mutate(indicator = as.factor(indicator)) %>%
+    mutate(units =  NA) %>%
+    mutate(year = as.factor(year)) %>%
+    rename(country = CountryName) %>%
+    relocate(country, indicator, year, value, units) %>%
+    mutate(indicator = fct_recode(indicator, 
+                                  "Malaria_incidence_per_1000_population_at_risk" = "Malaria")) %>% # rename malaria indicator
+    mutate(units = case_when(indicator == "Electric" ~ "percent_population_with_access_to_electricity",
+                             indicator == "Vets" ~ "Number",
+                             indicator == "AnimalProtein" ~ "gr/caput/day",
+                             indicator == "TotalProtein" ~ "gr/caput/day",
+                             indicator == "PercentAnimalProtein" ~ "percent",
+                             indicator == "Stability" ~ "Aggregate indicator in  units of a normal  standard distribution (~ - 2.5-2.5) - Political Stability and  Absence of Violence/Terrorism",
+                             indicator == "GNI" ~ "USD per capita",
+                             indicator == "SheepGoats" ~ "Livestock Units",
+                             indicator == "Cattle" ~ "Livestock Units",
+                             indicator == "HealthSpend" ~ "USD per capita",
+                             indicator == "AgGDP"  ~ "percent of GDP",
+                             indicator == "Malaria_incidence_per_1000_population_at_risk" ~ "Number",
+                             indicator == "Publicationspercountry" ~ "Number"))
+  df1
+}
 
+ingest_indicators.combined_data_sheet()
 
 ###############################################################################################
 ### JEE Indicators
@@ -769,10 +870,11 @@ ingest_indicators.jee <- function(){
     set_names(colnames_list)
 }
 
+
 ingest_indicators.jee()
 
 # do we want to hae the value as a factor as it currently is? Or have it as a number with a key? 
-
+# An issue with making it a number is that there are some where we have two numbers in the column
 ##########################################################################################################
 ### Promed mentions
 
@@ -1092,7 +1194,7 @@ v1 <- vet %>%
   filter(country %in% country_names) %>%
   droplevels() %>%
   pivot_longer(cols = !country, names_to = "year", values_to = "value") %>%
-  mutate(value = sub("...", "", value)) %>%
+  mutate(value = extract_numeric(value)) %>%
   mutate(year = as.factor(year)) %>%
   mutate(value = as.numeric(value)) %>%
   mutate(units = "number") %>%
@@ -1115,7 +1217,7 @@ ingest_indicators.vet_capacity <- function(){
     filter(country %in% country_names) %>%
     droplevels() %>%
     pivot_longer(cols = !country, names_to = "year", values_to = "value") %>%
-    mutate(value = sub("...", "", value)) %>%
+    mutate(value = extract_numeric(value)) %>%
     mutate(year = as.factor(year)) %>%
     mutate(value = as.numeric(value)) %>%
     mutate(units = "number") %>%
@@ -1147,7 +1249,7 @@ ah2 <- animal_health %>%
   filter(country %in% country_names) %>%
   droplevels() %>%
   pivot_longer(cols = !country, names_to = "year", values_to = "value") %>%
-  mutate(value = sub("...", "", value)) %>%
+  mutate(value = extract_numeric(value)) %>%
   mutate(year = as.factor(year)) %>%
   mutate(value = as.numeric(value)) %>%
   mutate(units = "number") %>%
@@ -1171,7 +1273,7 @@ ingest_indicators.animal_health_public_sector <- function(){
     filter(country %in% country_names) %>%
     droplevels() %>%
     pivot_longer(cols = !country, names_to = "year", values_to = "value") %>%
-    mutate(value = sub("...", "", value)) %>%
+    mutate(value = extract_numeric(value)) %>%
     mutate(year = as.factor(year)) %>%
     mutate(value = as.numeric(value)) %>%
     mutate(units = "number") %>%

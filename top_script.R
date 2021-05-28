@@ -24,6 +24,7 @@ library(readxl)
 library(stringr)
 library(docxtractr)
 
+
 ## read in the metadata
 metadat <- read_csv("gheri_africom_indicators_metadata.csv")
 
@@ -47,8 +48,6 @@ chosen_years <- c("2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017"
 ## state the column names - this is used within the functions 
 colnames_list <- c("country", "indicator", "year", "value", "units")
 
-#Source all of the functions
-miceadds::source.all("R") # this retrieves all of the functions in the R directory
 
 function_names <- metadat %>%
    select(function_names) %>%
@@ -57,14 +56,49 @@ function_names <- metadat %>%
    unique() %>%
    paste0("ingest_indicators", sep = ".", .)#, "()")
 
+## At present some of the functions have numerical values in the value column and others have factors.
+## I can't join these as is. Either need to recode the factors as a number and have a key (although some
+## in the amr set are very detailed) or can have numbers as factors. 
+## Or can keep separate - one with factor and one with number
+
+
+number_sets <- c("ingest_indicators.medical_doctors", "ingest_indicators.spar", "ingest_indicators.promed", 
+                 "ingest_indicators.taenia_solium",  "ingest_indicators.malaria_cases",
+                 "ingest_indicators.rabies_deaths",  "ingest_indicators.yellow_fever",
+                 "ingest_indicators.wash_water", "ingest_indicators.wash_sanitation",
+                 "ingest_indicators.wash_hygiene", "ingest_indicators.arable_land",
+                 "ingest_indicators.terrestrial_protected_area", "ingest_indicators.fisheries_production",
+                 "ingest_indicators.cfe_allocations" ,"ingest_indicators.population",
+                 "ingest_indicators.vet_capacity", "ingest_indicators.animal_health_public_sector",
+                 "ingest_indicators.combined_data_sheet")
+
+factor_sets <- c("ingest_indicators.jee", "ingest_indicators.amr", "ingest_indicators.rabies_management")
+
+function_names_number <- function_names[which(function_names %in% number_sets)]
+function_names_factor <- function_names[which(function_names %in% factor_sets)]
+
+
+source("R/source_functions.R")
 
 # run all the functions and output a list of dataframes - one for each function
 outlist <- list()
+for(i in 1:length(function_names_number)) {
+  outlist[[i]] <- do.call(function_names_number[i], args = list())
+}  ## Is there a quicker/better way to do this rather than a loop? I couldn't work out a vectorised format.
 
-for(i in 1:length(function_names)) {
-  outlist[[i]] <- do.call(function_names[i], args = list())
-  }  ## Is there a quicker/better way to do this rather than a loop? I couldn't work out a vectorised format.
+full_data_number <- bind_rows(outlist)
 
-full_data <- bind_rows(outlist)
+levels(full_data_number$indicator)
 
-levels(full_data$indicator)
+
+## Repeat for the dataframes that are factors as the value
+
+# run all the functions and output a list of dataframes - one for each function
+outlist_factor <- list()
+for(i in 1:length(function_names_factor)) {
+  outlist_factor[[i]] <- do.call(function_names_factor[i], args = list())
+}  ## Is there a quicker/better way to do this rather than a loop? I couldn't work out a vectorised format.
+
+full_data_factor <- bind_rows(outlist_factor)
+
+levels(full_data_factor$indicator)

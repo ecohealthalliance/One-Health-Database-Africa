@@ -13,7 +13,7 @@ ingest_indicators.animal_health_public_sector <- function(){
     filter(country %in% country_names) %>%
     droplevels() %>%
     pivot_longer(cols = !country, names_to = "year", values_to = "value") %>%
-    mutate(value = sub("...", "", value)) %>%
+    mutate(value = extract_numeric(value)) %>%
     mutate(year = as.factor(year)) %>%
     mutate(value = as.numeric(value)) %>%
     mutate(units = "number") %>%
