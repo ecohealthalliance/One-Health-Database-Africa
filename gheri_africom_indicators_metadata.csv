@@ -61,13 +61,13 @@ Forest cover,Forset cover and loss.xlsx,,,
 Arable land - percentage,Arable land.xls,https://datacatalog.worldbank.org/search?query=%20arable-land-hectares-1,,arable_land
 Arable land - hectares,Arable land.xls,https://datacatalog.worldbank.org/search?query=%20arable-land-hectares-1,,arable_land
 Electricity access,combined data sheet_African countries,https://data.worldbank.org/indicator/EG.ELC.ACCS.ZS,,combined_data_sheet
-Live animal production - Buffaloes,,http://www.fao.org/faostat/en/#data/QA,,
-Live animal production - Chickens,,http://www.fao.org/faostat/en/#data/QA,,
-Live animal production - Camelids,,http://www.fao.org/faostat/en/#data/QA,,
-Live animal production - Cattle,,http://www.fao.org/faostat/en/#data/QA,,
-Live animal production - Sheep,,http://www.fao.org/faostat/en/#data/QA,,
-Live animal production - Goats,,http://www.fao.org/faostat/en/#data/QA,,
-Live animal production- Pigs,,http://www.fao.org/faostat/en/#data/QA,,
+Live animal production - Buffaloes,,http://www.fao.org/faostat/en/#data/QA,,fao_livestock
+Live animal production - Chickens,,http://www.fao.org/faostat/en/#data/QA,,fao_livestock
+Live animal production - Camelids,,http://www.fao.org/faostat/en/#data/QA,,fao_livestock
+Live animal production - Cattle,,http://www.fao.org/faostat/en/#data/QA,,fao_livestock
+Live animal production - Sheep,,http://www.fao.org/faostat/en/#data/QA,,fao_livestock
+Live animal production - Goats,,http://www.fao.org/faostat/en/#data/QA,,fao_livestock
+Live animal production- Pigs,,http://www.fao.org/faostat/en/#data/QA,,fao_livestock
 "Agriculture, forestry, and fishing, value added (% of GDP)",combined data sheet_African countries,https://data.worldbank.org/indicator/NV.AGR.TOTL.ZS,,combined_data_sheet
 Terrestrial protected areas (%),Terrestrial protected areas (% of total land area).csv,https://data.worldbank.org/indicator/ER.LND.PTLD.ZS,,terrestrial_protected_area
 Capture fisheries production (metric tons),Capture fisheries production (metric tons).csv,https://data.worldbank.org/indicator/ER.FSH.CAPT.MT,,fisheries_production
@@ -78,10 +78,10 @@ Healthcare expenditure per capita,combined data sheet_African countries,https://
 "Gross National Income per capita, Atlas method (US$)",combined data sheet_African countries,https://data.worldbank.org/indicator/NY.GNP.PCAP.CD,,combined_data_sheet
 Population,,https://data.worldbank.org/indicator/SP.POP.TOTL,,population
 "Population growth, 2010-2019 (%)",N/A,To be calculated from Population data,,
-Trade in live animals - Buffaloes,,http://www.fao.org/faostat/en/#data/TA,,
-Trade in live animals - Chickens,,http://www.fao.org/faostat/en/#data/TA,,
-Trade in live animals - Camelids,,http://www.fao.org/faostat/en/#data/TA,,
-Trade in live animals - Cattle,,http://www.fao.org/faostat/en/#data/TA,,
-Trade in live animals- Sheep,,http://www.fao.org/faostat/en/#data/TA,,
-Trade in live animals - Goats,,http://www.fao.org/faostat/en/#data/TA,,
-Trade in live animals - Pigs,,http://www.fao.org/faostat/en/#data/TA,,
+Trade in live animals - Buffaloes,,http://www.fao.org/faostat/en/#data/TA,,fao_import_export
+Trade in live animals - Chickens,,http://www.fao.org/faostat/en/#data/TA,,fao_import_export
+Trade in live animals - Camelids,,http://www.fao.org/faostat/en/#data/TA,,fao_import_export
+Trade in live animals - Cattle,,http://www.fao.org/faostat/en/#data/TA,,fao_import_export
+Trade in live animals- Sheep,,http://www.fao.org/faostat/en/#data/TA,,fao_import_export
+Trade in live animals - Goats,,http://www.fao.org/faostat/en/#data/TA,,fao_import_export
+Trade in live animals - Pigs,,http://www.fao.org/faostat/en/#data/TA,,fao_import_export

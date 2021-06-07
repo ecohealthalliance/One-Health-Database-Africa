@@ -70,7 +70,8 @@ number_sets <- c("ingest_indicators.medical_doctors", "ingest_indicators.spar", 
                  "ingest_indicators.terrestrial_protected_area", "ingest_indicators.fisheries_production",
                  "ingest_indicators.cfe_allocations" ,"ingest_indicators.population",
                  "ingest_indicators.vet_capacity", "ingest_indicators.animal_health_public_sector",
-                 "ingest_indicators.combined_data_sheet")
+                 "ingest_indicators.combined_data_sheet", "ingest_indicators.fao_livestock",
+                 "ingest_indicators.fao_import_export")
 
 factor_sets <- c("ingest_indicators.jee", "ingest_indicators.amr", "ingest_indicators.rabies_management")
 
