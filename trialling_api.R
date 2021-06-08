@@ -28,6 +28,9 @@ country_names <- read_xlsx("data/AFRICOM List.xlsx") %>%
 
 country_names
 
+# for world bank data need to specify the dates we want
+dates_to_pull <- "2011:2020"
+
 # install.packages(c("httr", "jsonlite"))
 
 library(httr)

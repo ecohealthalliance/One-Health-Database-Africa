@@ -25,3 +25,5 @@ ingest_indicators.wash_water <- function(){
     relocate(country, indicator, year, value, units) %>%
     filter(year %in% chosen_years)
 }
+
+#ingest_indicators.wash_water()

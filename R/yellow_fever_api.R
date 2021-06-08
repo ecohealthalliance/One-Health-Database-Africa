@@ -1,12 +1,15 @@
 
-#ingest_indicators.yellow_fever_api <- function(){
+ingest_indicators.yellow_fever_api <- function(){
   pull_data <- GET("https://apps.who.int/gho/athena/api/GHO/WHS3_50.json")
   data = fromJSON(rawToChar(pull_data$content))
   d2 <- data[["fact"]]
   dim_com <- d2$Dim
+  ln <- as.numeric(length(dim_com))
+  dim_com2 <- dim_com[10:ln]
+  d2 <- d2[10:ln,]
   
   # I think the data I want starts at list 10 so need to trim 
-  ade <- dim_com %>% reduce(left_join, by = "category") %>%
+  ade <- dim_com2 %>% reduce(left_join, by = "category") %>%
     t(.) %>%
     as.data.frame(.) %>%
     janitor::row_to_names(row_number = 1) %>%
@@ -44,9 +47,9 @@
   full_df_2
 }
 
-
-ingest_indicators.malaria_cases_api()
-
+tictoc::tic()
+ingest_indicators.yellow_fever_api()
+tictoc::toc()
 
 
 
