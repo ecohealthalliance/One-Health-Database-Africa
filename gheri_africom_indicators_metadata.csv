@@ -1,87 +1,87 @@
-Indicator,filename,source_url,Notes,function_names,api_call_or_direct_download
-Number of veterinarians,Vet capacity_OIE.xlsx,https://wahis.oie.int/#/report-management,OIE is updating WAHIS website so may not be online at present; can use existing data set,vet_capacity,
-"Number of animal health personnel, public sector",Vet capacity_OIE.xlsx,https://wahis.oie.int/#/report-management,OIE is updating WAHIS website so may not be online at present; can use existing data set,animal_health_public_sector,
-"Number of veterinarians, wildlife expertise",N/A,N/A,no data available but we would like it in the report to support country discussion,,
-Number of medical doctors,Medical doctor_WHO Global Health Observatory.csv,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/medical-doctors-(number),,medical_doctors,DONE
-P.4.1 Surveillance systems in place for priority zoonotic diseases/pathogens (v1)/ P.4.1 Coordinated surveillance systems in place in the animal health and public health sectors for zoonotic diseases/pathogens identified as joint priorities (v2),JEE scores.xlsx,N/A,Extracted from PDFs,jee,
-P.4.3 Mechanisms for responding to infectious zoonoses and potential zoonoses are established and functional (v1) / P.4.2 Mechanisms for responding to infectious and potential zoonotic diseases established and functional (v2),JEE scores.xlsx,N/A,Extracted from PDFs,jee,
-"P.6.1 Whole-of-government biosafety and biosecurity system is in place for human, animal, and agriculture facilities",JEE scores.xlsx,N/A,Extracted from PDFs,jee,
-"P.6.2 Biosafety and biosecurity training and practices in all relevant sectors (including human, animal and agriculture)",JEE scores.xlsx,N/A,Extracted from PDFs,jee,
-P.7.2 National vaccine access and delivery,JEE scores.xlsx,N/A,Extracted from PDFs,jee,
-D.1.1 Laboratory testing for detection of priority diseases,JEE scores.xlsx,N/A,Extracted from PDFs,jee,
-D.1.2 Specimen referral and transport System,JEE scores.xlsx,N/A,Extracted from PDFs,jee,
-D.1.4 Laboratory quality system,JEE scores.xlsx,N/A,Extracted from PDFs,jee,
-"D.3.1 System for efficient reporting to WHO, FAO and OIE",JEE scores.xlsx,N/A,Extracted from PDFs,jee,
-D.3.2 Reporting network and protocols in country,JEE scores.xlsx,N/A,Extracted from PDFs,jee,
-D.4.2 Applied epidemiology training program in place such as FETP (v1)/ D.4.4 FETP or other applied epidemiology training programme is in place (v2),JEE scores.xlsx,N/A,Extracted from PDFs,jee,
-D.4.3 Workforce Strategy (v1)/ D.4.1 An up-to-date multisectoral workforce strategy is in place (v2),JEE scores.xlsx,N/A,Extracted from PDFs,jee,
-"R.3.1 Public Health and Security Authorities, (e.g. Law Enforcement, Border Control, Customs) are linked during a suspect or confirmed biological event (v1)/ R.3.1 Public health and security authorities (e.g. law enforcement, border control, customs) linked during a suspect or confirmed biological, chemical or radiological event",JEE scores.xlsx,N/A,Extracted from PDFs,jee,
-R.5.2 Internal and Partner Communication and Coordination (v1)/ R.5.2 Internal and partner coordination for emergency risk communication (v2),JEE scores.xlsx,N/A,Extracted from PDFs,jee,
-PoE.1 Routine capacities are established at PoE,JEE scores.xlsx,N/A,Extracted from PDFs,jee,
-PoE.2 Effective Public Health Response at Points of Entry,JEE scores.xlsx,N/A,Extracted from PDFs,jee,
-C.3.1,SPAR.xlsx,https://extranet.who.int/e-spar,SPAR/IHR State Party Self-Assessment Annual Report,spar,
-C.4.1,SPAR.xlsx,https://extranet.who.int/e-spar,SPAR/IHR State Party Self-Assessment Annual Report,spar,
-C.5.1,SPAR.xlsx,https://extranet.who.int/e-spar,SPAR/IHR State Party Self-Assessment Annual Report,spar,
-C.6.1,SPAR.xlsx,https://extranet.who.int/e-spar,SPAR/IHR State Party Self-Assessment Annual Report,spar,
-C.6.2,SPAR.xlsx,https://extranet.who.int/e-spar,SPAR/IHR State Party Self-Assessment Annual Report,spar,
-C.11.1,SPAR.xlsx,https://extranet.who.int/e-spar,SPAR/IHR State Party Self-Assessment Annual Report,spar,
-C.11.2,SPAR.xlsx,https://extranet.who.int/e-spar,SPAR/IHR State Party Self-Assessment Annual Report,spar,
-4.1 Multi-sector and One Health,AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,
-4.2 Which sectors are actively involved in developing and implementing the AMR National Action Plan- [Food Production],AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,
-4.2 Which sectors are actively involved in developing and implementing the AMR National Action Plan- [Environment],AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,
-5.1 Country progress with development of a national action plan on AMR,AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,
-"5.2 Is your country�s national action plan on AMR linked to any other existing action plans, strategies or targets related to - [Malaria]",AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,
-5.4 Country legislations on antimicrobial use [Country has laws or regulations that prohibits the use of antibiotics for growth promotion in the absence of risk analysis.],AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,
-"5.4 Country legislations on antimicrobial use [Country has legislation on marketing of pesticides including antimicrobial pesticides, such as bactericides and fungicides used in plant production.]",AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,
-6.1 Raising awareness and understanding of AMR risks and response,AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,
-"6.1.1 For the level selected above, please indicate the extent of involvement of the sectors below. [Animal Health (terrestrial and aquatic)]",AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,
-6.3 Training and professional education on AMR in the veterinary sector,AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,
-6.5 Progress with strengthening veterinary services,AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,
-7.2 National monitoring system for antimicrobials intended to be used in animals (terrestrial and aquatic) (sales/use),AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,
-7.5 (b) AMR surveillance is routinely undertaken in animals for the following categories: [Animal (terrestrial and/or aquatic) isolates linked to animal disease.],AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,
-7.5 (b) AMR surveillance is routinely undertaken in animals for the following categories: [Zoonotic pathogenic bacteria],AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,
-"8.2 Good health, management and hygiene practices to reduce the use of antimicrobials and minimize development and transmission of AMR in animal production (terrestrial and aquatic)",AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,
-9.2 Optimizing antimicrobial use in animal health (terrestrial and aquatic),AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,
-10. National assessment of risks for AMR transmission in the environment and pollution control.,AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,
-"ProMED events, 2015-2021",PROMED_AL_databaseFRSPPO.xlsx,,N/A,promed,
-Presence of porcine cysticercosis,Taenia solium- Presence of porcine cysticercosis.xlsx,https://www.who.int/data/gho/indicator-metadata-registry/imr-details/5309,,taenia_solium,DONE
-Estimated malaria cases,Estimated Malaria Cases.xlsx,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/estimated-number-of-malaria-cases,,malaria_cases,DONE
-Robust national rabies surveillance,Rabies Management_CDC.xlsx,,N/A,rabies_management,
-Robust national rabies control program implemented,Rabies Management_CDC.xlsx,,N/A,rabies_management,
-Vaccine availability,Rabies Management_CDC.xlsx,,N/A,rabies_management,
-RIG availability,Rabies Management_CDC.xlsx,,N/A,rabies_management,
-Rabies deaths,Rabies Deaths_WHO.csv,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/reported-number-of-human-rabies-deaths,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/reported-number-of-human-rabies-deaths,rabies_deaths,DONE
-Yellow Fever cases,Yellow Fever.xlsx,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/yellow-fever---number-of-reported-cases,,yellow_fever,DONE
-Drinking water – national – at least basic,WASH-data-tables.xlsx,https://data.unicef.org/resources/dataset/drinking-water-sanitation-hygiene-database/,,wash_water,
-Drinking water – rural – at least basic,WASH-data-tables.xlsx,https://data.unicef.org/resources/dataset/drinking-water-sanitation-hygiene-database/,,wash_water,
-Sanitation – national – at least basic,WASH-data-tables.xlsx,https://data.unicef.org/resources/dataset/drinking-water-sanitation-hygiene-database/,,wash_sanitation,
-Hygiene – national – basic,WASH-data-tables.xlsx,https://data.unicef.org/resources/dataset/drinking-water-sanitation-hygiene-database/,,wash_hygiene,
-Forest cover,Forset cover and loss.xlsx,,,,
-"Forest cover loss, 2008-2018 (%)",Forset cover and loss.xlsx,,N/A,,
-Arable land - percentage,Arable land.xls,https://datacatalog.worldbank.org/search?query=%20arable-land-hectares-1,,arable_land,DONE
-Arable land - hectares,Arable land.xls,https://datacatalog.worldbank.org/search?query=%20arable-land-hectares-1,,arable_land,DONE
-Electricity access,combined data sheet_African countries,https://data.worldbank.org/indicator/EG.ELC.ACCS.ZS,,combined_data_sheet,
-Live animal production - Buffaloes,,http://www.fao.org/faostat/en/#data/QA,,fao_livestock,DONE
-Live animal production - Chickens,,http://www.fao.org/faostat/en/#data/QA,,fao_livestock,DONE
-Live animal production - Camelids,,http://www.fao.org/faostat/en/#data/QA,,fao_livestock,DONE
-Live animal production - Cattle,,http://www.fao.org/faostat/en/#data/QA,,fao_livestock,DONE
-Live animal production - Sheep,,http://www.fao.org/faostat/en/#data/QA,,fao_livestock,DONE
-Live animal production - Goats,,http://www.fao.org/faostat/en/#data/QA,,fao_livestock,DONE
-Live animal production- Pigs,,http://www.fao.org/faostat/en/#data/QA,,fao_livestock,DONE
-"Agriculture, forestry, and fishing, value added (% of GDP)",combined data sheet_African countries,https://data.worldbank.org/indicator/NV.AGR.TOTL.ZS,,combined_data_sheet,
-Terrestrial protected areas (%),Terrestrial protected areas (% of total land area).csv,https://data.worldbank.org/indicator/ER.LND.PTLD.ZS,,terrestrial_protected_area,DONE
-Capture fisheries production (metric tons),Capture fisheries production (metric tons).csv,https://data.worldbank.org/indicator/ER.FSH.CAPT.MT,,fisheries_production,DONE
-Land area (sq. km),,https://data.worldbank.org/indicator/AG.LND.TOTL.K2,"Just modified indicator from what was on list (could not find hectares, so sq. km will work!)",land_area_api,DONE
-Political Stability and Absence of Violence/ Terrorism,combined data sheet_African countries,N/A,"Was originally part of an FAO data set, but can't find online.",combined_data_sheet,
-"CFE allocation, total for country",CFE allocations-2015-20jan2021.docx,https://cdn.who.int/media/docs/default-source/documents/emergencies/cfe-allocations-2015---21-april-21.pdf?sfvrsn=933c784f_5,PDF of latest allocations (updated every few weeks),cfe_allocations,
-Healthcare expenditure per capita,combined data sheet_African countries,https://data.worldbank.org/indicator/SH.XPD.CHEX.PC.CD,,combined_data_sheet,DONE
-"Gross National Income per capita, Atlas method (US$)",combined data sheet_African countries,https://data.worldbank.org/indicator/NY.GNP.PCAP.CD,,combined_data_sheet,
-Population,,https://data.worldbank.org/indicator/SP.POP.TOTL,,population,
-"Population growth, 2010-2019 (%)",N/A,To be calculated from Population data,,,
-Trade in live animals - Buffaloes,,http://www.fao.org/faostat/en/#data/TA,,fao_import_export,DONE
-Trade in live animals - Chickens,,http://www.fao.org/faostat/en/#data/TA,,fao_import_export,DONE
-Trade in live animals - Camelids,,http://www.fao.org/faostat/en/#data/TA,,fao_import_export,DONE
-Trade in live animals - Cattle,,http://www.fao.org/faostat/en/#data/TA,,fao_import_export,DONE
-Trade in live animals- Sheep,,http://www.fao.org/faostat/en/#data/TA,,fao_import_export,DONE
-Trade in live animals - Goats,,http://www.fao.org/faostat/en/#data/TA,,fao_import_export,DONE
-Trade in live animals - Pigs,,http://www.fao.org/faostat/en/#data/TA,,fao_import_export,DONE
+Indicator,filename,source_url,Notes,function_names,api_call_or_direct_download,
+Number of veterinarians,Vet capacity_OIE.xlsx,https://wahis.oie.int/#/report-management,OIE is updating WAHIS website so may not be online at present; can use existing data set,vet_capacity,vet_capacity,add api/download
+"Number of animal health personnel, public sector",Vet capacity_OIE.xlsx,https://wahis.oie.int/#/report-management,OIE is updating WAHIS website so may not be online at present; can use existing data set,animal_health_public_sector,animal_health_public_sector,add api/download
+"Number of veterinarians, wildlife expertise",N/A,N/A,no data available but we would like it in the report to support country discussion,,,
+Number of medical doctors,Medical doctor_WHO Global Health Observatory.csv,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/medical-doctors-(number),,medical_doctors,medical_doctors_api,
+P.4.1 Surveillance systems in place for priority zoonotic diseases/pathogens (v1)/ P.4.1 Coordinated surveillance systems in place in the animal health and public health sectors for zoonotic diseases/pathogens identified as joint priorities (v2),JEE scores.xlsx,N/A,Extracted from PDFs,jee,jee,
+P.4.3 Mechanisms for responding to infectious zoonoses and potential zoonoses are established and functional (v1) / P.4.2 Mechanisms for responding to infectious and potential zoonotic diseases established and functional (v2),JEE scores.xlsx,N/A,Extracted from PDFs,jee,jee,
+"P.6.1 Whole-of-government biosafety and biosecurity system is in place for human, animal, and agriculture facilities",JEE scores.xlsx,N/A,Extracted from PDFs,jee,jee,
+"P.6.2 Biosafety and biosecurity training and practices in all relevant sectors (including human, animal and agriculture)",JEE scores.xlsx,N/A,Extracted from PDFs,jee,jee,
+P.7.2 National vaccine access and delivery,JEE scores.xlsx,N/A,Extracted from PDFs,jee,jee,
+D.1.1 Laboratory testing for detection of priority diseases,JEE scores.xlsx,N/A,Extracted from PDFs,jee,jee,
+D.1.2 Specimen referral and transport System,JEE scores.xlsx,N/A,Extracted from PDFs,jee,jee,
+D.1.4 Laboratory quality system,JEE scores.xlsx,N/A,Extracted from PDFs,jee,jee,
+"D.3.1 System for efficient reporting to WHO, FAO and OIE",JEE scores.xlsx,N/A,Extracted from PDFs,jee,jee,
+D.3.2 Reporting network and protocols in country,JEE scores.xlsx,N/A,Extracted from PDFs,jee,jee,
+D.4.2 Applied epidemiology training program in place such as FETP (v1)/ D.4.4 FETP or other applied epidemiology training programme is in place (v2),JEE scores.xlsx,N/A,Extracted from PDFs,jee,jee,
+D.4.3 Workforce Strategy (v1)/ D.4.1 An up-to-date multisectoral workforce strategy is in place (v2),JEE scores.xlsx,N/A,Extracted from PDFs,jee,jee,
+"R.3.1 Public Health and Security Authorities, (e.g. Law Enforcement, Border Control, Customs) are linked during a suspect or confirmed biological event (v1)/ R.3.1 Public health and security authorities (e.g. law enforcement, border control, customs) linked during a suspect or confirmed biological, chemical or radiological event",JEE scores.xlsx,N/A,Extracted from PDFs,jee,jee,
+R.5.2 Internal and Partner Communication and Coordination (v1)/ R.5.2 Internal and partner coordination for emergency risk communication (v2),JEE scores.xlsx,N/A,Extracted from PDFs,jee,jee,
+PoE.1 Routine capacities are established at PoE,JEE scores.xlsx,N/A,Extracted from PDFs,jee,jee,
+PoE.2 Effective Public Health Response at Points of Entry,JEE scores.xlsx,N/A,Extracted from PDFs,jee,jee,
+C.3.1,SPAR.xlsx,https://extranet.who.int/e-spar,SPAR/IHR State Party Self-Assessment Annual Report,spar,spar,looks like need a password to get on to site
+C.4.1,SPAR.xlsx,https://extranet.who.int/e-spar,SPAR/IHR State Party Self-Assessment Annual Report,spar,spar,
+C.5.1,SPAR.xlsx,https://extranet.who.int/e-spar,SPAR/IHR State Party Self-Assessment Annual Report,spar,spar,
+C.6.1,SPAR.xlsx,https://extranet.who.int/e-spar,SPAR/IHR State Party Self-Assessment Annual Report,spar,spar,
+C.6.2,SPAR.xlsx,https://extranet.who.int/e-spar,SPAR/IHR State Party Self-Assessment Annual Report,spar,spar,
+C.11.1,SPAR.xlsx,https://extranet.who.int/e-spar,SPAR/IHR State Party Self-Assessment Annual Report,spar,spar,
+C.11.2,SPAR.xlsx,https://extranet.who.int/e-spar,SPAR/IHR State Party Self-Assessment Annual Report,spar,spar,
+4.1 Multi-sector and One Health,AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,amr,Not sure it is possible
+4.2 Which sectors are actively involved in developing and implementing the AMR National Action Plan- [Food Production],AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,amr,
+4.2 Which sectors are actively involved in developing and implementing the AMR National Action Plan- [Environment],AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,amr,
+5.1 Country progress with development of a national action plan on AMR,AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,amr,
+"5.2 Is your country�s national action plan on AMR linked to any other existing action plans, strategies or targets related to - [Malaria]",AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,amr,
+5.4 Country legislations on antimicrobial use [Country has laws or regulations that prohibits the use of antibiotics for growth promotion in the absence of risk analysis.],AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,amr,
+"5.4 Country legislations on antimicrobial use [Country has legislation on marketing of pesticides including antimicrobial pesticides, such as bactericides and fungicides used in plant production.]",AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,amr,
+6.1 Raising awareness and understanding of AMR risks and response,AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,amr,
+"6.1.1 For the level selected above, please indicate the extent of involvement of the sectors below. [Animal Health (terrestrial and aquatic)]",AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,amr,
+6.3 Training and professional education on AMR in the veterinary sector,AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,amr,
+6.5 Progress with strengthening veterinary services,AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,amr,
+7.2 National monitoring system for antimicrobials intended to be used in animals (terrestrial and aquatic) (sales/use),AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,amr,
+7.5 (b) AMR surveillance is routinely undertaken in animals for the following categories: [Animal (terrestrial and/or aquatic) isolates linked to animal disease.],AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,amr,
+7.5 (b) AMR surveillance is routinely undertaken in animals for the following categories: [Zoonotic pathogenic bacteria],AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,amr,
+"8.2 Good health, management and hygiene practices to reduce the use of antimicrobials and minimize development and transmission of AMR in animal production (terrestrial and aquatic)",AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,amr,
+9.2 Optimizing antimicrobial use in animal health (terrestrial and aquatic),AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,amr,
+10. National assessment of risks for AMR transmission in the environment and pollution control.,AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,amr,
+"ProMED events, 2015-2021",PROMED_AL_databaseFRSPPO.xlsx,,N/A,promed,promed,check if direct download possible
+Presence of porcine cysticercosis,Taenia solium- Presence of porcine cysticercosis.xlsx,https://www.who.int/data/gho/indicator-metadata-registry/imr-details/5309,,taenia_solium,taenia_solium_api,
+Estimated malaria cases,Estimated Malaria Cases.xlsx,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/estimated-number-of-malaria-cases,,malaria_cases,malaria_cases_api,
+Robust national rabies surveillance,Rabies Management_CDC.xlsx,,N/A,rabies_management,rabies_management,
+Robust national rabies control program implemented,Rabies Management_CDC.xlsx,,N/A,rabies_management,rabies_management,
+Vaccine availability,Rabies Management_CDC.xlsx,,N/A,rabies_management,rabies_management,
+RIG availability,Rabies Management_CDC.xlsx,,N/A,rabies_management,rabies_management,
+Rabies deaths,Rabies Deaths_WHO.csv,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/reported-number-of-human-rabies-deaths,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/reported-number-of-human-rabies-deaths,rabies_deaths,rabies_deaths_api,
+Yellow Fever cases,Yellow Fever.xlsx,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/yellow-fever---number-of-reported-cases,,yellow_fever,yellow_fever_api,
+Drinking water – national – at least basic,WASH-data-tables.xlsx,https://data.unicef.org/resources/dataset/drinking-water-sanitation-hygiene-database/,,wash_water,wash_water_download,
+Drinking water – rural – at least basic,WASH-data-tables.xlsx,https://data.unicef.org/resources/dataset/drinking-water-sanitation-hygiene-database/,,wash_water,wash_water_download,
+Sanitation – national – at least basic,WASH-data-tables.xlsx,https://data.unicef.org/resources/dataset/drinking-water-sanitation-hygiene-database/,,wash_sanitation,wash_sanitation_download,
+Hygiene – national – basic,WASH-data-tables.xlsx,https://data.unicef.org/resources/dataset/drinking-water-sanitation-hygiene-database/,,wash_hygiene,wash_hygiene_download,
+Forest area (percent),Forest_area_percent.csv,https://api.worldbank.org/v2/en/indicator/AG.LND.FRST.ZS?downloadformat=csv,,forest_area,forest_area_api,
+Tree cover loss,treecover_loss_primary_forests_2001_tropics_only_ha.csv,,N/A,treecover_loss,treecover_loss,
+Arable land - percentage,Arable land.xls,https://datacatalog.worldbank.org/search?query=%20arable-land-hectares-1,,arable_land,arable_land_api,
+Arable land - hectares,Arable land.xls,https://datacatalog.worldbank.org/search?query=%20arable-land-hectares-1,,arable_land,arable_land_api,
+Electricity access,combined data sheet_African countries,https://data.worldbank.org/indicator/EG.ELC.ACCS.ZS,,combined_data_sheet,electricity_access_api,
+Live animal production - Buffaloes,,http://www.fao.org/faostat/en/#data/QA,,fao_livestock,fao_livestock,
+Live animal production - Chickens,,http://www.fao.org/faostat/en/#data/QA,,fao_livestock,fao_livestock,
+Live animal production - Camelids,,http://www.fao.org/faostat/en/#data/QA,,fao_livestock,fao_livestock,
+Live animal production - Cattle,,http://www.fao.org/faostat/en/#data/QA,,fao_livestock,fao_livestock,
+Live animal production - Sheep,,http://www.fao.org/faostat/en/#data/QA,,fao_livestock,fao_livestock,
+Live animal production - Goats,,http://www.fao.org/faostat/en/#data/QA,,fao_livestock,fao_livestock,
+Live animal production- Pigs,,http://www.fao.org/faostat/en/#data/QA,,fao_livestock,fao_livestock,
+"Agriculture, forestry, and fishing, value added (% of GDP)",combined data sheet_African countries,https://data.worldbank.org/indicator/NV.AGR.TOTL.ZS,,combined_data_sheet,combined_data_sheet,Haven't got this one yet
+Terrestrial protected areas (%),Terrestrial protected areas (% of total land area).csv,https://data.worldbank.org/indicator/ER.LND.PTLD.ZS,,terrestrial_protected_area,terrestrial_protected_area_api,
+Capture fisheries production (metric tons),Capture fisheries production (metric tons).csv,https://data.worldbank.org/indicator/ER.FSH.CAPT.MT,,fisheries_production,fisheries_production_api,
+Land area (sq. km),,https://data.worldbank.org/indicator/AG.LND.TOTL.K2,"Just modified indicator from what was on list (could not find hectares, so sq. km will work!)",land_area,land_area_api,Add a non api function and data
+Political Stability and Absence of Violence/ Terrorism,combined data sheet_African countries,N/A,"Was originally part of an FAO data set, but can't find online.",combined_data_sheet,combined_data_sheet,update combined data sheet to have one for api folder that excludes those directly downloaded
+"CFE allocation, total for country",CFE allocations-2015-20jan2021.docx,https://cdn.who.int/media/docs/default-source/documents/emergencies/cfe-allocations-2015---21-april-21.pdf?sfvrsn=933c784f_5,PDF of latest allocations (updated every few weeks),cfe_allocations,cfe_allocations,check if direct download possible
+Healthcare expenditure per capita,combined data sheet_African countries,https://data.worldbank.org/indicator/SH.XPD.CHEX.PC.CD,,combined_data_sheet,health_expenditure_api,
+"Gross National Income per capita, Atlas method (US$)",combined data sheet_African countries,https://data.worldbank.org/indicator/NY.GNP.PCAP.CD,,combined_data_sheet,gross_national_income_api,
+Population,,https://data.worldbank.org/indicator/SP.POP.TOTL,,population,population_api,
+"Population growth, 2010-2019 (%)",N/A,To be calculated from Population data,,,,
+Trade in live animals - Buffaloes,,http://www.fao.org/faostat/en/#data/TA,,fao_import_export,fao_import_export,
+Trade in live animals - Chickens,,http://www.fao.org/faostat/en/#data/TA,,fao_import_export,fao_import_export,
+Trade in live animals - Camelids,,http://www.fao.org/faostat/en/#data/TA,,fao_import_export,fao_import_export,
+Trade in live animals - Cattle,,http://www.fao.org/faostat/en/#data/TA,,fao_import_export,fao_import_export,
+Trade in live animals- Sheep,,http://www.fao.org/faostat/en/#data/TA,,fao_import_export,fao_import_export,
+Trade in live animals - Goats,,http://www.fao.org/faostat/en/#data/TA,,fao_import_export,fao_import_export,
+Trade in live animals - Pigs,,http://www.fao.org/faostat/en/#data/TA,,fao_import_export,fao_import_export,

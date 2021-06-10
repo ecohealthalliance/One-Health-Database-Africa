@@ -2,6 +2,7 @@
 ## Starting with the WHO data.
 
 ## Still need the year, country and colnames data
+rm(list = ls())
 
 library(tidyverse)
 library(readxl)

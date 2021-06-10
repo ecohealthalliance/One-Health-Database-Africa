@@ -1,7 +1,7 @@
 
 
-ingest_indicators.health_expenditure <- function(){
-  pull_data <- GET(paste("http://api.worldbank.org/V2/country/all/indicator/SH.XPD.CHEX.PC.CD?date=",
+ingest_indicators.electricity_access_api <- function(){
+  pull_data <- GET(paste("http://api.worldbank.org/V2/country/all/indicator/EG.ELC.ACCS.ZS?date=",
                          dates_to_pull, "&per_page=10000&format=json", sep = ""))
   
   data = fromJSON(rawToChar(pull_data$content))
@@ -21,9 +21,8 @@ ingest_indicators.health_expenditure <- function(){
     rename(year = date, country = country.value, indicator = indicator.value) %>%
     filter(year %in% chosen_years) %>%
     mutate(year = as.factor(year)) %>%
-    mutate(units = "USD")
+    mutate(units = "percent")
   
   data_f
 }
 
-ingest_indicators.health_expenditure()

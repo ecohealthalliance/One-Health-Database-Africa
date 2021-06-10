@@ -62,24 +62,28 @@ function_names <- metadat %>%
 ## Or can keep separate - one with factor and one with number
 
 
-number_sets <- c("ingest_indicators.medical_doctors", "ingest_indicators.spar", "ingest_indicators.promed", 
-                 "ingest_indicators.taenia_solium",  "ingest_indicators.malaria_cases",
-                 "ingest_indicators.rabies_deaths",  "ingest_indicators.yellow_fever",
-                 "ingest_indicators.wash_water", "ingest_indicators.wash_sanitation",
-                 "ingest_indicators.wash_hygiene", "ingest_indicators.arable_land",
-                 "ingest_indicators.terrestrial_protected_area", "ingest_indicators.fisheries_production",
-                 "ingest_indicators.cfe_allocations" ,"ingest_indicators.population",
-                 "ingest_indicators.vet_capacity", "ingest_indicators.animal_health_public_sector",
-                 "ingest_indicators.combined_data_sheet", "ingest_indicators.fao_livestock",
-                 "ingest_indicators.fao_import_export")
+number_sets <- c("ingest_indicators.animal_health_public_sector","ingest_indicators.arable_land",
+                 "ingest_indicators.cfe_allocations", "ingest_indicators.combined_data_sheet",
+                 "ingest_indicators.fao_import_export","ingest_indicators.fao_livestock", 
+                 "ingest_indicators.fisheries_production","ingest_indicators.forest_area",
+                 "ingest_indicators.land_area", "ingest_indicators.malaria_cases",
+                 "ingest_indicators.medical_doctors", "ingest_indicators.population", 
+                 "ingest_indicators.promed", "ingest_indicators.rabies_deaths",
+                 "ingest_indicators.spar","ingest_indicators.terrestrial_protected_area", 
+                 "ingest_indicators.treecover_loss", 
+                 "ingest_indicators.vet_capacity", "ingest_indicators.wash_hygiene", 
+                 "ingest_indicators.wash_sanitation","ingest_indicators.wash_water", 
+                 "ingest_indicators.yellow_fever")
 
-factor_sets <- c("ingest_indicators.jee", "ingest_indicators.amr", "ingest_indicators.rabies_management")
+factor_sets <- c("ingest_indicators.amr", "ingest_indicators.jee", 
+                 "ingest_indicators.rabies_management")#, "ingest_indicators.taenia_solium")
 
 function_names_number <- function_names[which(function_names %in% number_sets)]
 function_names_factor <- function_names[which(function_names %in% factor_sets)]
 
+purrr::walk(list.files(here::here("R/"), full.names = TRUE), source)
 
-source("R/source_functions.R")
+#source("R/source_functions.R")
 
 # run all the functions and output a list of dataframes - one for each function
 outlist <- list()
@@ -89,7 +93,7 @@ for(i in 1:length(function_names_number)) {
 
 full_data_number <- bind_rows(outlist)
 
-levels(full_data_number$indicator)
+sort(levels(full_data_number$indicator))
 
 
 ## Repeat for the dataframes that are factors as the value

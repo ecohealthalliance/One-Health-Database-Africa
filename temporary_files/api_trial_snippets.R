@@ -1,9 +1,17 @@
 # Struggling with unicef
 
 pull_data <- GET("https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/data/UNICEF,WASH_HOUSEHOLDS,1.0/.WS_PPL_W-ALB.._T._T?format=sdmx-json")
-data = fromJSON(rawToChar(pull_data$content))
-d2 <- data[["fact"]]
-dim_com <- d2$Dim
+
+pull_data <- GET("https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/dataflow/all/WASH_HOUSEHOLDS/latest/?format=sdmx-json&detail=full&references=none")
+#data = fromJSON(rawToChar(pull_data$content))
+
+pd <- GET("https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/data/UNICEF,GLOBAL_DATAFLOW,1.0/ALB+DZA.MNCH_INSTDEL.?format=sdmx-json")
+data2 <- fromJSON(rawToChar(pd$content))
+
+data2$meta$schema
+
+# Code for a full data download
+#https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/data/%3cAgencyId%3e,%3cDataflowId%3e,%3cVersion%3e/all?format=sdmx-json
 
 # Try WorldBank
 

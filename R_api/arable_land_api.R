@@ -1,6 +1,8 @@
 
+
 ingest_indicators.arable_land_api <- function(){
-pull_data <- GET("http://api.worldbank.org/V2/country/all/indicator/AG.LND.ARBL.HA;AG.LND.ARBL.ZS?source=2&date=2011:2020&per_page=10000&format=json")
+pull_data <- GET(paste("http://api.worldbank.org/V2/country/all/indicator/AG.LND.ARBL.HA;AG.LND.ARBL.ZS?source=2&date=", 
+                 dates_to_pull, "&per_page=10000&format=json", sep = ""))
 data = fromJSON(rawToChar(pull_data$content))
 
 d2 <- data[[2]]

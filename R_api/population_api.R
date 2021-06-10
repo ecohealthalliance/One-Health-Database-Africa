@@ -1,8 +1,9 @@
 
 
-
-ingest_indicators.fisheries_production_api <- function(){
-  pull_data <- GET("http://api.worldbank.org/V2/country/all/indicator/ER.FSH.CAPT.MT?date=2011:2020&per_page=10000&format=json")
+ingest_indicators.population_api <- function(){
+  pull_data <- GET(paste("http://api.worldbank.org/V2/country/all/indicator/SP.POP.TOTL?date=",
+                         dates_to_pull, "&per_page=10000&format=json", sep = ""))
+  
   data = fromJSON(rawToChar(pull_data$content))
   
   d2 <- data[[2]]
@@ -20,9 +21,9 @@ ingest_indicators.fisheries_production_api <- function(){
     rename(year = date, country = country.value, indicator = indicator.value) %>%
     filter(year %in% chosen_years) %>%
     mutate(year = as.factor(year)) %>%
-    mutate(units = "metric tons")
+    mutate(units = "number")
   
   data_f
 }
 
-ingest_indicators.fisheries_production_api()
+#ingest_indicators.population_api()
