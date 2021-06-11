@@ -1,6 +1,6 @@
 
 
-ingest_indicators.gross_national_income <- function(){
+ingest_indicators.gross_national_income_api <- function(){
   pull_data <- GET(paste("http://api.worldbank.org/V2/country/all/indicator/NY.GNP.PCAP.CD?date=",
                          dates_to_pull, "&per_page=10000&format=json", sep = ""))
   
@@ -26,4 +26,4 @@ ingest_indicators.gross_national_income <- function(){
   data_f
 }
 
-ingest_indicators.gross_national_income()
+#ingest_indicators.gross_national_income()

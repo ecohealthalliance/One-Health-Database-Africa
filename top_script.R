@@ -76,7 +76,7 @@ number_sets <- c("ingest_indicators.animal_health_public_sector","ingest_indicat
                  "ingest_indicators.yellow_fever")
 
 factor_sets <- c("ingest_indicators.amr", "ingest_indicators.jee", 
-                 "ingest_indicators.rabies_management")#, "ingest_indicators.taenia_solium")
+                 "ingest_indicators.rabies_management", "ingest_indicators.taenia_solium")
 
 function_names_number <- function_names[which(function_names %in% number_sets)]
 function_names_factor <- function_names[which(function_names %in% factor_sets)]
@@ -107,3 +107,17 @@ for(i in 1:length(function_names_factor)) {
 full_data_factor <- bind_rows(outlist_factor)
 
 levels(full_data_factor$indicator)
+
+
+### To combine the data sets we can have the value levels as a character and then an extra column to say whether 
+### the value is factor or numeric
+
+full_data_factor_com <- full_data_factor %>%
+  mutate(value = as.character(value)) %>%
+  mutate(type = "factor")
+
+full_data_number_com <- full_data_number %>%
+  mutate(value = as.character(value)) %>%
+  mutate(type = "integer")
+
+full_data_combined = rbind(full_data_factor_com, full_data_number_com)

@@ -1,6 +1,6 @@
 
 
-ingest_indicators.yellow_fever_api2 <- function(){
+ingest_indicators.yellow_fever_api <- function(){
   pull_data <- GET("https://apps.who.int/gho/athena/api/GHO/WHS3_50.json")
   data = fromJSON(rawToChar(pull_data$content))
   d2 <- data[["fact"]]
@@ -47,6 +47,6 @@ ingest_indicators.yellow_fever_api2 <- function(){
   full_df_2
 }
 
-tictoc::tic()
-ingest_indicators.yellow_fever_api2()
-tictoc::toc()
+# tictoc::tic()
+# ingest_indicators.yellow_fever_api()
+# tictoc::toc()

@@ -20,17 +20,7 @@ ingest_indicators.taenia_solium_api <- function(){
     do.call(data.frame, .) %>%
     select(country, year, value.display)
   
-  
-  # dim_com <- d2$Dim
-  # 
-  # ade <- dim_com %>% reduce(left_join, by = "category") %>%
-  #   t(.) %>%
-  #   as.data.frame(.) %>%
-  #   janitor::row_to_names(row_number = 1) %>%
-  #   dplyr::select(c(YEAR, COUNTRY))
-  # 
-  # new_df <- cbind(d2, ade)
-  
+ 
   ## Then need to convert the countrycode to the country name.
   
   full_df <- new_df %>%
@@ -53,14 +43,14 @@ ingest_indicators.taenia_solium_api <- function(){
     mutate(indicator = "Presence of porcine cysticercosis") %>%
     mutate(indicator = as.factor(indicator)) %>%
     mutate(value = as.factor(value)) %>%
-    mutate(units = "number") %>%
+    mutate(units = "presence or absence") %>%
     relocate("country", "indicator", "year", "value", "units")
   
   full_df_2
 }
 
 
-ingest_indicators.taenia_solium_api()
+#ingest_indicators.taenia_solium_api()
 
 
 

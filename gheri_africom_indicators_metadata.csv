@@ -68,20 +68,20 @@ Live animal production - Cattle,,http://www.fao.org/faostat/en/#data/QA,,fao_liv
 Live animal production - Sheep,,http://www.fao.org/faostat/en/#data/QA,,fao_livestock,fao_livestock,
 Live animal production - Goats,,http://www.fao.org/faostat/en/#data/QA,,fao_livestock,fao_livestock,
 Live animal production- Pigs,,http://www.fao.org/faostat/en/#data/QA,,fao_livestock,fao_livestock,
-"Agriculture, forestry, and fishing, value added (% of GDP)",combined data sheet_African countries,https://data.worldbank.org/indicator/NV.AGR.TOTL.ZS,,combined_data_sheet,combined_data_sheet,Haven't got this one yet
+"Agriculture, forestry, and fishing, value added (% of GDP)",combined data sheet_African countries,https://data.worldbank.org/indicator/NV.AGR.TOTL.ZS,,combined_data_sheet,agri_forestry_fishing_api,
 Terrestrial protected areas (%),Terrestrial protected areas (% of total land area).csv,https://data.worldbank.org/indicator/ER.LND.PTLD.ZS,,terrestrial_protected_area,terrestrial_protected_area_api,
 Capture fisheries production (metric tons),Capture fisheries production (metric tons).csv,https://data.worldbank.org/indicator/ER.FSH.CAPT.MT,,fisheries_production,fisheries_production_api,
-Land area (sq. km),,https://data.worldbank.org/indicator/AG.LND.TOTL.K2,"Just modified indicator from what was on list (could not find hectares, so sq. km will work!)",land_area,land_area_api,Add a non api function and data
-Political Stability and Absence of Violence/ Terrorism,combined data sheet_African countries,N/A,"Was originally part of an FAO data set, but can't find online.",combined_data_sheet,combined_data_sheet,update combined data sheet to have one for api folder that excludes those directly downloaded
+Land area (sq. km),Land area,https://data.worldbank.org/indicator/AG.LND.TOTL.K2,"Just modified indicator from what was on list (could not find hectares, so sq. km will work!)",land_area,land_area_api,Add a non api function and data
+Political Stability and Absence of Violence/ Terrorism,combined data sheet_African countries,N/A,"Was originally part of an FAO data set, but can't find online.",combined_data_sheet,combined_data_sheet_api,
 "CFE allocation, total for country",CFE allocations-2015-20jan2021.docx,https://cdn.who.int/media/docs/default-source/documents/emergencies/cfe-allocations-2015---21-april-21.pdf?sfvrsn=933c784f_5,PDF of latest allocations (updated every few weeks),cfe_allocations,cfe_allocations,check if direct download possible
 Healthcare expenditure per capita,combined data sheet_African countries,https://data.worldbank.org/indicator/SH.XPD.CHEX.PC.CD,,combined_data_sheet,health_expenditure_api,
 "Gross National Income per capita, Atlas method (US$)",combined data sheet_African countries,https://data.worldbank.org/indicator/NY.GNP.PCAP.CD,,combined_data_sheet,gross_national_income_api,
-Population,,https://data.worldbank.org/indicator/SP.POP.TOTL,,population,population_api,
+Population,Population_World Bank,https://data.worldbank.org/indicator/SP.POP.TOTL,,population,population_api,
 "Population growth, 2010-2019 (%)",N/A,To be calculated from Population data,,,,
-Trade in live animals - Buffaloes,,http://www.fao.org/faostat/en/#data/TA,,fao_import_export,fao_import_export,
-Trade in live animals - Chickens,,http://www.fao.org/faostat/en/#data/TA,,fao_import_export,fao_import_export,
-Trade in live animals - Camelids,,http://www.fao.org/faostat/en/#data/TA,,fao_import_export,fao_import_export,
-Trade in live animals - Cattle,,http://www.fao.org/faostat/en/#data/TA,,fao_import_export,fao_import_export,
-Trade in live animals- Sheep,,http://www.fao.org/faostat/en/#data/TA,,fao_import_export,fao_import_export,
-Trade in live animals - Goats,,http://www.fao.org/faostat/en/#data/TA,,fao_import_export,fao_import_export,
-Trade in live animals - Pigs,,http://www.fao.org/faostat/en/#data/TA,,fao_import_export,fao_import_export,
+Trade in live animals - Buffaloes,Trade_LiveAnimals_E_All_Data,http://www.fao.org/faostat/en/#data/TA,,fao_import_export,fao_import_export_api,
+Trade in live animals - Chickens,Trade_LiveAnimals_E_All_Data,http://www.fao.org/faostat/en/#data/TA,,fao_import_export,fao_import_export_api,
+Trade in live animals - Camelids,Trade_LiveAnimals_E_All_Data,http://www.fao.org/faostat/en/#data/TA,,fao_import_export,fao_import_export_api,
+Trade in live animals - Cattle,Trade_LiveAnimals_E_All_Data,http://www.fao.org/faostat/en/#data/TA,,fao_import_export,fao_import_export_api,
+Trade in live animals- Sheep,Trade_LiveAnimals_E_All_Data,http://www.fao.org/faostat/en/#data/TA,,fao_import_export,fao_import_export_api,
+Trade in live animals - Goats,Trade_LiveAnimals_E_All_Data,http://www.fao.org/faostat/en/#data/TA,,fao_import_export,fao_import_export_api,
+Trade in live animals - Pigs,Trade_LiveAnimals_E_All_Data,http://www.fao.org/faostat/en/#data/TA,,fao_import_export,fao_import_export_api,

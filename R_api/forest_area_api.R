@@ -1,6 +1,6 @@
 
 
-ingest_indicators.forest_cover_api <- function(){
+ingest_indicators.forest_area_api <- function(){
   pull_data <- GET(paste("http://api.worldbank.org/V2/country/all/indicator/AG.LND.FRST.ZS?date=",
                          dates_to_pull, "&per_page=10000&format=json", sep = ""))
   

@@ -1,6 +1,6 @@
 
 
-ingest_indicators.land_area <- function(){
+ingest_indicators.land_area_api <- function(){
   pull_data <- GET(paste("http://api.worldbank.org/V2/country/all/indicator/AG.LND.TOTL.K2?date=",
                          dates_to_pull, "&per_page=10000&format=json", sep = ""))
   

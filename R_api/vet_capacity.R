@@ -21,3 +21,5 @@ ingest_indicators.vet_capacity <- function(){
     mutate(indicator = as.factor(indicator)) %>%
     relocate(country, indicator, year, value, units)
 }
+
+#ingest_indicators.vet_capacity()

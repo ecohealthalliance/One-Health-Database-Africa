@@ -1,0 +1,114 @@
+## Script to combine the individual indicators and produce a single csv
+
+## This script uses the functions that use api calls or direct downloads if they are available. 
+
+## load the required packages
+rm(list = ls())
+library(tidyverse)
+library(readxl)
+library(stringr)
+library(docxtractr)
+
+library(httr)
+library(jsonlite)
+
+## read in the metadata
+metadat <- read_csv("gheri_africom_indicators_metadata.csv")
+
+# select the countries that we want.
+# If we want all the countries use the function below. If we want a subset, best to subset from the 
+# names outputted by the function as these have been checked to ensure they match the names used in the functions
+
+country_names <- read_xlsx("data/AFRICOM List.xlsx") %>%
+  filter(CountryName != "Egypt, Arab Rep.") %>%
+  mutate_if(is.character, as.factor) %>%
+  mutate(CountryName = fct_recode(CountryName, 
+                                  "Democratic Republic of the Congo" = "Congo, Dem. Rep." ,
+                                  "Congo" = "Congo, Rep.", 
+                                  "Gambia" = "Gambia, The")) %>%
+  droplevels() %>%
+  pull(CountryName)
+
+## specify the years we want to look at
+chosen_years <- c("2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019")
+
+## state the column names - this is used within the functions 
+colnames_list <- c("country", "indicator", "year", "value", "units")
+
+# for world bank data need to specify the dates we want to select in the api call
+dates_to_pull <- "2011:2020"
+
+# extract the function names from the metadata csv
+function_names <- metadat %>%
+  select(api_call_or_direct_download) %>%
+  drop_na() %>%
+  pull() %>%
+  unique() %>%
+  paste0("ingest_indicators", sep = ".", .)#, "()")
+
+## At present some of the functions have numerical values in the value column and others have factors.
+## I can't join these as is. Either need to recode the factors as a number and have a key (although some
+## in the amr set are very detailed) or can have numbers as factors. 
+## Or can keep separate - one with factor and one with number
+
+
+number_sets <- c("ingest_indicators.agri_forestry_fishing_api", "ingest_indicators.animal_health_public_sector",
+                 "ingest_indicators.arable_land_api", "ingest_indicators.cfe_allocations", 
+                 "ingest_indicators.combined_data_sheet_api","ingest_indicators.electricity_access_api",
+                 "ingest_indicators.fao_import_export_api","ingest_indicators.fao_livestock_api", 
+                 "ingest_indicators.fisheries_production_api","ingest_indicators.forest_area_api",
+                 "ingest_indicators.gross_national_income_api", "ingest_indicators.health_expenditure_api",
+                 "ingest_indicators.land_area_api", "ingest_indicators.malaria_cases_api",
+                 "ingest_indicators.medical_doctors_api", "ingest_indicators.population_api", 
+                 "ingest_indicators.promed", "ingest_indicators.rabies_deaths_api",
+                 "ingest_indicators.spar", "ingest_indicators.terrestrial_protected_area_api",
+                 "ingest_indicators.treecover_loss", "ingest_indicators.vet_capacity", 
+                 "ingest_indicators.wash_hygiene_download", "ingest_indicators.wash_sanitation_downlaod",
+                 "ingest_indicators.wash_water_download", "ingest_indicators.yellow_fever_api")
+
+factor_sets <- c("ingest_indicators.amr", "ingest_indicators.jee", 
+                 "ingest_indicators.rabies_management", "ingest_indicators.taenia_solium_api")
+
+function_names_number <- function_names[which(function_names %in% number_sets)]
+function_names_factor <- function_names[which(function_names %in% factor_sets)]
+
+purrr::walk(list.files(here::here("R_api/"), full.names = TRUE), source)
+
+# run all the functions and output a list of dataframes - one for each function
+tictoc::tic()
+outlist <- list()
+for(i in 1:length(function_names_number)) {
+  outlist[[i]] <- do.call(function_names_number[i], args = list())
+}  
+tictoc::toc()
+
+full_data_number_api <- bind_rows(outlist)
+
+sort(levels(full_data_number_api$indicator))
+
+
+## Repeat for the dataframes that are factors as the value
+
+# run all the functions and output a list of dataframes - one for each function
+outlist_factor <- list()
+for(i in 1:length(function_names_factor)) {
+  outlist_factor[[i]] <- do.call(function_names_factor[i], args = list())
+}  ## Is there a quicker/better way to do this rather than a loop? I couldn't work out a vectorised format.
+
+full_data_factor_api <- bind_rows(outlist_factor)
+
+levels(full_data_factor_api$indicator)
+
+
+### To combine the data sets we can have the value levels as a character and then an extra column to say whether 
+### the value is factor or numeric
+
+full_data_factor_com_api <- full_data_factor_api %>%
+  mutate(value = as.character(value)) %>%
+  mutate(type = "factor")
+
+full_data_number_com_api <- full_data_number_api %>%
+  mutate(value = as.character(value)) %>%
+  mutate(type = "integer")
+
+full_data_combined_api = rbind(full_data_factor_com_api, full_data_number_com_api)

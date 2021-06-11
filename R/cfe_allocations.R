@@ -19,9 +19,10 @@ ingest_indicators.cfe_allocations <- function(){
     mutate(year = paste0("20", year )) %>%  # convert to full years
     filter(year %in% chosen_years) %>%
     mutate(year = as.factor(year)) %>%
+    mutate(Country =  stringi::stri_trans_general(str = Country, id = "Latin-ASCII")) %>%
     mutate(Country = as.factor(Country)) %>%
     mutate(Country = fct_recode(Country, 
-                                "Sao Tome and Principe" = "São Tomé and Príncipe",
+                                #"Sao Tome and Principe" = "São Tomé and Príncipe",
                                 "Congo" = "Republic of Congo",
                                 "Democratic Republic of the Congo" = "Democratic Republic of Congo")) %>%
     filter(Country %in% country_names) %>%

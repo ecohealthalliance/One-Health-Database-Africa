@@ -9,6 +9,7 @@ d2 <- data[[2]]
 d2_full <- do.call(data.frame, d2)
 data_f <- d2_full %>% 
   rename_all(~str_replace_all(., "\\s+", "")) %>%
+  mutate(country.value =  stringi::stri_trans_general(str = country.value, id = "Latin-ASCII")) %>%
   mutate(country.value = as.factor(country.value)) %>%  
   mutate(country.value = fct_recode(country.value, 
                                   "Gambia" = "Gambia, The",
@@ -31,4 +32,4 @@ final_df <- data_f %>%
 final_df
 }
 
-ingest_indicators.arable_land_api()
+#ingest_indicators.arable_land_api()

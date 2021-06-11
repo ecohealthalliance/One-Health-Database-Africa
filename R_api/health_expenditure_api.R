@@ -1,6 +1,6 @@
 
 
-ingest_indicators.health_expenditure <- function(){
+ingest_indicators.health_expenditure_api <- function(){
   pull_data <- GET(paste("http://api.worldbank.org/V2/country/all/indicator/SH.XPD.CHEX.PC.CD?date=",
                          dates_to_pull, "&per_page=10000&format=json", sep = ""))
   
