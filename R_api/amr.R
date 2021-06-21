@@ -3,7 +3,7 @@ ingest_indicators.amr <- function(){
                       "4.2 Which sectors are actively involved in developing and implementing the AMR National Action Plan- [Food Production]",
                       "4.2 Which sectors are actively involved in developing and implementing the AMR National Action Plan- [Environment]",
                       "5.1 Country progress with development of a national action plan on AMR", 
-                     # "5.2 Is your country’s national action plan on AMR linked to any other existing action plans, strategies or targets related to - [Malaria]",
+                      "5.2 Is your countrys national action plan on AMR linked to any other existing action plans, strategies or targets related to - [Malaria]",
                       "5.3 If you have published your AMR national action plan, please insert a link here.",
                       "5.4 Country legislations on antimicrobial use [Country has laws or regulations that prohibits the use of antibiotics for growth promotion in the absence of risk analysis.]",
                       "5.4 Country legislations on antimicrobial use [Country has legislation on marketing of pesticides including antimicrobial pesticides, such as bactericides and fungicides used in plant production.]",
@@ -17,7 +17,7 @@ ingest_indicators.amr <- function(){
                       "8.2 Good health, management and hygiene practices to reduce the use of antimicrobials and minimize development and transmission of AMR in animal production (terrestrial and aquatic)",
                       "9.2 Optimizing antimicrobial use in animal health (terrestrial and aquatic)",
                       "10. National assessment of risks for AMR transmission in the environment and pollution control. Legislation and/or regulations to prevent contamination of the environment with antimicrobials [Discharges from intensive animal (terrestrial and aquatic) production (liquid waste and manure) a) disposal into the environment][Are risk reduction actions underway-]")
-#x <-  
+
   read_xls("data/AMR self assessment survey responses 2019-2020 (Excel format).xls") %>%
     #rename_all(~str_replace_all(., "\\s+", "")) %>%
     rename(Countryname = 'Country name') %>%
@@ -38,5 +38,5 @@ ingest_indicators.amr <- function(){
     mutate(indicator = as.factor(indicator))
 }
 
-ingest_indicators.amr()
+#ingest_indicators.amr()
 

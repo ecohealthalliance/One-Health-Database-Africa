@@ -1,4 +1,4 @@
-ingest_indicators.fao_livestock <- function(){
+ingest_indicators.fao_livestock_api <- function(){
   temp2 <- tempfile()
   download.file("http://fenixservices.fao.org/faostat/static/bulkdownloads/Production_Livestock_E_All_Data.zip",temp2, mode = "wb")
   unzip(temp2, "Production_Livestock_E_All_Data.csv", exdir = "data")#)
@@ -30,3 +30,5 @@ ingest_indicators.fao_livestock <- function(){
     mutate(units = as.character(units))
   fao_livestock
 }
+
+#ingest_indicators.fao_livestock_api()

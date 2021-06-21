@@ -1,5 +1,5 @@
-ingest_indicators.arable_land <- function(){
-  read_xls("data/Arable land.xls", skip = 2) %>%
+ingest_indicators.arable_land_hectares <- function(){
+read.csv("data/Arable land (hectares).csv", skip = 4, check.names = F) %>%
     rename_all(~str_replace_all(., "\\s+", "")) %>%
     mutate_if(is.character, as.factor) %>%  
     mutate(CountryName = fct_recode(CountryName, 
@@ -10,8 +10,10 @@ ingest_indicators.arable_land <- function(){
     droplevels() %>%
     select(- c(CountryCode, IndicatorCode)) %>%   # possibly remove the 1960 column as no data in it
     pivot_longer(cols = !c(CountryName, IndicatorName), names_to = "year", values_to = "value") %>%
-    mutate(units = "percent") %>%
+    mutate(units = "hectares") %>%
     filter(year %in% chosen_years) %>%
     mutate(year = as.factor(year)) %>%
     set_names(colnames_list)
 }
+
+#ingest_indicators.arable_land_hectares()

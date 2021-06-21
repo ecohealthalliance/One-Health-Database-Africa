@@ -1,5 +1,5 @@
 ingest_indicators.animal_health_public_sector <- function(){
-  read_xlsx("data/Vet capacity_OIE.xlsx", sheet = 2) %>%
+ d <- read_xlsx("data/Vet capacity_OIE.xlsx", sheet = 2) %>%
     set_names("country", "2019", "animal_health_public_sector_18", "2018", "animal_health_public_sector_18",
               "2017", "animal_health_public_sector_18", 
               "2016", "animal_health_public_sector_18", "2015") %>%

@@ -4,8 +4,9 @@ ingest_indicators.wash_hygiene <- function(){
     slice(-c(1:2))  %>%
     set_names("country", "year", "hygiene_national_at_least_basic") %>%
     mutate_if(is.character, as.factor) %>%
+    mutate(country =  stringi::stri_trans_general(str = country, id = "Latin-ASCII")) %>%
     mutate(country = fct_recode(country,
-                                "Cote d'Ivoire" = "Côte d'Ivoire",
+                                # "Cote d'Ivoire" = "Côte d'Ivoire",
                                 "Tanzania" = "United Republic of Tanzania"  )) %>%
     filter(country %in% country_names) %>%
     droplevels()  %>%

@@ -1,8 +1,9 @@
 ingest_indicators.promed <- function(){
   read_xlsx("data/PROMED_AL_databaseFRSPPO.xlsx") %>%
     mutate_if(is.character, as.factor) %>%
+    mutate(COUNTRY =  stringi::stri_trans_general(str = COUNTRY, id = "Latin-ASCII")) %>%
     mutate(COUNTRY = fct_recode(COUNTRY, 
-                                "Cote d'Ivoire" = "Côte d'Ivoire",
+                                # "Cote d'Ivoire" = "Côte d'Ivoire",
                                 "Congo" = "Republic of Congo",
                                 "Democratic Republic of the Congo" = "DRCongo")) %>%
     filter(COUNTRY %in% country_names) %>%

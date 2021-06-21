@@ -47,9 +47,9 @@ function_names <- metadat %>%
   paste0("ingest_indicators", sep = ".", .)#, "()")
 
 ## At present some of the functions have numerical values in the value column and others have factors.
-## I can't join these as is. Either need to recode the factors as a number and have a key (although some
-## in the amr set are very detailed) or can have numbers as factors. 
-## Or can keep separate - one with factor and one with number
+## Will produce one dataframe with the numerical values and one with factors. 
+## These can later be combined by labelling the value as character and adding a column to state what
+## the value is - integer or factor.
 
 
 number_sets <- c("ingest_indicators.agri_forestry_fishing_api", "ingest_indicators.animal_health_public_sector",
@@ -63,7 +63,7 @@ number_sets <- c("ingest_indicators.agri_forestry_fishing_api", "ingest_indicato
                  "ingest_indicators.promed", "ingest_indicators.rabies_deaths_api",
                  "ingest_indicators.spar", "ingest_indicators.terrestrial_protected_area_api",
                  "ingest_indicators.treecover_loss", "ingest_indicators.vet_capacity", 
-                 "ingest_indicators.wash_hygiene_download", "ingest_indicators.wash_sanitation_downlaod",
+                 "ingest_indicators.wash_hygiene_download", "ingest_indicators.wash_sanitation_download",
                  "ingest_indicators.wash_water_download", "ingest_indicators.yellow_fever_api")
 
 factor_sets <- c("ingest_indicators.amr", "ingest_indicators.jee", 
@@ -83,7 +83,7 @@ for(i in 1:length(function_names_number)) {
 tictoc::toc()
 
 full_data_number_api <- bind_rows(outlist)
-
+# check which indicators are included
 sort(levels(full_data_number_api$indicator))
 
 

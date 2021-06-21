@@ -36,7 +36,8 @@ ingest_indicators.combined_data_sheet <- function(){
     rename(country = CountryName) %>%
     relocate(country, indicator, year, value, units) %>%
     mutate(indicator = fct_recode(indicator, 
-                                  "Malaria_incidence_per_1000_population_at_risk" = "Malaria")) %>% # rename malaria indicator
+                                  "Malaria incidence per 1000 population at risk" = "Malaria")) %>% 
+    # rename malaria indicator
     mutate(units = case_when(indicator == "Electric" ~ "percent_population_with_access_to_electricity",
                              indicator == "Vets" ~ "Number",
                              indicator == "AnimalProtein" ~ "gr/caput/day",
@@ -48,7 +49,7 @@ ingest_indicators.combined_data_sheet <- function(){
                              indicator == "Cattle" ~ "Livestock Units",
                              indicator == "HealthSpend" ~ "USD per capita",
                              indicator == "AgGDP"  ~ "percent of GDP",
-                             indicator == "Malaria_incidence_per_1000_population_at_risk" ~ "Number",
+                             indicator == "Malaria incidence per 1000 population at_risk" ~ "Number",
                              indicator == "Publicationspercountry" ~ "Number"))
   df1
 }

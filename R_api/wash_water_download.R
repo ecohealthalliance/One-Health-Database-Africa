@@ -7,8 +7,9 @@ wash <- read_xlsx("./temp.xlsx", sheet = 2) %>%
   set_names("country", "year", "water_national_at_least_basic", "water_rural_at_least_basic") %>%
   slice(-c(1:2)) %>%
   mutate_if(is.character, as.factor) %>%
+  mutate(country =  stringi::stri_trans_general(str = country, id = "Latin-ASCII")) %>%
   mutate(country = fct_recode(country,
-                              "Cote d'Ivoire" = "Côte d'Ivoire",
+                           #   "Cote d'Ivoire" = "Côte d'Ivoire",
                               "Tanzania" = "United Republic of Tanzania"  )) %>%
   filter(country %in% country_names) %>%
   droplevels() %>%

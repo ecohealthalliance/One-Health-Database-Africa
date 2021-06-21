@@ -62,7 +62,8 @@ function_names <- metadat %>%
 ## Or can keep separate - one with factor and one with number
 
 
-number_sets <- c("ingest_indicators.animal_health_public_sector","ingest_indicators.arable_land",
+number_sets <- c("ingest_indicators.animal_health_public_sector","ingest_indicators.arable_land_hectares",
+                 "ingest_indicators.arable_land_percent",
                  "ingest_indicators.cfe_allocations", "ingest_indicators.combined_data_sheet",
                  "ingest_indicators.fao_import_export","ingest_indicators.fao_livestock", 
                  "ingest_indicators.fisheries_production","ingest_indicators.forest_area",
@@ -89,7 +90,7 @@ purrr::walk(list.files(here::here("R/"), full.names = TRUE), source)
 outlist <- list()
 for(i in 1:length(function_names_number)) {
   outlist[[i]] <- do.call(function_names_number[i], args = list())
-}  ## Is there a quicker/better way to do this rather than a loop? I couldn't work out a vectorised format.
+}  
 
 full_data_number <- bind_rows(outlist)
 

@@ -4,8 +4,9 @@ ingest_indicators.wash_sanitation <- function(){
     mutate(name = as.factor(name)) %>%
     mutate(year = as.factor(year)) %>%
     rename(country = name) %>%
+    mutate(country =  stringi::stri_trans_general(str = country, id = "Latin-ASCII")) %>%
     mutate(country = fct_recode(country,
-                                "Cote d'Ivoire" = "Côte d'Ivoire",
+                              #  "Cote d'Ivoire" = "Côte d'Ivoire",
                                 "Tanzania" = "United Republic of Tanzania"  )) %>%
     filter(country %in% country_names) %>%
     droplevels() %>%
