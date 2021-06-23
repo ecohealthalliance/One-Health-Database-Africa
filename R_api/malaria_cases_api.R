@@ -89,7 +89,7 @@ ingest_indicators.malaria_cases_api <- function(){
   full_df_2 <- full_df %>%
     select(country, year, value.numeric) %>%
     rename(value = value.numeric) %>%
-    mutate(indicator = "estimated_malaria_cases") %>%
+    mutate(indicator = "Estimated number of malaria cases") %>%
     mutate(indicator = as.factor(indicator)) %>%
     mutate(units = "number") %>%
     relocate("country", "indicator", "year", "value", "units")

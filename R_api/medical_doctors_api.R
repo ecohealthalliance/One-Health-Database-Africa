@@ -38,7 +38,7 @@ full_df <- new_df %>%
 full_df_2 <- full_df %>%
   select(country, year, value.numeric) %>%
   rename(value = value.numeric) %>%
-  mutate(indicator = "medical_doctors") %>%
+  mutate(indicator = "Medical doctors (number)") %>%
   mutate(indicator = as.factor(indicator)) %>%
   mutate(units = "number") %>%
   relocate("country", "indicator", "year", "value", "units")

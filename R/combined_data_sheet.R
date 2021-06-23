@@ -4,8 +4,9 @@ ingest_indicators.combined_data_sheet <- function(){
   
   selected_cols <- c("CountryName", "AnimalReport", "HumanReport", "AnimalandHuman", "Vets2018", "Vets2017", "Vets2016",
                      "Vets2015", "Vets2014", "Vets2013", "Vets2012", "Vets2011", "Electric2011",  "Electric2012",
-                     "Electric2013", "Electric2014", "Electric2015" , "Electric2016", "Electric2017", "AnimalProtein201113",
-                     "TotalProtein201113", "PercentAnProtein20112013", "Stability2011", "Stability2012", "Stability2013",
+                     "Electric2013", "Electric2014", "Electric2015" , "Electric2016", "Electric2017",
+                     #"AnimalProtein201113", "TotalProtein201113", "PercentAnProtein20112013",
+                     "Stability2011", "Stability2012", "Stability2013",
                      "Stability2014", "Stability2015", "GNI2011", "GNI2012", "GNI2013", "GNI2014", "GNI2015",
                      "GNI2016", "GNI2017", "GNI2018", "RVFany", "SheepGoats2011", "SheepGoats2012",
                      "SheepGoats2013", "SheepGoats2014", "SheepGoats2015", "SheepGoats2016", "SheepGoats2017",
@@ -24,8 +25,8 @@ ingest_indicators.combined_data_sheet <- function(){
     filter(CountryName %in% country_names) %>%
     droplevels() %>%
     mutate_if(is.character, as.numeric) %>%
-    rename(RVFAnimalReport = AnimalReport, RVFHumanReport = HumanReport, RVFAnimalandHuman = AnimalandHuman, 
-           PercentAnimalProtein20112013 = PercentAnProtein20112013 ) %>%
+    rename(RVFAnimalReport = AnimalReport, RVFHumanReport = HumanReport, RVFAnimalandHuman = AnimalandHuman) %>% #, 
+         #  PercentAnimalProtein20112013 = PercentAnProtein20112013 ) %>%
     pivot_longer(cols = !CountryName, names_to = "indicator", values_to = "value") %>%
     mutate_at("value", round, 1) %>%
     mutate(year = extract_numeric(indicator)) %>%
@@ -36,13 +37,18 @@ ingest_indicators.combined_data_sheet <- function(){
     rename(country = CountryName) %>%
     relocate(country, indicator, year, value, units) %>%
     mutate(indicator = fct_recode(indicator, 
-                                  "Malaria incidence per 1000 population at risk" = "Malaria")) %>% 
-    # rename malaria indicator
+                                  "Malaria incidence per 1000 population at risk" = "Malaria",
+                                  "GNI per capita, Atlas method (current US$)" = "GNI", 
+                                  "Agriculture, forestry, and fishing, value added (% of GDP)" = "AgGDP",
+                                  "Access to electricity (% of population)" = "Electric",
+                                  "Current health expenditure per capita (current US$)" = "HealthSpend"
+                                  )) %>% 
+    # rename indicators so the two top scripts produce matching results
     mutate(units = case_when(indicator == "Electric" ~ "percent_population_with_access_to_electricity",
                              indicator == "Vets" ~ "Number",
-                             indicator == "AnimalProtein" ~ "gr/caput/day",
-                             indicator == "TotalProtein" ~ "gr/caput/day",
-                             indicator == "PercentAnimalProtein" ~ "percent",
+                            # indicator == "AnimalProtein" ~ "gr/caput/day",
+                            # indicator == "TotalProtein" ~ "gr/caput/day",
+                            # indicator == "PercentAnimalProtein" ~ "percent",
                              indicator == "Stability" ~ "Aggregate indicator in  units of a normal  standard distribution (~ - 2.5-2.5) - Political Stability and  Absence of Violence/Terrorism",
                              indicator == "GNI" ~ "USD per capita",
                              indicator == "SheepGoats" ~ "Livestock Units",
