@@ -28,8 +28,8 @@ There are two options available for compiling the full datasets.
 "top_script_api" uses direct downloads or api calls where they are available. When not available it draws on the downloaded data in the 'data' folder. 
 
 There are three outputs from each of these scripts:
-* full data factor - contains the data where outcome values are factors
-* full data number - contains the data where outcome values are numeric
-* full data combined - combined the numeric and factor datasets. Values are stored as characters and there is an additional column identifying whether the value is numeric or factor
+* full data factor/ full data factor api - contains the data where outcome values are factors
+* full data number/ full data number api - contains the data where outcome values are numeric
+* full data combined/ full data combined api - combined the numeric and factor datasets. Values are stored as characters and there is an additional column identifying whether the value is numeric or factor
 
 Note - For RVF related indicators (RVFany, RVFHumanReport, RVFAnimalReport, RVFAnimalandHuman) the values are numeric (0 or 1) where 0 represents no reports and 1 represents some reports, but does not quantify how many.  
