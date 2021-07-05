@@ -1,6 +1,6 @@
 Indicator,filename,source_url,Notes,function_names,api_call_or_direct_download,
-Number of veterinarians,Vet capacity_OIE.xlsx,https://wahis.oie.int/#/report-management,OIE is updating WAHIS website so may not be online at present; can use existing data set,vet_capacity,vet_capacity,add api/download
-"Number of animal health personnel, public sector",Vet capacity_OIE.xlsx,https://wahis.oie.int/#/report-management,OIE is updating WAHIS website so may not be online at present; can use existing data set,animal_health_public_sector,animal_health_public_sector,add api/download
+Number of veterinarians,Vet capacity_OIE.xlsx,https://wahis.oie.int/#/report-management,OIE is updating WAHIS website so may not be online at present; can use existing data set,vet_capacity,vet_capacity,
+"Number of animal health personnel, public sector",Vet capacity_OIE.xlsx,https://wahis.oie.int/#/report-management,OIE is updating WAHIS website so may not be online at present; can use existing data set,animal_health_public_sector,animal_health_public_sector,
 "Number of veterinarians, wildlife expertise",N/A,N/A,no data available but we would like it in the report to support country discussion,,,
 Number of medical doctors,Medical doctor_WHO Global Health Observatory.csv,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/medical-doctors-(number),,medical_doctors,medical_doctors_api,
 P.4.1 Surveillance systems in place for priority zoonotic diseases/pathogens (v1)/ P.4.1 Coordinated surveillance systems in place in the animal health and public health sectors for zoonotic diseases/pathogens identified as joint priorities (v2),JEE scores.xlsx,N/A,Extracted from PDFs,jee,jee,
@@ -26,7 +26,7 @@ C.6.1,SPAR.xlsx,https://extranet.who.int/e-spar,SPAR/IHR State Party Self-Assess
 C.6.2,SPAR.xlsx,https://extranet.who.int/e-spar,SPAR/IHR State Party Self-Assessment Annual Report,spar,spar,
 C.11.1,SPAR.xlsx,https://extranet.who.int/e-spar,SPAR/IHR State Party Self-Assessment Annual Report,spar,spar,
 C.11.2,SPAR.xlsx,https://extranet.who.int/e-spar,SPAR/IHR State Party Self-Assessment Annual Report,spar,spar,
-4.1 Multi-sector and One Health,AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,amr,May be possible but can only select one year at a time so probably better to go to website and download moest recent data. 
+4.1 Multi-sector and One Health,AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,amr,May be possible but can only select one year at a time so probably better to go to website and download most recent data. 
 4.2 Which sectors are actively involved in developing and implementing the AMR National Action Plan- [Food Production],AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,amr,
 4.2 Which sectors are actively involved in developing and implementing the AMR National Action Plan- [Environment],AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,amr,
 5.1 Country progress with development of a national action plan on AMR,AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,amr,
@@ -77,7 +77,7 @@ Political Stability and Absence of Violence/ Terrorism,combined data sheet_Afric
 Healthcare expenditure per capita,combined data sheet_African countries,https://data.worldbank.org/indicator/SH.XPD.CHEX.PC.CD,,combined_data_sheet,health_expenditure_api,
 "Gross National Income per capita, Atlas method (US$)",combined data sheet_African countries,https://data.worldbank.org/indicator/NY.GNP.PCAP.CD,,combined_data_sheet,gross_national_income_api,
 Population,Population_World Bank,https://data.worldbank.org/indicator/SP.POP.TOTL,,population,population_api,
-"Population growth, 2010-2019 (%)",N/A,To be calculated from Population data,,,,
+"Population growth, 2010-2019 (%)",N/A,To be calculated from Population data,,population,population_api,
 Trade in live animals - Buffaloes,Trade_LiveAnimals_E_All_Data,http://www.fao.org/faostat/en/#data/TA,,fao_import_export,fao_import_export_api,
 Trade in live animals - Chickens,Trade_LiveAnimals_E_All_Data,http://www.fao.org/faostat/en/#data/TA,,fao_import_export,fao_import_export_api,
 Trade in live animals - Camelids,Trade_LiveAnimals_E_All_Data,http://www.fao.org/faostat/en/#data/TA,,fao_import_export,fao_import_export_api,

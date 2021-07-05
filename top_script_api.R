@@ -36,7 +36,7 @@ chosen_years <- c("2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017"
 colnames_list <- c("country", "indicator", "year", "value", "units")
 
 # for world bank data need to specify the dates we want to select in the api call
-dates_to_pull <- "2011:2020"
+dates_to_pull <- "2010:2020"
 
 # extract the function names from the metadata csv
 function_names <- metadat %>%

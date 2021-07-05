@@ -21,9 +21,29 @@ ingest_indicators.population_api <- function(){
     rename(year = date, country = country.value, indicator = indicator.value) %>%
     filter(year %in% chosen_years) %>%
     mutate(year = as.factor(year)) %>%
-    mutate(units = "number")
+    mutate(units = "Number")
   
   data_f
+  
+  df2 <- data_f %>% 
+    filter(year %in% c("2010", "2019")) %>%
+    mutate(year = as.numeric(as.character(year))) %>%
+    group_by(country) %>%
+    arrange(year) %>%
+    mutate(pct.chg = (value - lag(value))/lag(value)*100) %>%
+    mutate(pct.chg = round(pct.chg, 1)) %>%
+    select(!c(value,indicator, units)) %>%
+    rename(value = pct.chg) %>%
+    filter(year == 2019) %>%
+    mutate(year = as.factor(year)) %>%
+    mutate(indicator = "percent change in population 2010 - 2019") %>%
+    mutate(indicator = as.factor(indicator)) %>%
+    mutate(units = "Percent") %>%
+    relocate(country, indicator, year, value, units)
+  
+  df3 <- rbind(data_f, df2)
+  df3
+  
 }
 
 #ingest_indicators.population_api()
