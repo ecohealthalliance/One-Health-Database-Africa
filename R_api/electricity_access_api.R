@@ -21,7 +21,8 @@ ingest_indicators.electricity_access_api <- function(){
     rename(year = date, country = country.value, indicator = indicator.value) %>%
     filter(year %in% chosen_years) %>%
     mutate(year = as.factor(year)) %>%
-    mutate(units = "percent")
+    mutate(units = "percent") %>%
+    mutate(value = round(value, 2))
   
   data_f
 }

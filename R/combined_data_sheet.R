@@ -30,7 +30,7 @@ ingest_indicators.combined_data_sheet <- function(){
     rename(RVFAnimalReport = AnimalReport, RVFHumanReport = HumanReport, RVFAnimalandHuman = AnimalandHuman) %>% #, 
          #  PercentAnimalProtein20112013 = PercentAnProtein20112013 ) %>%
     pivot_longer(cols = !CountryName, names_to = "indicator", values_to = "value") %>%
-    mutate_at("value", round, 1) %>%
+    mutate_at("value", round, 2) %>%
     mutate(year = extract_numeric(indicator)) %>%
     mutate(indicator = tm::removeNumbers(indicator)) %>%
     mutate(indicator = as.factor(indicator)) %>%
