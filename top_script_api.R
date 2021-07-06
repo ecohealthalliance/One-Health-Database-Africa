@@ -56,12 +56,13 @@ number_sets <- c("ingest_indicators.agri_forestry_fishing_api", "ingest_indicato
                  "ingest_indicators.arable_land_api", "ingest_indicators.cfe_allocations", 
                  "ingest_indicators.combined_data_sheet_api","ingest_indicators.electricity_access_api",
                  "ingest_indicators.fao_import_export_api","ingest_indicators.fao_livestock_api", 
-                 "ingest_indicators.fao_protein", 
+                 "ingest_indicators.fao_protein_api", 
                  "ingest_indicators.fisheries_production_api","ingest_indicators.forest_area_api",
                  "ingest_indicators.gross_national_income_api", "ingest_indicators.health_expenditure_api",
                  "ingest_indicators.land_area_api", "ingest_indicators.malaria_cases_api",
                  "ingest_indicators.medical_doctors_api", "ingest_indicators.population_api", 
                  "ingest_indicators.promed", #"ingest_indicators.rabies_deaths_api",
+                 "ingest_indicators.rabies_deaths_api",
                  "ingest_indicators.spar", "ingest_indicators.terrestrial_protected_area_api",
                  "ingest_indicators.treecover_loss", "ingest_indicators.vet_capacity", 
                  "ingest_indicators.wash_hygiene_download", "ingest_indicators.wash_sanitation_download",
@@ -113,3 +114,8 @@ full_data_number_com_api <- full_data_number_api %>%
   mutate(type = "integer")
 
 full_data_combined_api = rbind(full_data_factor_com_api, full_data_number_com_api)
+
+
+write.csv(full_data_combined_api, "Output/full_data_combined_api.csv")
+write.csv(full_data_number_api, "Output/full_data_number_api.csv")
+write.csv(full_data_factor_api, "Output/full_data_factor_api.csv")

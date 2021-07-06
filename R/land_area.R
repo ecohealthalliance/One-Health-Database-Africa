@@ -10,10 +10,10 @@ ingest_indicators.land_area <- function(){
     droplevels() %>%
     select(- c(CountryCode, IndicatorCode)) %>%   # possibly remove the 1960 column as no data in it
     pivot_longer(cols = !c(CountryName, IndicatorName), names_to = "year", values_to = "value") %>%
-    mutate(units = "sq.km") %>%
+    mutate(units = "sq km") %>%
     filter(year %in% chosen_years) %>%
     mutate(year = as.factor(year)) %>%
     set_names(colnames_list)
 }
 
-ingest_indicators.land_area()
+#ingest_indicators.land_area()

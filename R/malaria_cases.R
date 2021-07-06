@@ -12,7 +12,7 @@ ingest_indicators.malaria_cases <- function(){
     mutate(FirstTooltip = sub(",", "" , FirstTooltip))  %>%  # and now remove the comma
     mutate(FirstTooltip = sub(",", "" , FirstTooltip))  %>%  # and any columns that are left
     mutate(FirstTooltip = as.numeric(FirstTooltip)) %>% 
-    mutate(units = "number of cases") %>%
+    mutate(units = "number") %>%
     set_names(colnames_list)
 }
 

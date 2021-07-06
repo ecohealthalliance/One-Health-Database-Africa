@@ -111,3 +111,6 @@ full_data_number_com <- full_data_number %>%
 
 full_data_combined = rbind(full_data_factor_com, full_data_number_com)
 
+write.csv(full_data_combined, "Output/full_data_combined.csv")
+write.csv(full_data_number, "Output/full_data_number.csv")
+write.csv(full_data_factor, "Output/full_data_factor.csv")

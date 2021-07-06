@@ -42,6 +42,7 @@ ingest_indicators.yellow_fever_api <- function(){
     mutate(indicator = "Yellow fever - number of reported cases") %>%
     mutate(indicator = as.factor(indicator)) %>%
     mutate(units = "number") %>%
+    filter(year %in% chosen_years)%>%
     relocate("country", "indicator", "year", "value", "units")
   
   full_df_2

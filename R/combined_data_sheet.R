@@ -52,7 +52,7 @@ ingest_indicators.combined_data_sheet <- function(){
                             # indicator == "TotalProtein" ~ "gr/caput/day",
                             # indicator == "PercentAnimalProtein" ~ "percent",
                              indicator == "Stability" ~ "Aggregate indicator in  units of a normal  standard distribution (~ - 2.5-2.5) - Political Stability and  Absence of Violence/Terrorism",
-                             indicator == "GNI" ~ "USD per capita",
+                             indicator == "GNI per capita, Atlas method (current US$)" ~ "USD",
                              #indicator == "SheepGoats" ~ "Livestock Units",
                              #indicator == "Cattle" ~ "Livestock Units",
                              indicator == "HealthSpend" ~ "USD per capita",

@@ -26,6 +26,7 @@ full_df <- new_df %>%
   mutate(country = countrycode::countrycode(ctry_code, origin = "iso3c", destination = "country.name")) %>%
   mutate(country =  stringi::stri_trans_general(str = country, id = "Latin-ASCII")) %>%
   mutate(year = as.factor(year)) %>%
+  filter(year %in% chosen_years) %>%
   mutate(country = as.factor(country)) %>%
   mutate(country = fct_recode(country, 
                               "Cabo Verde" = "Cape Verde",
