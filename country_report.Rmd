@@ -1,0 +1,332 @@
+---
+title: "Country Report"
+date: "20/07/2021"
+output:
+  html_document: default
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, messages = F, warning = F)
+
+library(tidyverse)
+
+```
+
+```{r enter required info}
+
+rm(list = ls())
+
+# Enter the years that you wish the report to cover
+#select_year <- c("2016", "2017", "2018")
+select_year <- c("2016")
+select_country <- "Ghana"
+
+```
+
+
+```{r read in datasets}
+
+full_data <- read.csv("Output/full_data_combined_api.csv", stringsAsFactors = T)
+
+```
+
+```{r summary information}
+
+# filter data
+filtered_data <- full_data %>%
+  filter(country == select_country)
+
+# pop_year <- filtered_data %>%
+#   filter(year == select_year) %>%
+#   filter(indicator == "Population, total") %>%
+#   select(value) 
+# 
+# pop_year <- as.vector(pop_year[1,])
+
+# area_year <- filtered_data %>%
+#   filter(year == select_year) %>%
+#   filter(indicator == "Land area (sq. km)") %>%
+#   select(value) 
+# 
+# area_year <- as.vector(area_year[1,])
+
+```
+
+### **Country: `r select_country`**
+
+### **Year(s): `r select_year`** 
+
+#### **Work force**
+
+```{r workforce}
+
+workforce <- filtered_data %>%
+  filter(indicator %in% c("vet_capacity", "animal_health_public_sector", "Medical doctors (number)", 
+                          "Population, total", "Land area (sq. km)")) %>%
+  filter(year %in% select_year) %>%
+  mutate(value = as.numeric(as.character(value))) %>%
+  select(!c(type, units)) %>%
+  pivot_wider(names_from = indicator, values_from = value) %>%
+  pivot_longer(cols = any_of(c("vet_capacity", "animal_health_public_sector", "Medical doctors (number)"))) %>%
+  rename(Population = "Population, total", area = "Land area (sq. km)") %>%
+  mutate(per_1000_capita = (value/Population)*1000) %>%
+  mutate(per_1000_capita = round(per_1000_capita, 2)) %>%
+  mutate(per_1000_km = (value/area)*1000) %>%
+  mutate(per_1000_km = round(per_1000_km, 2)) %>%
+  mutate(name = fct_recode(name, "Veterinarians (number)" = "vet_capacity", 
+                           "Animal health public sector (number)" = "animal_health_public_sector" )) %>%
+  select(c(name, year, value, per_1000_capita, per_1000_km)) %>%
+  rename("Value" = "value", "Value per 1000 people" = per_1000_capita, 
+         "Value per 1000 sq.km" = per_1000_km, Indicator = name)
+  
+
+  
+
+knitr::kable(workforce)
+
+```
+
+
+
+
+
+#### **System Capacity**
+
+**Antimicrobial resistance (AMR)**
+
+These data wwre generated in 2019-2020
+
+```{r amr}
+
+
+amr <- filtered_data %>%
+  filter(indicator %in% c("4.1 Multi-sector and One Health collaboration/coordination", 
+         "4.2 Which sectors are actively involved in developing and implementing the AMR National Action Plan- [Food Production]",
+         "4.2 Which sectors are actively involved in developing and implementing the AMR National Action Plan- [Environment]",
+         "5.1 Country progress with development of a national action plan on AMR", 
+         "5.2 Is your countrys national action plan on AMR linked to any other existing action plans, strategies or targets related to - [Malaria]",
+         "5.3 If you have published your AMR national action plan, please insert a link here.",
+         "5.4 Country legislations on antimicrobial use [Country has laws or regulations that prohibits the use of antibiotics for growth promotion in the absence of risk analysis.]",
+         "5.4 Country legislations on antimicrobial use [Country has legislation on marketing of pesticides including antimicrobial pesticides, such as bactericides and fungicides used in plant production.]",
+         "6.1 Raising awareness and understanding of AMR risks and response", 
+         "6.1.1 For the level selected above, please indicate the extent of involvement of the sectors below. [Animal Health (terrestrial and aquatic)]",
+         "6.3 Training and professional education on AMR in the veterinary sector",
+         "6.5 Progress with strengthening veterinary services", 
+         "7.2 National monitoring system for antimicrobials intended to be used in animals (terrestrial and aquatic) (sales/use)",
+         "7.5 (b) AMR surveillance is routinely undertaken in animals for the following categories: [Animal (terrestrial and/or aquatic) isolates linked to animal disease.]",
+         "7.5 (b) AMR surveillance is routinely undertaken in animals for the following categories: [Zoonotic pathogenic bacteria]", 
+         "8.2 Good health, management and hygiene practices to reduce the use of antimicrobials and minimize development and transmission of AMR in animal production (terrestrial and aquatic)",
+         "9.2 Optimizing antimicrobial use in animal health (terrestrial and aquatic)",
+         "10. National assessment of risks for AMR transmission in the environment and pollution control. Legislation and/or regulations to prevent contamination of the environment with antimicrobials [Discharges from intensive animal (terrestrial and aquatic) production (liquid waste and manure) a) disposal into the environment][Are risk reduction actions underway-]")) %>%
+  select(c(indicator, value))
+
+
+knitr::kable(amr)
+
+```
+
+**JEE indicators**
+
+```{r jee}
+
+jee <- filtered_data %>%
+  filter(indicator %in% c("JEE Year", "P.4.3 Mechanisms for responding to infectious and potential zoonotic diseases are established and functional (v1) / P.4.2 Mechanisms for responding to infectious and potential zoonotic diseases established and functional (v2)",
+                          "P.6.1 Whole-of-government biosafety and biosecurity system is in place for human, animal and agriculture facilities",   
+                          "P.6.2 Biosafety and biosecurity training and practices",
+                          "P.7.2 National vaccine access and delivery",
+                          "D.1.1 Laboratory testing for detection of priority diseases",
+                          "D.1.2 Specimen referral and transport system",
+                          "D.1.4 Laboratory quality system",
+                          "D.3.1 System for e cient reporting to FAO, OIE and WHO",
+                          "D.3.2 Reporting network and protocols in country",
+                          "D.4.2 FETP1 or other applied epidemiology training programme in place (v1)/ D.4.4 FETP or other applied epidemiology training programme is in place (v2)",
+                          "D.4.3 Workforce strategy (v1)/ D.4.1 An up-to-date multisectoral workforce strategy is in place (v2)",
+                          "R.3.1 Public health and security authorities (e.g. law enforcement, border control, customs) are linked during a suspect or con rmed biological event (v1)/ R.3.1 Public health and security authorities (e.g. law enforcement, border control, customs) linked during a suspect or confirmed biological, chemical or radiological event",
+                          "R.5.2 Internal and partner communication and coordination (v1)/ R.5.2 Internal and partner coordination for emergency risk communication (v2)",
+                          "PoE.1 Routine capacities established at points of entry",
+                          "PoE.2 E ective public health response at points of entry")) %>%
+  select(c(indicator, year, value))
+ 
+knitr::kable(jee)
+
+```
+
+
+**SPAR**
+
+These daa were generated in 2020
+The values for the indicators are....
+
+```{r spar}
+
+spar <- filtered_data %>%
+  filter(indicator %in% c("C.3.1", "C.4.1", "C.5.1", "C.6.1", "C.6.2", "C.11.1", "C.11.2")) %>%
+  select(c(indicator, value))
+
+knitr::kable(spar)
+
+```
+
+
+#### **Disease events**
+
+```{r disease events factors}
+
+disease <- filtered_data %>%
+  filter(indicator %in% c("promed events 2015-2021", "Presence of porcine cysticercosis", 
+                          "Estimated number of malaria cases",
+                          "water_national_at_least_basic","water_rural_at_least_basic", 
+                          "rabies deaths", "Robust national rabies surveillance",  
+                          "Robust national rabies control program implemented",
+                          "Vaccine Availability", "RIG Availability", 
+                          "Yellow fever - number of reported cases"))
+
+disease_factor <- disease %>%
+  filter(type == "factor" |indicator == "promed events 2015-2021") %>%
+  dplyr::select(!country) %>%
+  dplyr::select(!type) %>%
+  mutate(indicator = fct_recode(indicator, "Rabies Vaccine Availability" = "Vaccine Availability")) %>%
+  mutate(indicator = fct_recode(indicator, "Promed events 2015-2021" = "promed events 2015-2021"))
+# won't filter on year for the factors as no years for some events. 
+
+
+knitr::kable(disease_factor)
+
+```
+
+```{r disease numbers}
+
+# do the numbers next. Remove the percentages so can do per capita and per hectare
+disease_number <- disease %>%
+  filter(type == "integer") %>%
+  filter(!indicator == "promed events 2015-2021") %>%
+  filter(year %in% select_year) %>%
+  filter(units == "number")
+
+pops_areas <- filtered_data %>%
+  filter(year %in% select_year) %>%
+  filter(indicator %in% c("Population, total", "Land area (sq. km)")) %>%
+  dplyr::select(!c(country, units, type)) %>%
+  pivot_wider(names_from = indicator, values_from = c(value))
+
+disease_n <- left_join(disease_number, pops_areas) %>%
+  mutate(value = as.numeric(as.character(value))) %>%
+  rename(Population = "Population, total", area = "Land area (sq. km)") %>%
+  mutate(Population = as.numeric(as.character(Population))) %>%
+  mutate(area = as.numeric(as.character(area))) %>%
+  mutate(per_1000_capita = (value/Population)*1000) %>%
+  mutate(per_1000_capita = round(per_1000_capita, 2)) %>%
+  mutate(per_1000_km = (value/area)*1000) %>%
+  mutate(per_1000_km = round(per_1000_km, 2)) %>%
+  dplyr::select(indicator, year, value, per_1000_capita, per_1000_km) %>%
+  rename("Indicator" = indicator, "Value" = value, "Value per 1000 people" = per_1000_capita, 
+         "Value per 1000 sq.km" = per_1000_km, Year = year) %>%
+  mutate(Indicator = fct_recode(Indicator, "Rabies - number of deaths" = "rabies deaths"))
+
+knitr::kable(disease_n)
+
+```
+
+
+#### **Environmental factors**
+
+```{r environmental}
+
+## Environmental factors
+
+enviro_factors <- c("Access to electricity (% of population)",    
+                    "Agriculture, forestry, and fishing, value added (% of GDP)", 
+                    "Arable land (% of land area)",
+                    "Arable land (hectares)", 
+                    "Capture fisheries production (metric tons)",  
+                    "Export Quantity_Buffaloes",  
+                    "Export Quantity_Camels", 
+                    "Export Quantity_Cattle",  
+                    "Export Quantity_Chickens", 
+                    "Export Quantity_Goats", 
+                    "Export Quantity_Pigs",
+                    "Export Quantity_Sheep",  
+                    "Forest area (% of land area)",
+                    "hygiene_national_at_least_basic" ,  
+                    "Import Quantity_Buffaloes", 
+                    "Import Quantity_Camels",
+                    "Import Quantity_Cattle",
+                    "Import Quantity_Chickens",
+                    "Import Quantity_Goats", 
+                    "Import Quantity_Pigs",
+                    "Import Quantity_Sheep",
+                    "Land area (sq. km)", 
+                    "sanitation_national_at_least_basic",
+                    "Stocks_Buffaloes",
+                    "Stocks_Camels", 
+                    "Stocks_Cattle",
+                    "Stocks_Chickens",
+                    "Stocks_Goats", 
+                    "Stocks_Pigs",
+                    "Stocks_Sheep",
+                    "Terrestrial protected areas (% of total land area)",
+                    "tree_cover_loss",
+                    "water_national_at_least_basic", 
+                    "water_rural_at_least_basic" )
+
+
+# levels(full_data$indicator)
+
+
+env <-  filtered_data %>%
+  filter(year %in% select_year) %>%
+  filter(indicator %in% enviro_factors) %>%
+  dplyr::select(indicator, year, value, units) %>%
+  mutate(value = as.numeric(as.character(value))) %>%
+  mutate(value = round(value, 2)) %>%
+  mutate(indicator = fct_recode(indicator, "Tree cover loss" = "tree_cover_loss", 
+                                "Percentage of population with at least basic drinking water - national" =
+                                  "water_national_at_least_basic",
+                                "Percentage of population with at least basic drinking water - rural" = 
+                                  "water_rural_at_least_basic",
+                                "Percentage of population with at least basic sanitation - national" = 
+                                  "sanitation_national_at_least_basic",
+                                "Percentage of population with at least basic hygiene - national" = 
+                                  "hygiene_national_at_least_basic" 
+                                )) %>%
+  rename(indicator = indicator, Value = value, Year = year, Units = units)
+
+knitr::kable(env)
+
+```
+
+
+
+#### **Demographic and population wealth factors**
+
+
+```{r demographic}
+
+demo_factors <- c("cfe allocation" ,  
+                  "Current health expenditure per capita (current US$)", 
+                  "GNI per capita, Atlas method (current US$)", 
+                  "percent change in population 2010 - 2019", 
+                  "Population, total" ,
+                  "Stability" )
+
+demo <- filtered_data %>%
+  filter(year %in% select_year | indicator == "percent change in population 2010 - 2019") %>%
+  filter(indicator %in% demo_factors) %>%
+  dplyr::select(indicator, year, value, units) %>%
+  mutate(value = as.numeric(as.character(value))) %>%
+  mutate(value = round(value, 2)) %>%
+  mutate(indicator = fct_recode(indicator, "Political stability" = "Stability", 
+                                "CFE allocation" = "cfe allocation",
+                                "Percentage change in population 2010-2019" = 
+                                  "percent change in population 2010 - 2019",
+                                "Current health expenditure per capita" = 
+                                  "Current health expenditure per capita (current US$)",
+                                "GNI per capita, Atlas method" = 
+                                  "GNI per capita, Atlas method (current US$)")) %>%
+  rename(Indicator = indicator, Year = year, Value = value, Units = units)
+
+
+knitr::kable(demo)
+
+```

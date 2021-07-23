@@ -25,7 +25,20 @@ ingest_indicators.combined_data_sheet <- function(){
                                     "Congo" = "Congo, Rep.",
                                     "Democratic Republic of the Congo" = "Congo, Dem. Rep.")) %>%
     filter(CountryName %in% country_names) %>%
-    droplevels() %>%
+    droplevels() 
+  
+  hs <- df1 %>%
+    select(CountryName, HealthSpend2011:AgGDP2018) %>%
+    pivot_longer(cols = HealthSpend2011:AgGDP2018, values_to = "value", names_to = "indicator") %>%
+    mutate(value = na_if(value, ".")) %>%
+    mutate(value = as.numeric(value)) %>%
+    pivot_wider(names_from = "indicator", values_from = "value")
+  
+  df2 <- df1 %>%
+    select(!c(HealthSpend2011:AgGDP2018)) %>%
+    left_join( hs)
+
+  df3 <- df2  %>% 
     mutate_if(is.character, as.numeric) %>%
     rename(RVFAnimalReport = AnimalReport, RVFHumanReport = HumanReport, RVFAnimalandHuman = AnimalandHuman) %>% #, 
          #  PercentAnimalProtein20112013 = PercentAnProtein20112013 ) %>%
@@ -59,5 +72,5 @@ ingest_indicators.combined_data_sheet <- function(){
                              indicator == "AgGDP"  ~ "percent of GDP",
                              indicator == "Malaria incidence per 1000 population at_risk" ~ "Number",
                              indicator == "Publicationspercountry" ~ "Number"))
-  df1
+  df3
 }

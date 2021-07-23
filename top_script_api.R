@@ -3,7 +3,7 @@
 ## This script uses the functions that use api calls or direct downloads if they are available. 
 
 ## load the required packages
-rm(list = ls())
+#rm(list = ls())
 library(tidyverse)
 library(readxl)
 library(stringr)
@@ -36,7 +36,7 @@ chosen_years <- c("2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017"
 colnames_list <- c("country", "indicator", "year", "value", "units")
 
 # for world bank data need to specify the dates we want to select in the api call
-dates_to_pull <- "2010:2020"
+dates_to_pull <- "2010:2019"
 
 # extract the function names from the metadata csv
 function_names <- metadat %>%
@@ -116,6 +116,6 @@ full_data_number_com_api <- full_data_number_api %>%
 full_data_combined_api = rbind(full_data_factor_com_api, full_data_number_com_api)
 
 
-write.csv(full_data_combined_api, "Output/full_data_combined_api.csv")
-write.csv(full_data_number_api, "Output/full_data_number_api.csv")
-write.csv(full_data_factor_api, "Output/full_data_factor_api.csv")
+write.csv(full_data_combined_api, "Output/full_data_combined_api.csv", row.names = F)
+write.csv(full_data_number_api, "Output/full_data_number_api.csv", row.names = F)
+write.csv(full_data_factor_api, "Output/full_data_factor_api.csv", row.names = F)
