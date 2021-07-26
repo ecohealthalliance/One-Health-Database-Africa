@@ -22,11 +22,12 @@ PoE.2 Effective Public Health Response at Points of Entry,JEE scores.xlsx,N/A,Ex
 C.3.1,SPAR.xlsx,https://extranet.who.int/e-spar,SPAR/IHR State Party Self-Assessment Annual Report,spar,spar,possible to do api call from WHO site but retrieves data from 2018 and 2019 whereas download from site listed  <- is for 2020. Also just offers one indicator rather than the range that is in the xlxs sheet. 
 C.4.1,SPAR.xlsx,https://extranet.who.int/e-spar,SPAR/IHR State Party Self-Assessment Annual Report,spar,spar,
 C.5.1,SPAR.xlsx,https://extranet.who.int/e-spar,SPAR/IHR State Party Self-Assessment Annual Report,spar,spar,
+C.5.3,SPAR.xlsx,https://extranet.who.int/e-spar,SPAR/IHR State Party Self-Assessment Annual Report,spar,spar,
 C.6.1,SPAR.xlsx,https://extranet.who.int/e-spar,SPAR/IHR State Party Self-Assessment Annual Report,spar,spar,
 C.6.2,SPAR.xlsx,https://extranet.who.int/e-spar,SPAR/IHR State Party Self-Assessment Annual Report,spar,spar,
 C.11.1,SPAR.xlsx,https://extranet.who.int/e-spar,SPAR/IHR State Party Self-Assessment Annual Report,spar,spar,
-C.11.2,SPAR.xlsx,https://extranet.who.int/e-spar,SPAR/IHR State Party Self-Assessment Annual Report,spar,spar,
-4.1 Multi-sector and One Health,AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,amr,May be possible but can only select one year at a time so probably better to go to website and download most recent data. 
+C.11.2,SPAR.xlsx,https://extranet.who.int/e-spar,SPAR/IHR State Party Self-Assessment Annual Report,spar,spar,May be possible but can only select one year at a time so probably better to go to website and download most recent data. 
+4.1 Multi-sector and One Health,AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,amr,
 4.2 Which sectors are actively involved in developing and implementing the AMR National Action Plan- [Food Production],AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,amr,
 4.2 Which sectors are actively involved in developing and implementing the AMR National Action Plan- [Environment],AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,amr,
 5.1 Country progress with development of a national action plan on AMR,AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,amr,
@@ -72,8 +73,8 @@ Live animal production- Pigs,,http://www.fao.org/faostat/en/#data/QA,,fao_livest
 Terrestrial protected areas (%),Terrestrial protected areas (% of total land area).csv,https://data.worldbank.org/indicator/ER.LND.PTLD.ZS,,terrestrial_protected_area,terrestrial_protected_area_api,
 Capture fisheries production (metric tons),Capture fisheries production (metric tons).csv,https://data.worldbank.org/indicator/ER.FSH.CAPT.MT,,fisheries_production,fisheries_production_api,
 Land area (sq. km),Land area,https://data.worldbank.org/indicator/AG.LND.TOTL.K2,"Just modified indicator from what was on list (could not find hectares, so sq. km will work!)",land_area,land_area_api,
-Political Stability and Absence of Violence/ Terrorism,combined data sheet_African countries,N/A,"Was originally part of an FAO data set, but can't find online.",combined_data_sheet,combined_data_sheet_api,
-"CFE allocation, total for country",CFE allocations-2015-20jan2021.docx,https://cdn.who.int/media/docs/default-source/documents/emergencies/cfe-allocations-2015---21-april-21.pdf?sfvrsn=933c784f_5,PDF of latest allocations (updated every few weeks),cfe_allocations,cfe_allocations,download from website if want to update.
+Political Stability and Absence of Violence/ Terrorism,combined data sheet_African countries,N/A,"Was originally part of an FAO data set, but can't find online.",combined_data_sheet,combined_data_sheet_api,download from website if want to update.
+"CFE allocation, total for country",CFE allocations-2015-20jan2021.docx,https://cdn.who.int/media/docs/default-source/documents/emergencies/cfe-allocations-2015---21-april-21.pdf?sfvrsn=933c784f_5,PDF of latest allocations (updated every few weeks),cfe_allocations,cfe_allocations,
 Healthcare expenditure per capita,combined data sheet_African countries,https://data.worldbank.org/indicator/SH.XPD.CHEX.PC.CD,,combined_data_sheet,health_expenditure_api,
 "Gross National Income per capita, Atlas method (US$)",combined data sheet_African countries,https://data.worldbank.org/indicator/NY.GNP.PCAP.CD,,combined_data_sheet,gross_national_income_api,
 Population,Population_World Bank,https://data.worldbank.org/indicator/SP.POP.TOTL,,population,population_api,

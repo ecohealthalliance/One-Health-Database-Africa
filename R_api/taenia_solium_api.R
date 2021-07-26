@@ -43,7 +43,7 @@ ingest_indicators.taenia_solium_api <- function(){
     mutate(indicator = "Presence of porcine cysticercosis") %>%
     mutate(indicator = as.factor(indicator)) %>%
     mutate(value = as.factor(value)) %>%
-    mutate(units = "presence or absence") %>%
+    mutate(units = "Presence or absence") %>%
     relocate("country", "indicator", "year", "value", "units")
   
   full_df_2

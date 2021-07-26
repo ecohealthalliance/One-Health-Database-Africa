@@ -13,7 +13,7 @@ ingest_indicators.treecover_loss <- function(){
    filter(country %in% country_names) %>%
    droplevels() %>%
    rename(year = "umd_tree_cover_loss__year") %>%
-   mutate(units = "hectares") %>%
+   mutate(units = "Hectares") %>%
    filter(year %in% chosen_years) %>%
    mutate(year = as.factor(year)) %>%
    select(c(country, indicator, year, value, units)) %>%

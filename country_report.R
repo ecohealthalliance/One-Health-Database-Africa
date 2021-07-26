@@ -5,7 +5,7 @@ library(tidyverse)
 
 # set the information for the country and years that you want
 
-select_country <- "Tanzania"
+select_country <- "Ghana"
 select_year <- c("2016", "2017", "2018")
 
 # source the data 
@@ -89,6 +89,12 @@ amr <- filtered_data %>%
          "10. National assessment of risks for AMR transmission in the environment and pollution control. Legislation and/or regulations to prevent contamination of the environment with antimicrobials [Discharges from intensive animal (terrestrial and aquatic) production (liquid waste and manure) a) disposal into the environment][Are risk reduction actions underway-]")) %>%
   select(c(indicator, value))
   
+if(nrow(amr !=0 )){
+  print("Data generated in 2019/20")
+}  else {
+  print("No antimicrobial resistance data are available for this country")
+}
+
 
 
 ### Now JEE indicators
@@ -109,8 +115,21 @@ jee <- filtered_data %>%
                           "R.5.2 Internal and partner communication and coordination (v1)/ R.5.2 Internal and partner coordination for emergency risk communication (v2)",
                           "PoE.1 Routine capacities established at points of entry",
                           "PoE.2 E ective public health response at points of entry")) %>%
-  select(c(indicator, year, value))
- 
+  select(c(indicator, year, value))  %>%
+  mutate(indicator = fct_recode(indicator, 
+                                "D.3.1 System for efficient reporting to FAO, OIE and WHO" = 
+                                  "D.3.1 System for e cient reporting to FAO, OIE and WHO" ))
+
+jee_year <- jee %>%
+  dplyr::select(year) %>%
+  droplevels() 
+jee_year <- unique(jee_year$year)
+
+jee_year 
+  
+
+print(paste("The country completed the JEE in", jee_year)) 
+
 ## Now spar
 
 spar <- filtered_data %>%

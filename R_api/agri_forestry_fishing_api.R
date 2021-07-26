@@ -20,7 +20,7 @@ ingest_indicators.agri_forestry_fishing_api <- function(){
     rename(year = date, country = country.value, indicator = indicator.value) %>%
     filter(year %in% chosen_years) %>%
     mutate(year = as.factor(year)) %>%
-    mutate(units = "percent of GDP")
+    mutate(units = "Percent of GDP")
   
   data_f
 }

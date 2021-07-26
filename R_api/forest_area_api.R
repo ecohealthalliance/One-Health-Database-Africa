@@ -21,7 +21,7 @@ ingest_indicators.forest_area_api <- function(){
     rename(year = date, country = country.value, indicator = indicator.value) %>%
     filter(year %in% chosen_years) %>%
     mutate(year = as.factor(year)) %>%
-    mutate(units = "percent")
+    mutate(units = "Percent")
   
   data_f
 }

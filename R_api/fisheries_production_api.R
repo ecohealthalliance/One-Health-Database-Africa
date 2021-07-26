@@ -21,7 +21,7 @@ ingest_indicators.fisheries_production_api <- function(){
     rename(year = date, country = country.value, indicator = indicator.value) %>%
     filter(year %in% chosen_years) %>%
     mutate(year = as.factor(year)) %>%
-    mutate(units = "metric tons")
+    mutate(units = "Metric tons")
   
   data_f
 }

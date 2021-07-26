@@ -1,7 +1,9 @@
 ingest_indicators.fao_import_export_api <- function(){
   temp <- tempfile()
-  download.file("http://fenixservices.fao.org/faostat/static/bulkdownloads/Trade_LiveAnimals_E_All_Data.zip",temp, mode = "wb")
-  unzip(temp, "Trade_LiveAnimals_E_All_Data.csv",  exdir = "data")#)
+  #download.file("http://fenixservices.fao.org/faostat/static/bulkdownloads/Trade_LiveAnimals_E_All_Data.zip",temp, mode = "wb")
+  download.file("http://fenixservices.fao.org/faostat/static/bulkdownloads/Trade_CropsLivestock_E_All_Data.zip",temp, mode = "wb") 
+  #unzip(temp, "Trade_LiveAnimals_E_All_Data.csv",  exdir = "data")#)
+  unzip(temp, "Trade_CropsLivestock_E_All_Data.csv",  exdir = "data")
   de <- read.table("data/Trade_LiveAnimals_E_All_Data.csv", sep="," , header=T)#skip=2
   unlink(temp)
   fao_import_export <- de %>%

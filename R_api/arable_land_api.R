@@ -22,8 +22,8 @@ data_f <- d2_full %>%
   filter(year %in% chosen_years) %>%
   mutate(year = as.factor(year)) %>%
   mutate(units = case_when(
-    endsWith(indicator, "(% of land area)") ~ "percent",
-    endsWith(indicator, "(hectares)") ~ "hectares"))
+    endsWith(indicator, "(% of land area)") ~ "Percent",
+    endsWith(indicator, "(hectares)") ~ "Hectares"))
 
 final_df <- data_f %>%
   mutate(indicator = as.factor(indicator)) %>%

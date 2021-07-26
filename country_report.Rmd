@@ -7,7 +7,7 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, messages = F, warning = F)
+knitr::opts_chunk$set(echo = FALSE, messages = F, warning = F, comment = "")
 
 library(tidyverse)
 
@@ -21,6 +21,8 @@ rm(list = ls())
 #select_year <- c("2016", "2017", "2018")
 select_year <- c("2016")
 select_country <- "Ghana"
+
+
 
 ```
 
@@ -55,7 +57,9 @@ filtered_data <- full_data %>%
 
 ### **Country: `r select_country`**
 
+
 ### **Year(s): `r select_year`** 
+
 
 #### **Work force**
 
@@ -78,12 +82,14 @@ workforce <- filtered_data %>%
                            "Animal health public sector (number)" = "animal_health_public_sector" )) %>%
   select(c(name, year, value, per_1000_capita, per_1000_km)) %>%
   rename("Value" = "value", "Value per 1000 people" = per_1000_capita, 
-         "Value per 1000 sq.km" = per_1000_km, Indicator = name)
+         "Value per 1000 sq.km" = per_1000_km, Indicator = name, Year = year)
   
 
   
 
 knitr::kable(workforce)
+
+
 
 ```
 
@@ -93,9 +99,9 @@ knitr::kable(workforce)
 
 #### **System Capacity**
 
+
 **Antimicrobial resistance (AMR)**
 
-These data wwre generated in 2019-2020
 
 ```{r amr}
 
@@ -119,10 +125,18 @@ amr <- filtered_data %>%
          "8.2 Good health, management and hygiene practices to reduce the use of antimicrobials and minimize development and transmission of AMR in animal production (terrestrial and aquatic)",
          "9.2 Optimizing antimicrobial use in animal health (terrestrial and aquatic)",
          "10. National assessment of risks for AMR transmission in the environment and pollution control. Legislation and/or regulations to prevent contamination of the environment with antimicrobials [Discharges from intensive animal (terrestrial and aquatic) production (liquid waste and manure) a) disposal into the environment][Are risk reduction actions underway-]")) %>%
-  select(c(indicator, value))
+  select(c(indicator, value)) %>%
+  rename(Indicator = indicator, Value = value)
 
+if(nrow(amr !=0 )){
+  print("Data generated in 2019/20") 
+  }  else {
+    print("No antimicrobial resistance data are available for this country")
+  }
 
-knitr::kable(amr)
+if(nrow(amr !=0)){
+  knitr::kable(amr)
+}
 
 ```
 
@@ -146,23 +160,52 @@ jee <- filtered_data %>%
                           "R.5.2 Internal and partner communication and coordination (v1)/ R.5.2 Internal and partner coordination for emergency risk communication (v2)",
                           "PoE.1 Routine capacities established at points of entry",
                           "PoE.2 E ective public health response at points of entry")) %>%
-  select(c(indicator, year, value))
+  select(c(indicator, year, value)) %>%
+  mutate(indicator = fct_recode(indicator, "D.3.1 System for efficient reporting to FAO, OIE and WHO" = "D.3.1 System for e cient reporting to FAO, OIE and WHO" ))
  
-knitr::kable(jee)
+
+jee_yr <- jee %>%
+  dplyr::select(year) %>%
+  droplevels() 
+jee_year <- unique(as.character(jee_yr$year))
+
+jee_table <- jee %>%
+  dplyr::select(indicator, value) %>%
+  rename(Indicator = indicator, Value = value)
+
+print(paste("The country completed the JEE in", jee_year)) 
+
+
+
+if(all(is.na(jee$value))){
+  print("The country had not completed a JEE as of 2021")
+} else { 
+  knitr::kable(jee_table)}
+
+
 
 ```
 
 
 **SPAR**
 
-These daa were generated in 2020
+These data were generated in 2020
 The values for the indicators are....
 
 ```{r spar}
 
 spar <- filtered_data %>%
-  filter(indicator %in% c("C.3.1", "C.4.1", "C.5.1", "C.6.1", "C.6.2", "C.11.1", "C.11.2")) %>%
-  select(c(indicator, value))
+  filter(indicator %in% c("C.3.1", "C.4.1", "C.5.1", "C.5.3", "C.6.1", "C.6.2", "C.11.1", "C.11.2")) %>%
+  select(c(indicator, value)) %>%
+  mutate(indicator = fct_recode(indicator, "C.3.1 Collaborative effort on activities to address zoonoses" = "C.3.1",
+  "C.4.1 Multisectoral collaboration mechanism for food safety events" = "C.4.1",
+  "C.5.1 Specimen referral and transport system" = "C.5.1", 
+  "C.5.3 Access to laboratory testing capacity for priority diseases" = "C.5.3",
+  "C.6.1 Early warning function: indicator-and event-based surveillance" = "C.6.1",
+  "C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)" = "C.6.2",
+  "C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings" = "C.11.1",
+  "C.11.2 Effective public health response at points of entry" = "C.11.2")) %>%
+    rename(Indicator = indicator, Value = value)
 
 knitr::kable(spar)
 
@@ -187,7 +230,8 @@ disease_factor <- disease %>%
   dplyr::select(!country) %>%
   dplyr::select(!type) %>%
   mutate(indicator = fct_recode(indicator, "Rabies Vaccine Availability" = "Vaccine Availability")) %>%
-  mutate(indicator = fct_recode(indicator, "Promed events 2015-2021" = "promed events 2015-2021"))
+  mutate(indicator = fct_recode(indicator, "Promed events 2015-2021" = "promed events 2015-2021"))%>%
+  rename(Indicator = indicator, Year = year, Value = value, Units = units)
 # won't filter on year for the factors as no years for some events. 
 
 
@@ -195,7 +239,7 @@ knitr::kable(disease_factor)
 
 ```
 
-```{r disease numbers}
+```{r disease numbers, message=FALSE}
 
 # do the numbers next. Remove the percentages so can do per capita and per hectare
 disease_number <- disease %>%
@@ -222,7 +266,7 @@ disease_n <- left_join(disease_number, pops_areas) %>%
   dplyr::select(indicator, year, value, per_1000_capita, per_1000_km) %>%
   rename("Indicator" = indicator, "Value" = value, "Value per 1000 people" = per_1000_capita, 
          "Value per 1000 sq.km" = per_1000_km, Year = year) %>%
-  mutate(Indicator = fct_recode(Indicator, "Rabies - number of deaths" = "rabies deaths"))
+  mutate(Indicator = fct_recode(Indicator, "Rabies - number of deaths" = "rabies deaths")) 
 
 knitr::kable(disease_n)
 
