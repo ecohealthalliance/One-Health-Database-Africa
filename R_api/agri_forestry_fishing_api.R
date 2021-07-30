@@ -25,4 +25,4 @@ ingest_indicators.agri_forestry_fishing_api <- function(){
   data_f
 }
 
-ingest_indicators.agri_forestry_fishing_api()
+#ingest_indicators.agri_forestry_fishing_api()

@@ -39,3 +39,5 @@ ingest_indicators.cfe_allocations <- function(){
     set_names(colnames_list)
   cfe_all
 }
+
+#ingest_indicators.cfe_allocations()

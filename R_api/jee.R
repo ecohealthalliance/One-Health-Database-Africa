@@ -1,6 +1,8 @@
 
 ingest_indicators.jee <- function(){
-  jee_indicators <- c("Country", "JEE Year", "P.4.3 Mechanisms for responding to infectious and potential zoonotic diseases are established and functional (v1) / P.4.2 Mechanisms for responding to infectious and potential zoonotic diseases established and functional (v2)",
+  jee_indicators <- c("Country", "JEE Year", 
+                      "P.4.1 Surveillance systems in place for priority zoonotic diseases/pathogens (v1)/ P.4.1 Coordinated surveillance systems in place in the animal health and public health sectors for zoonotic diseases/pathogens identified as joint priorities (v2)",
+                      "P.4.3 Mechanisms for responding to infectious and potential zoonotic diseases are established and functional (v1) / P.4.2 Mechanisms for responding to infectious and potential zoonotic diseases established and functional (v2)",
                       "P.6.1 Whole-of-government biosafety and biosecurity system is in place for human, animal and agriculture facilities",   
                       "P.6.2 Biosafety and biosecurity training and practices",
                       "P.7.2 National vaccine access and delivery",
@@ -33,3 +35,5 @@ ingest_indicators.jee <- function(){
     relocate(Country, indicator, year, value, units) %>%
     set_names(colnames_list)
 }
+
+ingest_indicators.jee()

@@ -47,3 +47,5 @@ ingest_indicators.combined_data_sheet_api <- function(){
                              indicator == "Publicationspercountry" ~ "Number"))
   df1
 }
+
+#ingest_indicators.combined_data_sheet_api()

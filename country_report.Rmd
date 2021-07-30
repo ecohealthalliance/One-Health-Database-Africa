@@ -18,9 +18,9 @@ library(tidyverse)
 rm(list = ls())
 
 # Enter the years that you wish the report to cover
-#select_year <- c("2016", "2017", "2018")
-select_year <- c("2016")
-select_country <- "Ghana"
+select_year <- c("2015", "2016", "2017")
+#select_year <- c("2016")
+select_country <- "Benin"
 
 
 
@@ -82,8 +82,9 @@ workforce <- filtered_data %>%
                            "Animal health public sector (number)" = "animal_health_public_sector" )) %>%
   select(c(name, year, value, per_1000_capita, per_1000_km)) %>%
   rename("Value" = "value", "Value per 1000 people" = per_1000_capita, 
-         "Value per 1000 sq.km" = per_1000_km, Indicator = name, Year = year)
-  
+         "Value per 1000 sq.km" = per_1000_km, Indicator = name, Year = year) %>%
+   mutate(Indicator = as.character(Indicator)) %>%
+  dplyr::arrange(Indicator)
 
   
 
@@ -189,8 +190,8 @@ if(all(is.na(jee$value))){
 
 **SPAR**
 
-These data were generated in 2020
-The values for the indicators are....
+These data were reported in 2020
+
 
 ```{r spar}
 
@@ -201,7 +202,7 @@ spar <- filtered_data %>%
   "C.4.1 Multisectoral collaboration mechanism for food safety events" = "C.4.1",
   "C.5.1 Specimen referral and transport system" = "C.5.1", 
   "C.5.3 Access to laboratory testing capacity for priority diseases" = "C.5.3",
-  "C.6.1 Early warning function: indicator-and event-based surveillance" = "C.6.1",
+  "C.6.1 Early warning function: indicator- and event-based surveillance" = "C.6.1",
   "C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)" = "C.6.2",
   "C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings" = "C.11.1",
   "C.11.2 Effective public health response at points of entry" = "C.11.2")) %>%
@@ -231,7 +232,8 @@ disease_factor <- disease %>%
   dplyr::select(!type) %>%
   mutate(indicator = fct_recode(indicator, "Rabies Vaccine Availability" = "Vaccine Availability")) %>%
   mutate(indicator = fct_recode(indicator, "Promed events 2015-2021" = "promed events 2015-2021"))%>%
-  rename(Indicator = indicator, Year = year, Value = value, Units = units)
+  rename(Indicator = indicator, Year = year, Value = value, Units = units) %>%
+  dplyr::arrange(Indicator)
 # won't filter on year for the factors as no years for some events. 
 
 
@@ -266,7 +268,10 @@ disease_n <- left_join(disease_number, pops_areas) %>%
   dplyr::select(indicator, year, value, per_1000_capita, per_1000_km) %>%
   rename("Indicator" = indicator, "Value" = value, "Value per 1000 people" = per_1000_capita, 
          "Value per 1000 sq.km" = per_1000_km, Year = year) %>%
-  mutate(Indicator = fct_recode(Indicator, "Rabies - number of deaths" = "rabies deaths")) 
+  mutate(Indicator = fct_recode(Indicator, "Rabies - number of deaths" = "rabies deaths", 
+                                "Malaria - estimated number of cases" = "Estimated number of malaria cases")) %>%
+  mutate(Indicator = as.character(Indicator)) %>%
+  dplyr::arrange(Indicator)
 
 knitr::kable(disease_n)
 
@@ -334,7 +339,10 @@ env <-  filtered_data %>%
                                 "Percentage of population with at least basic hygiene - national" = 
                                   "hygiene_national_at_least_basic" 
                                 )) %>%
-  rename(indicator = indicator, Value = value, Year = year, Units = units)
+  mutate(units = fct_recode(units, "Percent" = "percent")) %>%
+  rename(Indicator = indicator, Value = value, Year = year, Units = units) %>%
+  mutate(Indicator = as.character(Indicator)) %>%
+  dplyr::arrange(., Indicator)
 
 knitr::kable(env)
 
@@ -352,7 +360,7 @@ demo_factors <- c("cfe allocation" ,
                   "GNI per capita, Atlas method (current US$)", 
                   "percent change in population 2010 - 2019", 
                   "Population, total" ,
-                  "Stability" )
+                  "Stability", "Protein", "Percent animal protein", "AnimalProtein" )
 
 demo <- filtered_data %>%
   filter(year %in% select_year | indicator == "percent change in population 2010 - 2019") %>%
@@ -360,17 +368,60 @@ demo <- filtered_data %>%
   dplyr::select(indicator, year, value, units) %>%
   mutate(value = as.numeric(as.character(value))) %>%
   mutate(value = round(value, 2)) %>%
-  mutate(indicator = fct_recode(indicator, "Political stability" = "Stability", 
+  mutate(indicator = fct_recode(indicator, "Political stability and absence of violence/terrorism" = "Stability", 
                                 "CFE allocation" = "cfe allocation",
                                 "Percentage change in population 2010-2019" = 
                                   "percent change in population 2010 - 2019",
                                 "Current health expenditure per capita" = 
                                   "Current health expenditure per capita (current US$)",
                                 "GNI per capita, Atlas method" = 
-                                  "GNI per capita, Atlas method (current US$)")) %>%
-  rename(Indicator = indicator, Year = year, Value = value, Units = units)
+                                  "GNI per capita, Atlas method (current US$)",
+                                "Protein consumption - total" = "Protein",
+                                "Protein consumption - animal" = "AnimalProtein", 
+                                "Protein consumption - percentage animal protein" = "Percent animal protein")) %>%
+  mutate(units = fct_recode(units, "Percent" = "percent",
+                            "Aggregate indicator in units of a normal standard distribution (~ - 2.5-2.5)" =  "Aggregate indicator in units of a normal standard distribution (~ - 2.5-2.5) - Political Stability and Absence of Violence/Terrorism")) %>% 
+  rename(Indicator = indicator, Year = year, Value = value, Units = units) %>%
+   mutate(Indicator = as.character(Indicator)) %>%
+  dplyr::arrange(., Indicator)
 
 
 knitr::kable(demo)
+
+```
+
+
+
+#### **Rift Valley Fever Indicators**
+
+For all of the variables reported except "Number of publications reporting RVF" the outputs are coded as:
+1 = Yes 
+0 = No 
+
+
+```{r RVF}
+
+RVF_factors <- c("RVFany", "RVFAnimalReport", "RVFHumanReport", "RVFAnimalandHuman",
+                 "Publicationspercountry")
+
+# Not filtering by year here. 
+rvf <- filtered_data %>%
+  filter(indicator %in% RVF_factors) %>%
+  dplyr::select(indicator, value) %>%
+  mutate(indicator = fct_recode(indicator, "RVF - any reports of RVF within the country" = "RVFany", 
+                                "RVF - any reports of RVF in animals within the country" =
+                                  "RVFAnimalReport",
+                                "RVF - any reports of RVF in people within the country" = 
+                                  "RVFHumanReport",
+                                "RVF - any reports of RVF in human or animals within the country" = 
+                                  "RVFAnimalandHuman",
+                                "Number of publications reporting RVF" = 
+                                  "Publicationspercountry")) %>%
+  rename(Indicator = indicator,  Value = value) %>%
+   mutate(Indicator = as.character(Indicator)) %>%
+  dplyr::arrange(., Indicator)
+
+
+knitr::kable(rvf)
 
 ```

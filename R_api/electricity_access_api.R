@@ -27,3 +27,4 @@ ingest_indicators.electricity_access_api <- function(){
   data_f
 }
 
+#ingest_indicators.electricity_access_api()

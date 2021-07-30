@@ -11,7 +11,7 @@ ingest_indicators.promed <- function(){
     rename(value = "N events 2015-2021") %>%
     select(COUNTRY, value) %>%
     mutate(indicator = as.factor("promed events 2015-2021")) %>%
-    mutate(units = "number") %>%
+    mutate(units = "Number") %>%
     mutate(year = as.factor("2015-2021")) %>%
     relocate(COUNTRY, indicator, year, value, units) %>%
     set_names(colnames_list)

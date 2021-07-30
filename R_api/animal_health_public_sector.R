@@ -21,3 +21,5 @@ ingest_indicators.animal_health_public_sector <- function(){
     mutate(indicator = as.factor(indicator)) %>%
     relocate(country, indicator, year, value, units)
 }
+
+#ingest_indicators.animal_health_public_sector()

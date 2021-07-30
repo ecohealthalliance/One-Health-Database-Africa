@@ -26,4 +26,4 @@ ingest_indicators.gross_national_income_api <- function(){
   data_f
 }
 
-#ingest_indicators.gross_national_income()
+#ingest_indicators.gross_national_income_api()

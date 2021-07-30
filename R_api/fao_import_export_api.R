@@ -33,3 +33,5 @@ ingest_indicators.fao_import_export_api <- function(){
     mutate(year = as.factor(year))
   fao_import_export
 }
+
+#ingest_indicators.fao_import_export_api()

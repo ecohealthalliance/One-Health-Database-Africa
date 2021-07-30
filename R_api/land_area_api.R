@@ -26,4 +26,4 @@ ingest_indicators.land_area_api <- function(){
   data_f
 }
 
-#ingest_indicators.land_area()
+#ingest_indicators.land_area_api()

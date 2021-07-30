@@ -26,4 +26,4 @@ ingest_indicators.health_expenditure_api <- function(){
   data_f
 }
 
-#ingest_indicators.health_expenditure()
+#ingest_indicators.health_expenditure_api()

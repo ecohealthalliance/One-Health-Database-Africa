@@ -27,3 +27,4 @@ ingest_indicators.forest_area_api <- function(){
 }
 
 #levels(data_f$country)
+#ingest_indicators.forest_area_api()
