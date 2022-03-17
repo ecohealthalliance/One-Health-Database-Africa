@@ -1,3 +1,5 @@
+library(tidyverse)
+library(jsonlite)
 ingest_indicators.who_oubreaks <- function(){
   
   offset <- 0   # 2000 results returned at a time
@@ -32,56 +34,56 @@ ingest_indicators.who_oubreaks <- function(){
   # write_csv(events, here::here("data", "who_outbreaks_full.csv"))
   
   # add field for length of reporting period
-  events2 <- events %>% 
+  events <- events %>% 
     group_by(country, event) %>% 
     mutate(length_of_reporting_period_days = as.integer(end_of_reporting_period - start_of_reporting_period )) %>% 
     ungroup()
   
   # id events with more than one start date
-  # events2 %>% 
+  # events %>% 
   #   group_by(country, event) %>% 
   #   summarize(n = n_distinct(start_of_reporting_period)) %>% 
   #   filter(n>1) %>% 
   #   ungroup()
   
   # filter for most recent cumulative event
-  events3 <- events2 %>% 
+  events <- events %>% 
     group_by(country, event) %>% 
-    mutate(max_total_cases = max(total_cases)) %>% # for qa chack
+    mutate(max_total_cases = max(total_cases)) %>% # for qa check
     filter(end_of_reporting_period == max(end_of_reporting_period)) %>% 
-    filter(total_cases == max(total_cases)) %>% # sometimes more than onee value reported for a given day
+    filter(total_cases == max(total_cases)) %>% # sometimes more than one value reported for a given day
     ungroup() %>% 
     select(-object_id) %>% 
     distinct()
   
   # id events where most recent isn't the greatest cumulative value
-  # events3 %>% 
-  #   filter(max_total_cases != total_cases)
+  # events %>%
+  #   filter(max_total_cases != total_cases) %>% View
   
   # id events with more than one date_notified_to_wco (but same end of reporting period)
-  # events3 %>% 
+  # events %>% 
   #   group_by(country, event) %>% 
   #   summarize(n = n_distinct(date_notified_to_wco)) %>% 
   #   ungroup()  %>% 
   #   filter(n>1)
   
   # assume oldest date notified to wco
-  events4 <- events3 %>% 
+  events <- events %>% 
     group_by(country, event) %>% 
     filter(date_notified_to_wco == min(date_notified_to_wco)) %>% 
     ungroup()
   
-  return(events4)
+  return(events)
   
   # check there is one row for each event
-  # events4 %>% 
+  # events %>% 
   #   group_by(country, event) %>% 
   #   summarize(n = n()) %>% 
   #   ungroup() %>% 
   #   distinct(n)
   
   # export condensed dataset
-  # write_csv(events, here::here("data", "who_outbreaks_compact.csv"))
+ write_csv(events, here::here("data", "who_outbreaks_compact.csv"))
   
   
 }
