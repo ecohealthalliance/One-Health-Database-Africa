@@ -1,6 +1,5 @@
 ingest_indicators.OIE_simulation <- function(){
   read_xlsx("data/OIE_simulation_exercises.xlsx")  %>%
-    #select(all_of(jee_indicators)) %>%
     mutate_if(is.character, as.factor) %>%
     mutate(country = fct_recode(country, 
                                 #"Gambia" = "Gambia, The",
