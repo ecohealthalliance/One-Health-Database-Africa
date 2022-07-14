@@ -16,12 +16,10 @@ ingest_indicators.eid_risk <- function(){
                             "Tunesia" = "Tunisia"
     )) %>%
     filter(country %in% country_names) %>%
-    # mutate(source = "EID risk (Hotspot 2)",
-    #      variable_name = "EID risk",
-    #      value = bsm_weight_pop,
-    #      year = NA) %>% 
-    select(country, variable_name, year,  value) %>% 
-    rename(indicator = variable_name)
+    mutate(indicator = "eid_risk",
+         value = bsm_weight_pop,
+         year = NA) %>%
+    select(country, indicator, year,  value) 
 }
 
 # ingest_indicators.eid_risk()  
