@@ -2,9 +2,8 @@
 
 The “Strategic Coordination to Strengthen AFRICOM One Health and Veterinary Programs for Global Health Engagement” is 
 reviewing current capacity and programmatic status, gaps, and operations in each country and by sub-regions of Africa. 
-The term “AFRICOM” refers to the 53 countries (exlcuding Egypt) that make up the continent. 
 
-This repository combines datasets from multiple sources to produce a single One Health database containing all the selected indicators. 
+This repository combines datasets from multiple sources to produce a single One Health database containing all the selected indicators. The database encompasses 54 countries across the continent (according the UN).
  
 # Data
 Downloaded data files are stored in the data folder. 
