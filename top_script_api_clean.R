@@ -38,8 +38,8 @@ full_data_combined_api_clean <- full_data_combined_api_clean  %>%
 # running top_script_api. I pulled them in from the earlier full_data_combined_api and appended 
 # them to the new one. 
 
-missing <- full_data_combined_api_feb27 %>%
-  filter(indicator == c("Presence of porcine cysticercosis", "Estimated number of malaria cases"))
+# missing <- full_data_combined_api_feb27 %>%
+#   filter(indicator == c("Presence of porcine cysticercosis", "Estimated number of malaria cases"))
 
 
 
