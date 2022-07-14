@@ -1,7 +1,7 @@
 Indicator,filename,source_url,Notes,function_names,api_call_or_direct_download,Manual update needed
 Number of veterinarians,Vet capacity_OIE.xlsx,https://wahis.oie.int/#/report-management,OIE is updating WAHIS website so may not be online at present; can use existing data set,vet_capacity,vet_capacity,Yes - via EHA wahis project
+Number of veterinarians,combined data sheet_African countries,NA,Older WAHIS data. Needs to be merged with vet_capacity. ,Vets,Vets,Yes
 "Number of animal health personnel, public sector",Vet capacity_OIE.xlsx,https://wahis.oie.int/#/report-management,OIE is updating WAHIS website so may not be online at present; can use existing data set,animal_health_public_sector,animal_health_public_sector,Yes - via EHA wahis project
-"Number of veterinarians, wildlife expertise",N/A,N/A,no data available but we would like it in the report to support country discussion,,,
 Number of medical doctors,Medical doctor_WHO Global Health Observatory.csv,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/medical-doctors-(number),,medical_doctors,medical_doctors_api,No
 P.4.1 Surveillance systems in place for priority zoonotic diseases/pathogens (v1)/ P.4.1 Coordinated surveillance systems in place in the animal health and public health sectors for zoonotic diseases/pathogens identified as joint priorities (v2),JEE scores.xlsx,N/A,Extracted from PDFs,jee,jee,Yes
 P.4.3 Mechanisms for responding to infectious zoonoses and potential zoonoses are established and functional (v1) / P.4.2 Mechanisms for responding to infectious and potential zoonotic diseases established and functional (v2),JEE scores.xlsx,N/A,Extracted from PDFs,jee,jee,Yes
@@ -19,14 +19,14 @@ D.4.3 Workforce Strategy (v1)/ D.4.1 An up-to-date multisectoral workforce strat
 R.5.2 Internal and Partner Communication and Coordination (v1)/ R.5.2 Internal and partner coordination for emergency risk communication (v2),JEE scores.xlsx,N/A,Extracted from PDFs,jee,jee,Yes
 PoE.1 Routine capacities are established at PoE,JEE scores.xlsx,N/A,Extracted from PDFs,jee,jee,Yes
 PoE.2 Effective Public Health Response at Points of Entry,JEE scores.xlsx,N/A,Extracted from PDFs,jee,jee,Yes
-C.3.1,SPAR.xlsx,https://extranet.who.int/e-spar,SPAR/IHR State Party Self-Assessment Annual Report,spar,spar,Yes
-C.4.1,SPAR.xlsx,https://extranet.who.int/e-spar,SPAR/IHR State Party Self-Assessment Annual Report,spar,spar,Yes
-C.5.1,SPAR.xlsx,https://extranet.who.int/e-spar,SPAR/IHR State Party Self-Assessment Annual Report,spar,spar,Yes
-C.5.3,SPAR.xlsx,https://extranet.who.int/e-spar,SPAR/IHR State Party Self-Assessment Annual Report,spar,spar,Yes
-C.6.1,SPAR.xlsx,https://extranet.who.int/e-spar,SPAR/IHR State Party Self-Assessment Annual Report,spar,spar,Yes
-C.6.2,SPAR.xlsx,https://extranet.who.int/e-spar,SPAR/IHR State Party Self-Assessment Annual Report,spar,spar,Yes
-C.11.1,SPAR.xlsx,https://extranet.who.int/e-spar,SPAR/IHR State Party Self-Assessment Annual Report,spar,spar,Yes
-C.11.2,SPAR.xlsx,https://extranet.who.int/e-spar,SPAR/IHR State Party Self-Assessment Annual Report,spar,spar,Yes
+C.3.1 Collaborative effort on activities to address zoonoses,SPAR.xlsx,https://extranet.who.int/e-spar,SPAR/IHR State Party Self-Assessment Annual Report,spar,spar,Yes
+C.4.1 Multisectoral collaboration mechanism for food safety events,SPAR.xlsx,https://extranet.who.int/e-spar,SPAR/IHR State Party Self-Assessment Annual Report,spar,spar,Yes
+C.5.1 Specimen referral and transport system,SPAR.xlsx,https://extranet.who.int/e-spar,SPAR/IHR State Party Self-Assessment Annual Report,spar,spar,Yes
+C.5.3 Access to laboratory testing capacity for priority diseases,SPAR.xlsx,https://extranet.who.int/e-spar,SPAR/IHR State Party Self-Assessment Annual Report,spar,spar,Yes
+C.6.1 Early warning function: indicator- and event-based surveillance,SPAR.xlsx,https://extranet.who.int/e-spar,SPAR/IHR State Party Self-Assessment Annual Report,spar,spar,Yes
+"C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",SPAR.xlsx,https://extranet.who.int/e-spar,SPAR/IHR State Party Self-Assessment Annual Report,spar,spar,Yes
+"C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings ",SPAR.xlsx,https://extranet.who.int/e-spar,SPAR/IHR State Party Self-Assessment Annual Report,spar,spar,Yes
+C.11.2 Effective public health response at points of entry,SPAR.xlsx,https://extranet.who.int/e-spar,SPAR/IHR State Party Self-Assessment Annual Report,spar,spar,Yes
 4.1 Multi-sector and One Health,AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,amr,Yes
 4.2 Which sectors are actively involved in developing and implementing the AMR National Action Plan- [Food Production],AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,amr,Yes
 4.2 Which sectors are actively involved in developing and implementing the AMR National Action Plan- [Environment],AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,amr,Yes
@@ -95,3 +95,5 @@ Total protein,FAO_protein_supply,NA,year represents the first year in the 3-year
 Percent animal protein,FAO_protein_supply,NA,year represents the first year in the 3-year average,fao_protein,fao_protein_api,No
 Publications per country,combined data sheet_African countries,NA,RVF publications,combined_data_sheet,combined_data_sheet_api,Yes
 Malaria incidence per 1000 people,combined data sheet_African countries,NA,,combined_data_sheet,combined_data_sheet_api,Yes
+SimExDisease,OIE_simulation,NA,Created separate rows for joint country exercises,oie_simulation,oie_simulation,Yes
+eid_risk,hs2_country,NA,From Allen et al (2015),eid_risk,eid_risk,Yes
