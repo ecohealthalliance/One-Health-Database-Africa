@@ -1,4 +1,4 @@
-ingest_indicators.OIE_simulation <- function(){
+ingest_indicators.oie_simulation <- function(){
   read_xlsx("data/OIE_simulation_exercises.xlsx")  %>%
     mutate_if(is.character, as.factor) %>%
     mutate(country = fct_recode(country, 
