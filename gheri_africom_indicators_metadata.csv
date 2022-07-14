@@ -1,5 +1,5 @@
 Indicator,filename,source_url,Notes,function_names,api_call_or_direct_download,Manual update needed
-Number of veterinarians,"Vet capacity_OIE.xlsx, combined data sheet_African countries",https://wahis.oie.int/#/report-management,Both data sheets capture WAHIS data. OIE is updating WAHIS website so may not be online at present.,"vet_capacity, combined_data_sheet",vet_capacity,Yes - via EHA wahis project
+Number of veterinarians,Vet capacity_OIE.xlsx,https://wahis.oie.int/#/report-management,Two data sheets capture WAHIS data (vet capacity_OIE and combined_data sheet) that get combined into total_vets. OIE is updating WAHIS website so may not be online at present.,"vet_capacity, combined_data_sheet",vet_capacity,Yes - via EHA wahis project
 "Number of animal health personnel, public sector",Vet capacity_OIE.xlsx,https://wahis.oie.int/#/report-management,OIE is updating WAHIS website so may not be online at present; can use existing data set,animal_health_public_sector,animal_health_public_sector,Yes - via EHA wahis project
 Number of medical doctors,Medical doctor_WHO Global Health Observatory.csv,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/medical-doctors-(number),,medical_doctors,medical_doctors_api,No
 P.4.1 Surveillance systems in place for priority zoonotic diseases/pathogens (v1)/ P.4.1 Coordinated surveillance systems in place in the animal health and public health sectors for zoonotic diseases/pathogens identified as joint priorities (v2),JEE scores.xlsx,N/A,Extracted from PDFs,jee,jee,Yes
@@ -96,3 +96,4 @@ Publications per country,combined data sheet_African countries,NA,RVF publicatio
 Malaria incidence per 1000 people,combined data sheet_African countries,NA,,combined_data_sheet,combined_data_sheet_api,Yes
 SimExDisease,OIE_simulation,NA,Created separate rows for joint country exercises,oie_simulation,oie_simulation,Yes
 eid_risk,hs2_country,NA,From Allen et al (2015),eid_risk,eid_risk,Yes
+mammals_count,mammals.csv,IUCN,From advanced filter on IUCN website,iucn_mammals,iucn_mammals,Yes
