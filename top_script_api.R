@@ -54,7 +54,7 @@ function_names <- metadat %>%
 number_sets <- c("ingest_indicators.agri_forestry_fishing_api", "ingest_indicators.animal_health_public_sector",
                  "ingest_indicators.arable_land_api", "ingest_indicators.cfe_allocations", 
                  "ingest_indicators.combined_data_sheet_api", "ingest_indicators.eid_risk",
-                 "ingest_indicators.electricity_access_api",
+                 "ingest_indicators.electricity_access_api",  "ingest_indicators.iucn_mammals", 
                  "ingest_indicators.fao_import_export_api","ingest_indicators.fao_livestock_api", 
                  "ingest_indicators.fao_protein_api", 
                  "ingest_indicators.fisheries_production_api","ingest_indicators.forest_area_api",
@@ -79,7 +79,6 @@ function_names_factor <- function_names[which(function_names %in% factor_sets)]
 
 purrr::walk(list.files(here::here("R_api/"), full.names = TRUE), source)
 
-
 # run all the functions and output a list of dataframes - one for each function
 tictoc::tic()
 outlist <- list()
@@ -90,7 +89,7 @@ tictoc::toc()
 
 full_data_number_api <- bind_rows(outlist)
 # check which indicators are included
-sort(levels(full_data_number_api$indicator))
+sort(levels(full_data_number_api$indicator)) # this used to work, but now it's saying NULL
 
 
 ## Repeat for the dataframes that are factors as the value
@@ -118,7 +117,7 @@ full_data_number_com_api <- full_data_number_api %>%
   mutate(type = "integer")
 
 full_data_combined_api = rbind(full_data_factor_com_api, full_data_number_com_api)
-
+levels(full_data_combined_api$indicator)
 
 write.csv(full_data_combined_api, "Output/full_data_combined_api.csv", row.names = F)
 write.csv(full_data_number_api, "Output/full_data_number_api.csv", row.names = F)
