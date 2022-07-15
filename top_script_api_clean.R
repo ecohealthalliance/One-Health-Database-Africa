@@ -40,11 +40,8 @@ full_data_combined_api_clean <- full_data_combined_api_clean  %>%
 
 # missing <- full_data_combined_api_feb27 %>%
 #   filter(indicator == c("Presence of porcine cysticercosis", "Estimated number of malaria cases"))
-
-
-
-
-full_data_combined_api_clean <- rbind(full_data_combined_api_clean, missing)
+# 
+# full_data_combined_api_clean <- rbind(full_data_combined_api_clean, missing)
 
 write.csv(full_data_combined_api_clean, "Output/full_data_combined_api_clean.csv", row.names = F)
 
