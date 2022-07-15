@@ -117,7 +117,6 @@ full_data_number_com_api <- full_data_number_api %>%
   mutate(type = "integer")
 
 full_data_combined_api = rbind(full_data_factor_com_api, full_data_number_com_api)
-levels(full_data_combined_api$indicator)
 
 write.csv(full_data_combined_api, "Output/full_data_combined_api.csv", row.names = F)
 write.csv(full_data_number_api, "Output/full_data_number_api.csv", row.names = F)
