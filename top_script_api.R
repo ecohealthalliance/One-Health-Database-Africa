@@ -8,6 +8,7 @@ library(tidyverse)
 library(readxl)
 library(stringr)
 library(docxtractr)
+library(tm)
 
 library(httr)
 library(jsonlite)
@@ -60,9 +61,9 @@ number_sets <- c("ingest_indicators.agri_forestry_fishing_api", "ingest_indicato
                  "ingest_indicators.fisheries_production_api","ingest_indicators.forest_area_api",
                  "ingest_indicators.gross_national_income_api", "ingest_indicators.health_expenditure_api",
                  "ingest_indicators.land_area_api", 
-                 # "ingest_indicators.malaria_cases_api", removed for now - keeps breaking
+                 "ingest_indicators.malaria_cases_api", #watch closely - keeps breaking
                  "ingest_indicators.medical_doctors_api", "ingest_indicators.population_api", 
-                 "ingest_indicators.promed", #"ingest_indicators.rabies_deaths_api",
+                 "ingest_indicators.promed", 
                  "ingest_indicators.rabies_deaths_api",
                  "ingest_indicators.spar", "ingest_indicators.terrestrial_protected_area_api",
                  "ingest_indicators.treecover_loss", "ingest_indicators.vet_capacity", 
