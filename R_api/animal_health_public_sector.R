@@ -9,7 +9,8 @@ ingest_indicators.animal_health_public_sector <- function(){
                                 "Cote d'Ivoire" = "Cote D'Ivoire",
                                 "Democratic Republic of the Congo" = "Congo (Dem. Rep. of the)",
                                 "Congo" = "Congo (Rep. of the)",
-                                "Eswatini" = "Swaziland")) %>%  ## I think this is correct
+                                "Eswatini" = "Swaziland",
+                                "Egypt, Arab Rep." = "Egypt")) %>%
     filter(country %in% country_names) %>%
     droplevels() %>%
     pivot_longer(cols = !country, names_to = "year", values_to = "value") %>%
