@@ -20,6 +20,11 @@ Notes - Additional context about a source
 function_names - function used to ingest and process data
 api_call_or_direct_download - **Need additional context**
 Manual update needed - Is the data updated by hand, not via an automated data ingest
+base_url - domain name for source_url
+terms_of_use - Data terms of use as stated by source
+potential_violation - is our data use out of line with the terms of use
+
+
 # Functions
 Individual functions for extracting the data for individual indicators are available in the 'R_api' folders
 
