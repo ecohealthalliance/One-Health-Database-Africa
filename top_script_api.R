@@ -20,7 +20,6 @@ metadat <- read_csv("gheri_africom_indicators_metadata.csv")
 # names outputted by the function as these have been checked to ensure they match the names used in the functions
 
 country_names <- read_xlsx("data/AFRICOM List.xlsx") %>%
-  filter(CountryName != "Egypt, Arab Rep.") %>%
   mutate_if(is.character, as.factor) %>%
   mutate(CountryName = fct_recode(CountryName, 
                                   "Democratic Republic of the Congo" = "Congo, Dem. Rep." ,
@@ -54,12 +53,14 @@ function_names <- metadat %>%
 
 number_sets <- c("ingest_indicators.agri_forestry_fishing_api", "ingest_indicators.animal_health_public_sector",
                  "ingest_indicators.arable_land_api", "ingest_indicators.cfe_allocations", 
-                 "ingest_indicators.combined_data_sheet_api","ingest_indicators.electricity_access_api",
+                 "ingest_indicators.combined_data_sheet_api", "ingest_indicators.eid_risk",
+                 "ingest_indicators.electricity_access_api",  "ingest_indicators.iucn_mammals", 
                  "ingest_indicators.fao_import_export_api","ingest_indicators.fao_livestock_api", 
                  "ingest_indicators.fao_protein_api", 
                  "ingest_indicators.fisheries_production_api","ingest_indicators.forest_area_api",
                  "ingest_indicators.gross_national_income_api", "ingest_indicators.health_expenditure_api",
-                 "ingest_indicators.land_area_api", "ingest_indicators.malaria_cases_api",
+                 "ingest_indicators.land_area_api", 
+                 # "ingest_indicators.malaria_cases_api", removed for now - keeps breaking
                  "ingest_indicators.medical_doctors_api", "ingest_indicators.population_api", 
                  "ingest_indicators.promed", #"ingest_indicators.rabies_deaths_api",
                  "ingest_indicators.rabies_deaths_api",
@@ -69,7 +70,9 @@ number_sets <- c("ingest_indicators.agri_forestry_fishing_api", "ingest_indicato
                  "ingest_indicators.wash_water_download", "ingest_indicators.yellow_fever_api")
 
 factor_sets <- c("ingest_indicators.amr", "ingest_indicators.jee", 
-                 "ingest_indicators.rabies_management", "ingest_indicators.taenia_solium_api")
+                 "ingest_indicators.rabies_management", 
+                 # "ingest_indicators.taenia_solium_api", removed for now - keeps breaking
+                 "ingest_indicators.oie_simulation")
 
 function_names_number <- function_names[which(function_names %in% number_sets)]
 function_names_factor <- function_names[which(function_names %in% factor_sets)]
@@ -86,7 +89,7 @@ tictoc::toc()
 
 full_data_number_api <- bind_rows(outlist)
 # check which indicators are included
-sort(levels(full_data_number_api$indicator))
+sort(levels(full_data_number_api$indicator)) # this used to work, but now it's saying NULL
 
 
 ## Repeat for the dataframes that are factors as the value
@@ -114,7 +117,6 @@ full_data_number_com_api <- full_data_number_api %>%
   mutate(type = "integer")
 
 full_data_combined_api = rbind(full_data_factor_com_api, full_data_number_com_api)
-
 
 write.csv(full_data_combined_api, "Output/full_data_combined_api.csv", row.names = F)
 write.csv(full_data_number_api, "Output/full_data_number_api.csv", row.names = F)

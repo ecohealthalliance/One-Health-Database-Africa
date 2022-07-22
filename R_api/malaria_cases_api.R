@@ -98,5 +98,5 @@ ingest_indicators.malaria_cases_api <- function(){
 }
 
 # tictoc::tic()
-malaria_test  <- ingest_indicators.malaria_cases_api()
+ # ingest_indicators.malaria_cases_api()
 # tictoc::toc()

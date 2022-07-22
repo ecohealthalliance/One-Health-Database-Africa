@@ -4,7 +4,8 @@ ingest_indicators.rabies_management <- function(){
     mutate(Country = fct_recode(Country, 
                                 "Gambia" = "Gambia, The",
                                 "Congo" = "Congo, Rep.",
-                                "Democratic Republic of the Congo" = "Congo, Dem. Rep.")) %>%
+                                "Democratic Republic of the Congo" = "Congo, Dem. Rep.",
+                                "Egypt, Arab Rep." = "Egypt")) %>%
     filter(Country %in% country_names) %>%
     droplevels() %>%
     select(-c(CountryCode, `Lyssavirus free`, `Rabies virus free`, `Canine (dog) rabies free`)) %>%
