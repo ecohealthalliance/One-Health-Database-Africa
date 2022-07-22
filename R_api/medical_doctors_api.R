@@ -32,7 +32,8 @@ full_df <- new_df %>%
                               "Cabo Verde" = "Cape Verde",
                               "Congo" = "Congo - Brazzaville",
                               "Democratic Republic of the Congo" = "Congo - Kinshasa",
-                              "Sao Tome and Principe" = "Sao Tome & Principe")) %>%
+                              "Sao Tome and Principe" = "Sao Tome & Principe",
+                              "Egypt, Arab Rep." = "Egypt")) %>%
   filter(country %in% country_names) %>%
   droplevels()
   
