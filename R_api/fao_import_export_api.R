@@ -20,7 +20,9 @@ ingest_indicators.fao_import_export_api <- function(){
     mutate_if(is.character, as.factor) %>%
     mutate(Area = fct_recode(Area, 
                              #"Cote d'Ivoire" = "Côte d’Ivoire",
-                             "Tanzania" = "United Republic of Tanzania"  )) %>%
+                             "Cote d'Ivoire" = "C�te d'Ivoire",
+                             "Tanzania" = "United Republic of Tanzania",
+                             "Egypt, Arab Rep." = "Egypt")) %>%
     #mutate(Area = fct_recode(Area, 
     #                         "Cote d'Ivoire" = "Côte d'Ivoire",
     #                         "Tanzania" = "United Republic of Tanzania")) %>%
