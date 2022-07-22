@@ -1,5 +1,5 @@
 ## create a condensed csv for metadata sources 
-## and terms of use
+## and terms of use then join back to metadata
 library(dplyr)
 library(urltools)
 
@@ -11,20 +11,16 @@ md_df <- metadata %>%
 md_df%>% 
   select(base_url,terms_of_use,potential_violation) %>% 
   distinct(base_url,.keep_all = TRUE) %>% 
-  write_csv("meta_data_sources.csv",row.names = FALSE) 
+  write_csv("meta_data_sources.csv") 
   
+
+## make any changes to meta_data_sources 
 system("open meta_data_sources.csv")
 
-## make any changes to meta_data_sources and read in updated
-## file
-
+# load in updated file
 terms_of_use <- read.csv("meta_data_sources.csv")
 
-terms_of_use <- terms_of_use %>% 
-  select(-X)
-
-names(terms_of_use)
-
+## drop columns that were updated in meta_data_sources
 drop_cols <- md_df %>% 
   select(-one_of(c("terms_of_use","potential_violation"))) 
 
