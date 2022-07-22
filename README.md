@@ -2,9 +2,8 @@
 
 The “Strategic Coordination to Strengthen AFRICOM One Health and Veterinary Programs for Global Health Engagement” is 
 reviewing current capacity and programmatic status, gaps, and operations in each country and by sub-regions of Africa. 
-The term “AFRICOM” refers to the 53 countries (exlcuding Egypt) that make up the continent. 
 
-This repository combines datasets from multiple sources to produce a single One Health database containing all the selected indicators. 
+This repository combines datasets from multiple sources to produce a single One Health database containing all the selected indicators. The database encompasses 54 countries across the continent (according the UN).
  
 # Data
 Downloaded data files are stored in the data folder. 
@@ -27,6 +26,8 @@ There are three outputs from each of these scripts:
 * full data factor api - contains the data where outcome values are factors
 * full data number api - contains the data where outcome values are numeric
 * full data combined api - combined the numeric and factor datasets. Values are stored as characters and there is an additional column identifying whether the value is numeric or factor
+
+'top_script_api_clean' merges duplicate vets data and cleans SPAR indicator names. It also has a placeholder for adding old taenia_solium and estimated malaria cases the apis of which keep breaking. 
 
 Note - For RVF related indicators (RVFany, RVFHumanReport, RVFAnimalReport, RVFAnimalandHuman) the values are numeric (0 or 1) where 0 represents no reports and 1 represents some reports, but does not quantify how many.  
 

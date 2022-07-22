@@ -18,8 +18,9 @@ ingest_indicators.fao_livestock_api <- function(){
     mutate(Area =  stringi::stri_trans_general(str = Area, id = "Latin-ASCII")) %>%
     mutate_if(is.character, as.factor) %>%
     mutate(Area = fct_recode(Area, 
-                             #"Cote d'Ivoire" = "Côte d’Ivoire",
-                             "Tanzania" = "United Republic of Tanzania"  )) %>%
+                             "Cote d'Ivoire" = "C�te d'Ivoire",
+                             "Tanzania" = "United Republic of Tanzania",
+                             "Egypt, Arab Rep." = "Egypt")) %>%
     #mutate(Area = fct_recode(Area, 
     #                         "Cote d'Ivoire" = "Côte d'Ivoire",
     #                         "Tanzania" = "United Republic of Tanzania")) %>%

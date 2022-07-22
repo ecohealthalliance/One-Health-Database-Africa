@@ -16,7 +16,7 @@ ingest_indicators.fao_protein_api <- function(){
     mutate_all(funs(na_if(., ""))) %>% # make empty columns NA and then remove
     select_if(~!all(is.na(.))) %>%
     select(!ends_with("F")) %>%
-    select(!c(Area.Code, Item.Code, Area.Code, Element, Element.Code)) %>%
+    select(!c(contains("Code"), Element)) %>%
     pivot_longer(cols = !c(Area, Item, Unit), names_to = "year", values_to = "value") %>%
     mutate(year = as.factor(stringr::str_extract(year, "\\d{4}"))) %>%
     #select(-Year) %>%
