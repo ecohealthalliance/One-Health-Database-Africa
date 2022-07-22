@@ -10,7 +10,8 @@ wash <- read_xlsx("./temp.xlsx", sheet = 2) %>%
   mutate(country =  stringi::stri_trans_general(str = country, id = "Latin-ASCII")) %>%
   mutate(country = fct_recode(country,
                            #   "Cote d'Ivoire" = "Côte d'Ivoire",
-                              "Tanzania" = "United Republic of Tanzania"  )) %>%
+                              "Tanzania" = "United Republic of Tanzania",
+                           "Egypt, Arab Rep." = "Egypt")) %>%
   filter(country %in% country_names) %>%
   droplevels() %>%
   mutate(year = as.factor(year)) %>%

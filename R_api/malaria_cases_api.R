@@ -51,7 +51,7 @@
 
 
 ingest_indicators.malaria_cases_api <- function(){
-  pull_data <- GET("https://apps.who.int/gho/athena/api/GHO/MALARIA002.json")
+  pull_data <- GET("https://apps.who.int/gho/athena/api/GHO/MALARIA_EST_CASES.json")
   data = fromJSON(rawToChar(pull_data$content))
   d2 <- data[["fact"]]
   
@@ -98,5 +98,5 @@ ingest_indicators.malaria_cases_api <- function(){
 }
 
 # tictoc::tic()
- ingest_indicators.malaria_cases_api()
+ # ingest_indicators.malaria_cases_api()
 # tictoc::toc()
