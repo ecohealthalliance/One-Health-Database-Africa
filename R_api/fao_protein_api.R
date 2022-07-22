@@ -33,7 +33,8 @@ ingest_indicators.fao_protein_api <- function(){
     mutate_if(is.character, as.factor) %>%
     mutate(Area = fct_recode(Area, 
                              #"Cote d'Ivoire" = "CA´te d'Ivoire",
-                             "Tanzania" = "United Republic of Tanzania"  )) %>%
+                             "Tanzania" = "United Republic of Tanzania",
+                             "Egypt, Arab Rep." = "Egypt")) %>%
     filter(Area %in% country_names) %>%
     droplevels() %>%
     mutate(Unit = as.character(Unit)) %>%

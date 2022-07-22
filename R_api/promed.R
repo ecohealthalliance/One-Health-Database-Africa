@@ -5,7 +5,8 @@ ingest_indicators.promed <- function(){
     mutate(COUNTRY = fct_recode(COUNTRY, 
                                # "Cote d'Ivoire" = "Côte d'Ivoire",
                                 "Congo" = "Republic of Congo",
-                                "Democratic Republic of the Congo" = "DRCongo")) %>%
+                                "Democratic Republic of the Congo" = "DRCongo",
+                               "Egypt, Arab Rep." = "Egypt")) %>%
     filter(COUNTRY %in% country_names) %>%
     droplevels() %>%
     rename(value = "N events 2015-2021") %>%

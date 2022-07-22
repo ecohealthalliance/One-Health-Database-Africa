@@ -5,7 +5,8 @@ ingest_indicators.spar <- function(){
     mutate(`State Party of IHR` =  stringi::stri_trans_general(str = `State Party of IHR`, id = "Latin-ASCII")) %>%
     mutate(`State Party of IHR` = fct_recode(`State Party of IHR`, 
                                              #"Cote d'Ivoire" = "Côte d'Ivoire",
-                                             "Tanzania" = "United Republic of Tanzania"  )) %>%
+                                             "Tanzania" = "United Republic of Tanzania",
+                                             "Egypt, Arab Rep." = "Egypt")) %>%
     filter(`State Party of IHR` %in% country_names) %>%
     droplevels() %>%
     rename(country = `State Party of IHR`) %>%
