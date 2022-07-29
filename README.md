@@ -43,7 +43,6 @@ There are three outputs from each of these scripts:
 
 'top_script_api_clean' merges duplicate vet data and cleans SPAR indicator names. 
 
-Note - For RVF related indicators (RVFany, RVFHumanReport, RVFAnimalReport, RVFAnimalandHuman) the values are numeric (0 or 1) where 0 represents no reports and 1 represents some reports, but does not quantify how many.  
 
 #Country reports
 
