@@ -17,8 +17,8 @@ Indicator - measure used to assess one health capacity
 filename - name of file storing the data
 source_url - website/api endpoint where data can be 
 Notes - Additional context about a source
-function_names - function used to ingest and process data
-api_call_or_direct_download - **Need additional context**
+function_names - name of the file that holds the ingest function
+api_call_or_direct_download - suffix of the function contained in function_names. Used to call functions. ingetst_indicators.{api_call_or_direct_download}
 Manual update needed - Is the data updated by hand, not via an automated data ingest
 base_url - domain name for source_url
 terms_of_use - Data terms of use as stated by source
