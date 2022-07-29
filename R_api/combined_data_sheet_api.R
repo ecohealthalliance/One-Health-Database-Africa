@@ -27,7 +27,7 @@ ingest_indicators.combined_data_sheet_api <- function(){
     filter(CountryName %in% country_names) %>%
     droplevels() %>%
     mutate_if(is.character, as.numeric) %>%
-    rename(RVFAnimalReport = AnimalReport, RVFHumanReport = HumanReport, RVFAnimalandHuman = AnimalandHuman) %>% #, 
+    #rename(RVFAnimalReport = AnimalReport, RVFHumanReport = HumanReport, RVFAnimalandHuman = AnimalandHuman) %>% #, 
            #PercentAnimalProtein20112013 = PercentAnProtein20112013 ) %>%
     pivot_longer(cols = !CountryName, names_to = "indicator", values_to = "value") %>%
     mutate_at("value", round, 1) %>%
