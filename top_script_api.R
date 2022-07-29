@@ -4,14 +4,7 @@
 
 ## load the required packages
 #rm(list = ls())
-library(tidyverse)
-library(readxl)
-library(stringr)
-library(docxtractr)
-library(tm)
-
-library(httr)
-library(jsonlite)
+source("packages.R")
 
 ## read in the metadata
 metadat <- read_csv("gheri_africom_indicators_metadata.csv")
