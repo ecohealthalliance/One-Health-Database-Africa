@@ -11,6 +11,20 @@ The sources of each data file and their associated indicators are listed in the 
 
 The column entitled 'manual update needed' idenitifes those datasets for which an api call/direct download wasn't available and that will need manually updating as required. 
 
+**Definitions for columns in metadata file**
+
+Indicator - measure used to assess one health capacity
+filename - name of file storing the data
+source_url - website/api endpoint where data can be 
+Notes - Additional context about a source
+function_names - name of the file that holds the ingest function
+api_call_or_direct_download - suffix of the function contained in function_names. Used to call functions. ingetst_indicators.{api_call_or_direct_download}
+Manual update needed - Is the data updated by hand, not via an automated data ingest
+base_url - domain name for source_url
+terms_of_use - Data terms of use as stated by source
+potential_violation - is our data use out of line with the terms of use
+
+
 # Functions
 Individual functions for extracting the data for individual indicators are available in the 'R_api' folders
 
