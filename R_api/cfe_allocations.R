@@ -25,7 +25,7 @@ ingest_indicators.cfe_allocations <- function(){
                                 #"Sao Tome and Principe" = "São Tomé and Príncipe",
                                 "Congo" = "Republic of Congo",
                                 "Democratic Republic of the Congo" = "Democratic Republic of Congo")) %>%
-    filter(Country %in% country_names) %>%
+    filter(Country %in% country_names | Region == "AFRO") %>%
     droplevels() %>%
     select(Country, Amount, year) %>%
     mutate(Amount = as.numeric(Amount)) %>%
