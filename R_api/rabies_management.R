@@ -1,11 +1,12 @@
 ingest_indicators.rabies_management <- function(){
-  read_xlsx("data/Rabies Management_CDC.xlsx") %>%
+  test <- read_xlsx("data/Rabies Management_CDC.xlsx") %>%
     mutate_if(is.character, as.factor) %>%
     mutate(Country = fct_recode(Country, 
                                 "Gambia" = "Gambia, The",
                                 "Congo" = "Congo, Rep.",
                                 "Democratic Republic of the Congo" = "Congo, Dem. Rep.",
-                                "Egypt, Arab Rep." = "Egypt")) %>%
+                                #"Egypt, Arab Rep." = "Egypt"
+                                )) %>%
     filter(Country %in% country_names) %>%
     droplevels() %>%
     select(-c(CountryCode, `Lyssavirus free`, `Rabies virus free`, `Canine (dog) rabies free`)) %>%
