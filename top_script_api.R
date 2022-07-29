@@ -71,7 +71,18 @@ factor_sets <- c("ingest_indicators.amr", "ingest_indicators.jee",
 function_names_number <- function_names[which(function_names %in% number_sets)]
 function_names_factor <- function_names[which(function_names %in% factor_sets)]
 
+## error/warnings checking
+# quiet_source <- quietly(source)
+# 
+# api_run <- purrr::map(list.files(here::here("R_api/"), full.names = TRUE), function(x){
+#   quiet_source(x)
+# })
+# 
+# api_run %>% 
+#   purrr::keep(~!rlang::is_empty(.x$"warnings"))
+
 purrr::walk(list.files(here::here("R_api/"), full.names = TRUE), source)
+
 
 # run all the functions and output a list of dataframes - one for each function
 tictoc::tic()
