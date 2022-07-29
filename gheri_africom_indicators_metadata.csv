@@ -44,7 +44,6 @@ C.11.2 Effective public health response at points of entry,SPAR.xlsx,https://ext
 "8.2 Good health, management and hygiene practices to reduce the use of antimicrobials and minimize development and transmission of AMR in animal production (terrestrial and aquatic)",AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,amr,Yes,amrcountryprogress.org,https://www.who.int/about/policies/publishing/data-policy/terms-and-conditions,FALSE
 9.2 Optimizing antimicrobial use in animal health (terrestrial and aquatic),AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,amr,Yes,amrcountryprogress.org,https://www.who.int/about/policies/publishing/data-policy/terms-and-conditions,FALSE
 10. National assessment of risks for AMR transmission in the environment and pollution control.,AMR self assessment survey responses 2019-2020 (Excel format).xls,https://amrcountryprogress.org/,,amr,amr,Yes,amrcountryprogress.org,https://www.who.int/about/policies/publishing/data-policy/terms-and-conditions,FALSE
-"ProMED events, 2015-2021",PROMED_AL_databaseFRSPPO.xlsx,https://promedmail.org/,N/A,promed,promed,Yes,promedmail.org,https://promedmail.org/terms-conditions/#1561475304406-fa494126-07cf,TRUE
 Presence of porcine cysticercosis,Taenia solium- Presence of porcine cysticercosis.xlsx,https://www.who.int/data/gho/indicator-metadata-registry/imr-details/5309,,taenia_solium,taenia_solium_api,No,www.who.int,https://www.who.int/about/policies/publishing/data-policy/terms-and-conditions,FALSE
 Estimated malaria cases,Estimated Malaria Cases.xlsx,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/estimated-number-of-malaria-cases,,malaria_cases,malaria_cases_api,No,www.who.int,https://www.who.int/about/policies/publishing/data-policy/terms-and-conditions,FALSE
 Robust national rabies surveillance,Rabies Management_CDC.xlsx,NA,N/A,rabies_management,rabies_management,Yes,NA,,TRUE
@@ -86,14 +85,9 @@ Trade in live animals - Cattle,Trade_LiveAnimals_E_All_Data,http://www.fao.org/f
 Trade in live animals- Sheep,Trade_LiveAnimals_E_All_Data,http://www.fao.org/faostat/en/#data/TA,,fao_import_export,fao_import_export_api,No,www.fao.org,http://fao.org/contact-us/terms/en/,FALSE
 Trade in live animals - Goats,Trade_LiveAnimals_E_All_Data,http://www.fao.org/faostat/en/#data/TA,,fao_import_export,fao_import_export_api,No,www.fao.org,http://fao.org/contact-us/terms/en/,FALSE
 Trade in live animals - Pigs,Trade_LiveAnimals_E_All_Data,http://www.fao.org/faostat/en/#data/TA,,fao_import_export,fao_import_export_api,No,www.fao.org,http://fao.org/contact-us/terms/en/,FALSE
-RVF any,combined data sheet_African countries,NA,Were there any reports of RVF in the country - manually extracted,combined_data_sheet,combined_data_sheet_api,Yes,NA,,TRUE
-RVF Animal report,combined data sheet_African countries,NA,Any RVF reported in animals,combined_data_sheet,combined_data_sheet_api,Yes,NA,,TRUE
-RVF Human report,combined data sheet_African countries,NA,Any RVF reported in animals,combined_data_sheet,combined_data_sheet_api,Yes,NA,,TRUE
-RVF Animal and human report,combined data sheet_African countries,NA,Any RVF reports in animals or humans,combined_data_sheet,combined_data_sheet_api,Yes,NA,,TRUE
 Animal protein,FAO_protein_supply,NA,year represents the first year in the 3-year average,fao_protein,fao_protein_api,No,NA,,TRUE
 Total protein,FAO_protein_supply,NA,year represents the first year in the 3-year average,fao_protein,fao_protein_api,No,NA,,TRUE
 Percent animal protein,FAO_protein_supply,NA,year represents the first year in the 3-year average,fao_protein,fao_protein_api,No,NA,,TRUE
-Publications per country,combined data sheet_African countries,NA,RVF publications,combined_data_sheet,combined_data_sheet_api,Yes,NA,,TRUE
 Malaria incidence per 1000 people,combined data sheet_African countries,NA,,combined_data_sheet,combined_data_sheet_api,Yes,NA,,TRUE
 SimExDisease,OIE_simulation,NA,Created separate rows for joint country exercises,oie_simulation,oie_simulation,Yes,NA,,TRUE
 eid_risk,hs2_country,NA,From Allen et al (2015),eid_risk,eid_risk,Yes,NA,,TRUE
