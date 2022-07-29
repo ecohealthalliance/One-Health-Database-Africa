@@ -1,5 +1,5 @@
-# script to clean top_script_api
-#rm(list = ls())
+# Temporary script to clean output from top_script_api. Merge dual variables for vets and rename spar labels. 
+
 library(tidyverse)
 
 full_data_combined_api<- read_csv("Output/full_data_combined_api.csv")
@@ -33,15 +33,6 @@ full_data_combined_api_clean <- full_data_combined_api_clean  %>%
                                 "C.11.2 Effective public health response at points of entry" = "C.11.2")) 
 
 
-
-# I've re-added in Malaria and Taenia_Solium from original CSV because they kept breaking when I was 
-# running top_script_api. I pulled them in from the earlier full_data_combined_api and appended 
-# them to the new one. 
-
-# missing <- full_data_combined_api_feb27 %>%
-#   filter(indicator == c("Presence of porcine cysticercosis", "Estimated number of malaria cases"))
-# 
-# full_data_combined_api_clean <- rbind(full_data_combined_api_clean, missing)
 
 write.csv(full_data_combined_api_clean, "Output/full_data_combined_api_clean.csv", row.names = F)
 
