@@ -2,16 +2,20 @@ ingest_indicators.combined_data_sheet_api <- function(){
   combi <- read_xlsx("data/Combined data sheet_African countries.xlsx")
   combi <- combi[-1,] # remove the first row as it is empty.
   
-  selected_cols <- c("CountryName", "AnimalReport", "HumanReport", "AnimalandHuman", "Vets2018", "Vets2017", "Vets2016",
+  selected_cols <- c("CountryName", 
+                     # "AnimalReport", "HumanReport", "AnimalandHuman", 
+                     "Vets2018", "Vets2017", "Vets2016",
                      "Vets2015", "Vets2014", "Vets2013", "Vets2012", "Vets2011", 
                      # "AnimalProtein201113", "TotalProtein201113", "PercentAnProtein20112013",
                      "Stability2011", "Stability2012", "Stability2013",
-                     "Stability2014", "Stability2015",  "RVFany",
+                     "Stability2014", "Stability2015",  
+                     #"RVFany",
                      #"SheepGoats2011", "SheepGoats2012", "SheepGoats2013", "SheepGoats2014", 
                      #"SheepGoats2015", "SheepGoats2016", "SheepGoats2017",
                      #"Cattle2011", "Cattle2012", "Cattle2013", "Cattle2014",
                      #"Cattle2015",  "Cattle2016", "Cattle2017",  
-                     "Publicationspercountry", "Malaria2017", "Malaria2016","Malaria2015",
+                     #"Publicationspercountry", 
+                     "Malaria2017", "Malaria2016","Malaria2015",
                      "Malaria2014", "Malaria2013", "Malaria2012", "Malaria2011")
   
   df1 <- select(combi, all_of(selected_cols)) %>%
