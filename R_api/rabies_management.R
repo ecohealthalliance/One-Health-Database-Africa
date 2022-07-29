@@ -1,5 +1,5 @@
 ingest_indicators.rabies_management <- function(){
-  test <- read_xlsx("data/Rabies Management_CDC.xlsx") %>%
+  read_xlsx("data/Rabies Management_CDC.xlsx") %>%
     mutate_if(is.character, as.factor) %>%
     mutate(Country = fct_recode(Country, 
                                 "Gambia" = "Gambia, The",
