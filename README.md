@@ -44,7 +44,7 @@ There are three outputs from each of these scripts:
 'top_script_api_clean' merges duplicate vet data and cleans SPAR indicator names. 
 
 
-#Country reports
+# Country reports
 
 'country.report.Rmd' produces a report for a specified year and country which the user specifies in lines 21 and 23 of the script. 
 Only variables for which data are available for the specified country and years will appear in the report. 
