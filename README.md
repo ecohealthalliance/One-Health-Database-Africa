@@ -13,16 +13,16 @@ The column entitled 'manual update needed' idenitifes those datasets for which a
 
 **Definitions for columns in metadata file**
 
-Indicator - measure used to assess one health capacity
-filename - name of file storing the data
-source_url - website/api endpoint where data can be 
-Notes - Additional context about a source
-function_names - name of the file that holds the ingest function
-api_call_or_direct_download - suffix of the function contained in function_names. Used to call functions. ingetst_indicators.{api_call_or_direct_download}
-Manual update needed - Is the data updated by hand, not via an automated data ingest
-base_url - domain name for source_url
-terms_of_use - Data terms of use as stated by source
-potential_violation - is our data use out of line with the terms of use
+- Indicator - measure used to assess one health capacity. 
+- filename - name of file storing the data. 
+- source_url - website/api endpoint where data can be.  
+- Notes - Additional context about a source. 
+- function_names - name of the file that holds the ingest function. 
+- api_call_or_direct_download - suffix of the function contained in function_names. Used to call functions. ingetst_indicators.{api_call_or_direct_download}. 
+- Manual update needed - Is the data updated by hand, not via an automated data ingest. 
+- base_url - domain name for source_url. 
+- terms_of_use - Data terms of use as stated by source. 
+- potential_violation - is our data use out of line with the terms of use. 
 
 
 # Functions
