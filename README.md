@@ -1,3 +1,9 @@
+[![License: MIT](https://raw.githubusercontent.com/ecohealthalliance/gheri-africom-data/feature/humdata_compliant/code_license_badge_mit.svg?token=GHSAT0AAAAAABQSZJTCXCQSUIXKYK3FAPTQYXIDULA)](https://opensource.org/licenses/MIT)
+
+
+[![License: CC BY 4.0](https://raw.githubusercontent.com/ecohealthalliance/gheri-africom-data/feature/humdata_compliant/data_license_badge_ccby4.svg?token=GHSAT0AAAAAABQSZJTD757GHBXRF3APAAVEYXIDV5A)](https://creativecommons.org/licenses/by/4.0/)
+
+
 # gheri-africom-data
 
 The “Strategic Coordination to Strengthen AFRICOM One Health and Veterinary Programs for Global Health Engagement” is 
