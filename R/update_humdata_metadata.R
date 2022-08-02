@@ -50,3 +50,7 @@ hdx_gheri$`Define Methodology` <- "See publication DOI"
 hdx_gheri$`Update Frequency` <- "Every three months"
 hdx_gheri$`Caveats/Comments` <- "@Sarah"
 hdx_gheri$Tags <- "@Sarah"
+
+metadata_json <- toJSON(hdx_gheri,pretty = TRUE)
+
+write_json(metadata_json,path = "descriptive_metadata.json")
