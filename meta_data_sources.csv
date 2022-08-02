@@ -1,18 +1,18 @@
-base_url,terms_of_use,potential_violation,permission_requested,permission_granted,source_date,access_date
-wahis.oie.int,https://wahis.woah.org/#/tnc,FALSE,NA,NA,2022-08-01,2022-08-01
-data not available,Data Not Available,FALSE,NA,NA,2022-08-01,2022-08-01
-www.who.int,https://www.who.int/about/policies/publishing/data-policy/terms-and-conditions,FALSE,NA,NA,2022-08-01,2022-08-01
-extranet.who.int,https://www.who.int/about/policies/publishing/data-policy/terms-and-conditions,FALSE,NA,NA,2022-08-01,2022-08-01
-amrcountryprogress.org,https://www.who.int/about/policies/publishing/data-policy/terms-and-conditions,FALSE,NA,NA,2022-08-01,2022-08-01
-www.cdc.gov,https://www.cdc.gov/other/agencymaterials.html,FALSE,NA,NA,2022-08-01,2022-08-01
-data.unicef.org,https://creativecommons.org/licenses/by-nc/3.0/igo/,FALSE,NA,NA,2022-08-01,2022-08-01
-api.worldbank.org,https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets,FALSE,NA,NA,2022-08-01,2022-08-01
-www.globalforestwatch.org,https://data.globalforestwatch.org/pages/data-policy,FALSE,NA,NA,2022-08-01,2022-08-01
-data.worldbank.org,https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets,FALSE,NA,NA,2022-08-01,2022-08-01
-www.fao.org,http://fao.org/contact-us/terms/en/,FALSE,NA,NA,2022-08-01,2022-08-01
-databank.worldbank.org,,FALSE,NA,NA,2022-08-01,2022-08-01
-cdn.who.int,https://www.who.int/about/policies/publishing/data-policy/terms-and-conditions,FALSE,NA,NA,2022-08-01,2022-08-01
-data.un.org,http://data.un.org/Host.aspx?Content=UNdataUse,FALSE,NA,NA,2022-08-01,2022-08-01
-www.woah.org,https://www.woah.org/en/terms-and-conditions/,TRUE,TRUE,Pending,2022-08-01,2022-08-01
-github.com,https://github.com/ecohealthalliance/hotspots2/blob/v1.0r2/LICENSE,FALSE,NA,NA,2022-08-01,2022-08-01
-www.iucnredlist.org,https://www.iucnredlist.org/terms/terms-of-use#4.%20No%20Reposting%20or%20Redistribution,TRUE,TRUE,Pending,2022-08-01,2022-08-01
+base_url,terms_of_use,potential_violation,permission_requested,permission_granted,organization
+wahis.oie.int,https://wahis.woah.org/#/tnc,FALSE,NA,NA,OIE
+data not available,Data Not Available,FALSE,NA,NA,NA
+www.who.int,https://www.who.int/about/policies/publishing/data-policy/terms-and-conditions,FALSE,NA,NA,WHO
+extranet.who.int,https://www.who.int/about/policies/publishing/data-policy/terms-and-conditions,FALSE,NA,NA,WHO
+amrcountryprogress.org,https://www.who.int/about/policies/publishing/data-policy/terms-and-conditions,FALSE,NA,NA,WHO
+www.cdc.gov,https://www.cdc.gov/other/agencymaterials.html,FALSE,NA,NA,CDC
+data.unicef.org,https://creativecommons.org/licenses/by-nc/3.0/igo/,FALSE,NA,NA,UNICEF
+api.worldbank.org,https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets,FALSE,NA,NA,World Bank
+www.globalforestwatch.org,https://data.globalforestwatch.org/pages/data-policy,FALSE,NA,NA,Global Forest Watch
+data.worldbank.org,https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets,FALSE,NA,NA,World Bank
+www.fao.org,http://fao.org/contact-us/terms/en/,FALSE,NA,NA,FAO
+databank.worldbank.org,,FALSE,NA,NA,World Bank
+cdn.who.int,https://www.who.int/about/policies/publishing/data-policy/terms-and-conditions,FALSE,NA,NA,WHO
+data.un.org,http://data.un.org/Host.aspx?Content=UNdataUse,FALSE,NA,NA,UN
+www.woah.org,https://www.woah.org/en/terms-and-conditions/,TRUE,TRUE,Pending,OIE
+github.com,https://github.com/ecohealthalliance/hotspots2/blob/v1.0r2/LICENSE,FALSE,NA,NA,EHA
+www.iucnredlist.org,https://www.iucnredlist.org/terms/terms-of-use#4.%20No%20Reposting%20or%20Redistribution,TRUE,TRUE,Pending,IUCN
