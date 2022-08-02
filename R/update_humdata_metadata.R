@@ -53,4 +53,5 @@ hdx_gheri$Tags <- "@Sarah"
 
 metadata_json <- toJSON(hdx_gheri,pretty = TRUE)
 
-write_json(metadata_json,path = "descriptive_metadata.json")
+write_json(metadata_json,path = "hdx_metadata.json")
+
