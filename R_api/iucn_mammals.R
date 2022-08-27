@@ -5,7 +5,8 @@ ingest_indicators.iucn_mammals <- function(){
                                  "Egypt, Arab Rep." = "Egypt",
                                  "Tanzania" = "Tanzania, United Republic of")) %>%
     filter(country %in% country_names) %>%
-    rename(value = mammals) %>% 
+    rename(value = mammals_extinct_introduced_vagrant_removed) %>% 
+    select(-c(mammals)) %>% 
     mutate(year = NA, 
          indicator = "mammals_count",
          units = "number")
