@@ -1,59 +1,59 @@
-country,mammals
-"Congo, The Democratic Republic of the",566
-Kenya,476
-"Tanzania, United Republic of",475
-Uganda,422
-Cameroon,418
-Angola,390
-Nigeria,380
-South Africa,375
-Ethiopia,363
-Sudan,334
-Cote d'Ivoire,318
-Ghana,314
-Mozambique,303
-Central African Republic,302
-Zambia,298
-Guinea,295
-Madagascar,273
-Namibia,259
-Congo,257
-Senegal,257
-Rwanda,248
-Zimbabwe,248
-Sierra Leone,242
-Benin,240
-Togo,238
-Somalia,235
-Malawi,231
-Gabon,227
-Morocco,227
-Liberia,224
-Egypt,214
-Mali,214
-Equatorial Guinea,211
-Chad,210
-Algeria,205
-Botswana,203
-Burundi,203
-Niger,200
-Burkina Faso,188
-Gambia,182
-Mauritania,181
-Eritrea,179
-Guinea-Bissau,177
-Tunisia,168
-Libya,167
-Eswatini,166
-South Sudan,142
-Djibouti,125
-Western Sahara,107
-Lesotho,100
-Comoros,42
-Sao Tome and Principe,38
-Mauritius,34
-Seychelles,34
-Cabo Verde,31
-Reunion,31
-"Saint Helena, Ascension and Tristan da Cunha",31
-Mayotte,27
+country,mammals,mammals_extinct_introduced_vagrant_removed
+Algeria,205,116
+Angola,390,332
+Benin,240,200
+Botswana,203,165
+Burkina Faso,188,143
+Burundi,203,174
+Cabo Verde,31,30
+Cameroon,418,361
+Central African Republic,302,253
+Chad,210,145
+Comoros,42,42
+Congo,257,231
+"Congo, The Democratic Republic of the",566,493
+Cote d'Ivoire,318,277
+Djibouti,125,100
+Egypt,214,121
+Equatorial Guinea,211,189
+Eritrea,179,134
+Eswatini,166,136
+Ethiopia,363,298
+Gabon,227,204
+Gambia,182,146
+Ghana,314,270
+Guinea,295,255
+Guinea-Bissau,177,143
+Kenya,476,399
+Lesotho,100,80
+Liberia,224,205
+Libya,167,89
+Madagascar,273,260
+Malawi,231,202
+Mali,214,152
+Mauritania,181,125
+Mauritius,34,33
+Mayotte,27,27
+Morocco,227,136
+Mozambique,303,262
+Namibia,259,220
+Niger,200,137
+Nigeria,380,313
+Reunion,31,29
+Rwanda,248,213
+"Saint Helena, Ascension and Tristan da Cunha",31,31
+Sao Tome and Principe,38,37
+Senegal,257,201
+Seychelles,34,34
+Sierra Leone,242,211
+Somalia,235,193
+South Africa,375,325
+South Sudan,142,119
+Sudan,334,260
+"Tanzania, United Republic of",475,402
+Togo,238,197
+Tunisia,168,95
+Uganda,422,356
+Western Sahara,107,73
+Zambia,298,252
+Zimbabwe,248,209
