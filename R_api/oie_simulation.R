@@ -13,6 +13,7 @@ ingest_indicators.oie_simulation <- function(){
     mutate(units = NA) %>%
     droplevels() %>%
     mutate(indicator = as.factor(indicator)) %>%
+    mutate(indicator = "OIE Simulation Exercise") %>% 
     mutate(year = as.factor(year)) %>% 
     relocate(country, indicator, year, value, units) %>%
     set_names(colnames_list)
