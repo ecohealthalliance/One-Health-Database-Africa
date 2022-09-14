@@ -16,6 +16,7 @@ ingest_indicators.treecover_loss <- function(){
    mutate(units = "Hectares") %>%
    filter(year %in% chosen_years) %>%
    mutate(year = as.factor(year)) %>%
+    mutate(indicator = "Primary forest loss") %>%
    select(c(country, indicator, year, value, units)) %>%
    mutate(value = round(value, 2))
   }
