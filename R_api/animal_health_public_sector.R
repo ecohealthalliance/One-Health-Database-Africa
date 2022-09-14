@@ -18,7 +18,7 @@ ingest_indicators.animal_health_public_sector <- function(){
     mutate(year = as.factor(year)) %>%
     mutate(value = as.numeric(value)) %>%
     mutate(units = "number") %>%
-    mutate(indicator = "animal_health_public_sector") %>%
+    mutate(indicator = "Public animal health professionals") %>%
     mutate(indicator = as.factor(indicator)) %>%
     relocate(country, indicator, year, value, units)
 }
