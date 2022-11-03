@@ -1,4 +1,4 @@
-# One Heatlh Database Africa
+# One Health Database Africa
 
 The “One Health and Veterinary Systems in Africa: Taking stock of current coverage, needs, and opportunities to meet present and changing threats and optimize collaboration” is 
 reviewing current capacity and programmatic status, gaps, and operations in each country and by sub-regions of Africa. 
