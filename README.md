@@ -1,3 +1,7 @@
+Data:  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7277828.svg)](https://doi.org/10.5281/zenodo.7277828)
+
+
 # One Health Database Africa
 
 The “One Health and Veterinary Systems in Africa: Taking stock of current coverage, needs, and opportunities to meet present and changing threats and optimize collaboration” is 
