@@ -3,7 +3,7 @@
 library(dplyr)
 library(urltools)
 
-metadata <- read.csv("OHDAfrica_africom_indicators_metadata.csv")
+metadata <- read.csv("OHDAfrica_indicators_metadata.csv")
 
 md_df <- metadata %>% 
   mutate(base_url = domain(source_url)) 
