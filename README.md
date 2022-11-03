@@ -1,5 +1,5 @@
 Data:  
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7277828.svg)](https://doi.org/10.5281/zenodo.7277828)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7278190.svg)](https://doi.org/10.5281/zenodo.7278190)
 
 
 # One Health Database Africa
