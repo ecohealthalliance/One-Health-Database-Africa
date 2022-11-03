@@ -1,4 +1,4 @@
-# gheri-africom-data
+# One Heatlh Database Africa
 
 The “Strategic Coordination to Strengthen AFRICOM One Health and Veterinary Programs for Global Health Engagement” is 
 reviewing current capacity and programmatic status, gaps, and operations in each country and by sub-regions of Africa. 
