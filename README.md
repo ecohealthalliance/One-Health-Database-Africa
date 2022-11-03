@@ -7,7 +7,7 @@ This repository combines datasets from multiple sources to produce a single One 
  
 # Data
 Downloaded data files are stored in the data folder. 
-The sources of each data file and their associated indicators are listed in the 'gheri_africom_indicators_metadata.csv' file. This file also contains links to the relevant webpages. 
+The sources of each data file and their associated indicators are listed in the 'OHDAfrica_africom_indicators_metadata.csv' file. This file also contains links to the relevant webpages. 
 
 The column entitled 'manual update needed' idenitifes those datasets for which an api call/direct download wasn't available and that will need manually updating as required. 
 
