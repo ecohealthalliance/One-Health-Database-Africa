@@ -18,7 +18,7 @@ ingest_indicators.wash_sanitation_download <- function(){
     droplevels() %>%
     filter(year %in% chosen_years) %>%
     mutate(units = "percent") %>%
-    mutate(indicator = "sanitation_national_at_least_basic") %>%
+    mutate(indicator = "Access to basic sanitation (national)") %>%
     mutate(indicator = as.factor(indicator)) %>%
     rename(value = "sanitation_national_at_least_basic") %>%
     # rename(value = wat_bas_n) %>%

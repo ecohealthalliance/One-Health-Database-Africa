@@ -24,6 +24,9 @@ wash <- read_xlsx("./temp.xlsx", sheet = 2) %>%
   mutate_if(is.character, as.numeric) %>%
   mutate_at(c("water_national_at_least_basic", "water_rural_at_least_basic"), round, 1) %>%
   pivot_longer(cols = !c(country, year), names_to = "indicator", values_to = "value") %>%
+  mutate(indicator = fct_recode(indicator, 
+                                "Access to basic water (national)" = "water_national_at_least_basic",
+                                "Access to basic water (rural)" = "water_rural_at_least_basic")) %>% 
   mutate(indicator = as.factor(indicator)) %>%
   mutate(units = "percent") %>%
   relocate(country, indicator, year, value, units) %>%

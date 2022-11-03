@@ -549,23 +549,23 @@
 "Lesotho","Medical doctors (number)","2010",138,"number"
 "Chad","Medical doctors (number)","2015",696,"number"
 "Burkina Faso","Medical doctors (number)","2013",803,"number"
+"Mauritius","Medical doctors (number)","2015",2550,"number"
 "Namibia","Medical doctors (number)","2017",1421,"number"
 "Liberia","Medical doctors (number)","2010",90,"number"
 "Equatorial Guinea","Medical doctors (number)","2017",507,"number"
 "Sierra Leone","Medical doctors (number)","2011",165,"number"
 "Egypt, Arab Rep.","Medical doctors (number)","2018",75686,"number"
 "Mauritius","Medical doctors (number)","2016",2769,"number"
-"Mauritius","Medical doctors (number)","2015",2550,"number"
 "Tunisia","Medical doctors (number)","2010",12996,"number"
 "Tunisia","Medical doctors (number)","2014",14127,"number"
 "Tunisia","Medical doctors (number)","2015",14655,"number"
 "Rwanda","Medical doctors (number)","2014",1008,"number"
-"Zambia","Medical doctors (number)","2016",1514,"number"
-"Burundi","Medical doctors (number)","2014",609,"number"
-"Eritrea","Medical doctors (number)","2016",226,"number"
 "Democratic Republic of the Congo","Medical doctors (number)","2013",6418,"number"
 "Madagascar","Medical doctors (number)","2013",3523,"number"
 "Sierra Leone","Medical doctors (number)","2010",136,"number"
+"Zambia","Medical doctors (number)","2016",1514,"number"
+"Burundi","Medical doctors (number)","2014",609,"number"
+"Eritrea","Medical doctors (number)","2016",226,"number"
 "Seychelles","Medical doctors (number)","2012",93,"number"
 "Chad","Medical doctors (number)","2012",528,"number"
 "Mauritius","Medical doctors (number)","2018",2395,"number"
@@ -576,59 +576,59 @@
 "Madagascar","Medical doctors (number)","2014",4275,"number"
 "Tunisia","Medical doctors (number)","2016",14507,"number"
 "Comoros","Medical doctors (number)","2012",123,"number"
-"Niger","Medical doctors (number)","2013",946,"number"
 "Tanzania","Medical doctors (number)","2012",1481,"number"
 "Tanzania","Medical doctors (number)","2014",3015,"number"
 "Uganda","Medical doctors (number)","2015",3645,"number"
 "Uganda","Medical doctors (number)","2012",3370,"number"
+"Niger","Medical doctors (number)","2013",946,"number"
 "Rwanda","Medical doctors (number)","2015",1284,"number"
+"Ghana","Medical doctors (number)","2010",2325,"number"
+"Morocco","Medical doctors (number)","2013",21309,"number"
 "Morocco","Medical doctors (number)","2014",31235,"number"
 "Togo","Medical doctors (number)","2010",325,"number"
 "Mauritania","Medical doctors (number)","2014",622,"number"
 "Mauritania","Medical doctors (number)","2010",547,"number"
-"Ghana","Medical doctors (number)","2010",2325,"number"
-"Morocco","Medical doctors (number)","2013",21309,"number"
 "Guinea-Bissau","Medical doctors (number)","2016",227,"number"
 "Somalia","Medical doctors (number)","2014",309,"number"
 "Congo","Medical doctors (number)","2018",544,"number"
-"Burundi","Medical doctors (number)","2012",498,"number"
-"Mozambique","Medical doctors (number)","2013",1452,"number"
-"Mozambique","Medical doctors (number)","2011",1268,"number"
-"Cote d'Ivoire","Medical doctors (number)","2011",3220,"number"
-"Mozambique","Medical doctors (number)","2010",1145,"number"
 "Mauritius","Medical doctors (number)","2014",2429,"number"
 "Central African Republic","Medical doctors (number)","2015",324,"number"
 "Botswana","Medical doctors (number)","2016",830,"number"
 "Zimbabwe","Medical doctors (number)","2014",1685,"number"
 "Tunisia","Medical doctors (number)","2017",14892,"number"
 "Cameroon","Medical doctors (number)","2010",1712,"number"
+"Burundi","Medical doctors (number)","2012",498,"number"
+"Mozambique","Medical doctors (number)","2013",1452,"number"
+"Mozambique","Medical doctors (number)","2011",1268,"number"
+"Cote d'Ivoire","Medical doctors (number)","2011",3220,"number"
+"Mozambique","Medical doctors (number)","2010",1145,"number"
 "Senegal","Medical doctors (number)","2016",1154,"number"
 "Angola","Medical doctors (number)","2018",6593,"number"
 "Djibouti","Medical doctors (number)","2014",201,"number"
 "Burundi","Medical doctors (number)","2010",418,"number"
+"Cabo Verde","Medical doctors (number)","2013",308,"number"
+"Cabo Verde","Medical doctors (number)","2010",292,"number"
+"Cabo Verde","Medical doctors (number)","2015",410,"number"
 "Cabo Verde","Medical doctors (number)","2011",292,"number"
 "Madagascar","Medical doctors (number)","2012",3188,"number"
 "Madagascar","Medical doctors (number)","2011",3131,"number"
 "Madagascar","Medical doctors (number)","2010",4130,"number"
 "Zimbabwe","Medical doctors (number)","2011",1054,"number"
-"Cabo Verde","Medical doctors (number)","2013",308,"number"
-"Cabo Verde","Medical doctors (number)","2010",292,"number"
-"Cabo Verde","Medical doctors (number)","2015",410,"number"
 "Zimbabwe","Medical doctors (number)","2012",1059,"number"
+"Zambia","Medical doctors (number)","2010",836,"number"
+"Egypt, Arab Rep.","Medical doctors (number)","2019",74923,"number"
 "Egypt, Arab Rep.","Medical doctors (number)","2014",71221,"number"
 "Togo","Medical doctors (number)","2017",583,"number"
 "South Africa","Medical doctors (number)","2019",46393,"number"
 "Zimbabwe","Medical doctors (number)","2010",1615,"number"
 "Gabon","Medical doctors (number)","2016",715,"number"
-"Zambia","Medical doctors (number)","2010",836,"number"
-"Egypt, Arab Rep.","Medical doctors (number)","2019",74923,"number"
 "Mauritius","Medical doctors (number)","2013",2046,"number"
 "Mauritius","Medical doctors (number)","2010",1500,"number"
 "Mali","Medical doctors (number)","2010",1536,"number"
 "Mali","Medical doctors (number)","2012",1704,"number"
+"Mali","Medical doctors (number)","2011",1829,"number"
 "Zimbabwe","Medical doctors (number)","2015",2508,"number"
 "Ghana","Medical doctors (number)","2016",3618,"number"
-"Mali","Medical doctors (number)","2011",1829,"number"
 "Uganda","Medical doctors (number)","2017",6918,"number"
 "Botswana","Medical doctors (number)","2011",819,"number"
 "Morocco","Medical doctors (number)","2017",26003,"number"
@@ -637,10 +637,10 @@
 "Senegal","Medical doctors (number)","2017",1066,"number"
 "Guinea-Bissau","Medical doctors (number)","2011",100,"number"
 "Eswatini","Medical doctors (number)","2016",107,"number"
-"Liberia","Medical doctors (number)","2015",168,"number"
 "Kenya","Medical doctors (number)","2011",7549,"number"
 "Kenya","Medical doctors (number)","2010",7129,"number"
 "Kenya","Medical doctors (number)","2012",8092,"number"
+"Liberia","Medical doctors (number)","2015",168,"number"
 "Mauritania","Medical doctors (number)","2015",692,"number"
 "Burundi","Medical doctors (number)","2011",357,"number"
 "Nigeria","Medical doctors (number)","2013",65759,"number"
@@ -650,48 +650,48 @@
 "Sudan","Medical doctors (number)","2015",15845,"number"
 "Ethiopia","Medical doctors (number)","2018",8395,"number"
 "Burundi","Medical doctors (number)","2017",1084,"number"
-"Burkina Faso","Medical doctors (number)","2011",620,"number"
 "Burkina Faso","Medical doctors (number)","2010",713,"number"
 "Burkina Faso","Medical doctors (number)","2012",787,"number"
-"Seychelles","Medical doctors (number)","2010",100,"number"
+"Burkina Faso","Medical doctors (number)","2011",620,"number"
 "Mozambique","Medical doctors (number)","2012",1358,"number"
 "Comoros","Medical doctors (number)","2018",220,"number"
+"Seychelles","Medical doctors (number)","2010",100,"number"
 "Seychelles","Medical doctors (number)","2011",107,"number"
+"Eswatini","Medical doctors (number)","2011",109,"number"
+"Rwanda","Medical doctors (number)","2017",1648,"number"
+"Liberia","Medical doctors (number)","2018",246,"number"
 "Niger","Medical doctors (number)","2016",681,"number"
 "Benin","Medical doctors (number)","2011",546,"number"
 "Eritrea","Medical doctors (number)","2014",204,"number"
 "Zambia","Medical doctors (number)","2018",2026,"number"
-"Eswatini","Medical doctors (number)","2011",109,"number"
-"Rwanda","Medical doctors (number)","2017",1648,"number"
-"Liberia","Medical doctors (number)","2018",246,"number"
 "Libya","Medical doctors (number)","2017",13757,"number"
 "Egypt, Arab Rep.","Medical doctors (number)","2015",75960,"number"
 "Benin","Medical doctors (number)","2010",513,"number"
+"Chad","Medical doctors (number)","2013",573,"number"
+"Benin","Medical doctors (number)","2019",763,"number"
+"Eritrea","Medical doctors (number)","2019",248,"number"
+"Eritrea","Medical doctors (number)","2018",280,"number"
 "Burundi","Medical doctors (number)","2013",554,"number"
 "Ghana","Medical doctors (number)","2011",2486,"number"
 "Burundi","Medical doctors (number)","2015",508,"number"
 "Cameroon","Medical doctors (number)","2011",1842,"number"
 "Burkina Faso","Medical doctors (number)","2014",857,"number"
 "Sao Tome and Principe","Medical doctors (number)","2015",63,"number"
-"Chad","Medical doctors (number)","2013",573,"number"
-"Benin","Medical doctors (number)","2019",763,"number"
-"Eritrea","Medical doctors (number)","2019",248,"number"
-"Eritrea","Medical doctors (number)","2018",280,"number"
+"Libya","Medical doctors (number)","2014",13095,"number"
 "Mali","Medical doctors (number)","2013",1971,"number"
 "Burkina Faso","Medical doctors (number)","2015",1189,"number"
 "Mauritius","Medical doctors (number)","2017",2927,"number"
 "Mauritania","Medical doctors (number)","2017",791,"number"
 "Cabo Verde","Medical doctors (number)","2016",408,"number"
 "Gambia","Medical doctors (number)","2015",213,"number"
-"Libya","Medical doctors (number)","2014",13095,"number"
 "Ghana","Medical doctors (number)","2014",3016,"number"
+"Tanzania","Medical doctors (number)","2018",2885,"number"
+"Benin","Medical doctors (number)","2016",523,"number"
+"Ghana","Medical doctors (number)","2012",2486,"number"
 "Eswatini","Medical doctors (number)","2017",208,"number"
 "Burkina Faso","Medical doctors (number)","2016",1202,"number"
 "Niger","Medical doctors (number)","2019",888,"number"
 "Mauritius","Medical doctors (number)","2019",3290,"number"
-"Tanzania","Medical doctors (number)","2018",2885,"number"
-"Benin","Medical doctors (number)","2016",523,"number"
-"Ghana","Medical doctors (number)","2012",2486,"number"
 "Congo","Medical doctors (number)","2016",530,"number"
 "Niger","Medical doctors (number)","2012",952,"number"
 "Uganda","Medical doctors (number)","2018",17186,"number"
@@ -708,6 +708,15 @@
 "Eritrea","Medical doctors (number)","2017",224,"number"
 "Eritrea","Medical doctors (number)","2015",212,"number"
 "Angola","Medical doctors (number)","2017",6400,"number"
+"Chad","Medical doctors (number)","2018",803,"number"
+"Cameroon","Medical doctors (number)","2018",3259,"number"
+"Egypt, Arab Rep.","Medical doctors (number)","2017",77083,"number"
+"Mali","Medical doctors (number)","2018",2454,"number"
+"South Africa","Medical doctors (number)","2018",43503,"number"
+"Mali","Medical doctors (number)","2015",1750,"number"
+"Mali","Medical doctors (number)","2017",2247,"number"
+"Kenya","Medical doctors (number)","2013",8682,"number"
+"Rwanda","Medical doctors (number)","2016",1431,"number"
 "Chad","Medical doctors (number)","2016",540,"number"
 "Rwanda","Medical doctors (number)","2019",1492,"number"
 "South Africa","Medical doctors (number)","2016",43141,"number"
@@ -717,36 +726,26 @@
 "Cabo Verde","Medical doctors (number)","2012",260,"number"
 "Ghana","Medical doctors (number)","2013",2730,"number"
 "Sierra Leone","Medical doctors (number)","2018",566,"number"
-"Rwanda","Medical doctors (number)","2016",1431,"number"
-"Kenya","Medical doctors (number)","2013",8682,"number"
-"Mali","Medical doctors (number)","2017",2247,"number"
-"Mali","Medical doctors (number)","2015",1750,"number"
-"South Africa","Medical doctors (number)","2018",43503,"number"
-"Mali","Medical doctors (number)","2018",2454,"number"
-"Egypt, Arab Rep.","Medical doctors (number)","2017",77083,"number"
-"Cameroon","Medical doctors (number)","2018",3259,"number"
-"Chad","Medical doctors (number)","2018",803,"number"
 "Mali","Medical doctors (number)","2014",1750,"number"
-"Mozambique","Medical doctors (number)","2017",2180,"number"
-"Guinea-Bissau","Medical doctors (number)","2018",318,"number"
-"Nigeria","Medical doctors (number)","2018",74543,"number"
-"Kenya","Medical doctors (number)","2018",8042,"number"
-"Algeria","Medical doctors (number)","2016",74309,"number"
 "Gabon","Medical doctors (number)","2018",1368,"number"
 "South Sudan","Medical doctors (number)","2018",411,"number"
 "Cote d'Ivoire","Medical doctors (number)","2019",4173,"number"
 "Togo","Medical doctors (number)","2015",361,"number"
 "Rwanda","Medical doctors (number)","2018",1648,"number"
 "Chad","Medical doctors (number)","2019",859,"number"
+"Mozambique","Medical doctors (number)","2017",2180,"number"
+"Guinea-Bissau","Medical doctors (number)","2018",318,"number"
+"Nigeria","Medical doctors (number)","2018",74543,"number"
+"Kenya","Medical doctors (number)","2018",8042,"number"
+"Algeria","Medical doctors (number)","2016",74309,"number"
+"Seychelles","Medical doctors (number)","2018",240,"number"
 "Gabon","Medical doctors (number)","2017",1408,"number"
 "Niger","Medical doctors (number)","2017",472,"number"
 "South Africa","Medical doctors (number)","2017",44653,"number"
-"Seychelles","Medical doctors (number)","2018",240,"number"
-"Malawi","Medical doctors (number)","2018",2760,"number"
-"Eritrea","Medical doctors (number)","2013",172,"number"
 "Eritrea","Medical doctors (number)","2012",153,"number"
 "Eritrea","Medical doctors (number)","2011",136,"number"
-"Eritrea","Medical doctors (number)","2010",129,"number"
+"Malawi","Medical doctors (number)","2018",2760,"number"
+"Eritrea","Medical doctors (number)","2013",172,"number"
 "Sudan","Medical doctors (number)","2017",10683,"number"
 "Nigeria","Medical doctors (number)","2016",83565,"number"
 "Algeria","Medical doctors (number)","2018",72604,"number"
@@ -754,14 +753,12 @@
 "Benin","Medical doctors (number)","2018",908,"number"
 "Botswana","Medical doctors (number)","2010",819,"number"
 "Cote d'Ivoire","Medical doctors (number)","2014",5240,"number"
+"Eritrea","Medical doctors (number)","2010",129,"number"
 "Congo","Medical doctors (number)","2010",494,"number"
 "Namibia","Medical doctors (number)","2018",1445,"number"
 "Sao Tome and Principe","Medical doctors (number)","2019",105,"number"
 "Ghana","Medical doctors (number)","2019",3236,"number"
 "Mauritania","Medical doctors (number)","2018",821,"number"
-"Guinea","Medical doctors (number)","2014",1844,"number"
-"Gambia","Medical doctors (number)","2017",252,"number"
-"Senegal","Medical doctors (number)","2015",3023,"number"
 "Cabo Verde","Medical doctors (number)","2018",452,"number"
 "Gambia","Medical doctors (number)","2019",252,"number"
 "Eswatini","Medical doctors (number)","2018",278,"number"
@@ -769,6 +766,9 @@
 "Mozambique","Medical doctors (number)","2018",2473,"number"
 "Gambia","Medical doctors (number)","2018",298,"number"
 "Zimbabwe","Medical doctors (number)","2018",3026,"number"
+"Guinea","Medical doctors (number)","2014",1844,"number"
+"Gambia","Medical doctors (number)","2017",252,"number"
+"Senegal","Medical doctors (number)","2015",3023,"number"
 "Malawi","Medical doctors (number)","2016",539,"number"
 "Mauritius","Medical doctors (number)","2011",1810,"number"
 "Mauritius","Medical doctors (number)","2012",1722,"number"
@@ -782,438 +782,462 @@
 "Burkina Faso","Medical doctors (number)","2019",1910,"number"
 "Senegal","Medical doctors (number)","2019",1435,"number"
 "Burkina Faso","Medical doctors (number)","2017",1626,"number"
-"Algeria","C.3.1",NA,80,NA
-"Algeria","C.4.1",NA,80,NA
-"Algeria","C.5.1",NA,80,NA
-"Algeria","C.5.3",NA,60,NA
-"Algeria","C.6.1",NA,60,NA
-"Algeria","C.6.2",NA,60,NA
-"Algeria","C.11.1",NA,80,NA
-"Algeria","C.11.2",NA,60,NA
-"Angola","C.3.1",NA,100,NA
-"Angola","C.4.1",NA,40,NA
-"Angola","C.5.1",NA,80,NA
-"Angola","C.5.3",NA,80,NA
-"Angola","C.6.1",NA,100,NA
-"Angola","C.6.2",NA,100,NA
-"Angola","C.11.1",NA,40,NA
-"Angola","C.11.2",NA,20,NA
-"Benin","C.3.1",NA,20,NA
-"Benin","C.4.1",NA,40,NA
-"Benin","C.5.1",NA,60,NA
-"Benin","C.5.3",NA,60,NA
-"Benin","C.6.1",NA,60,NA
-"Benin","C.6.2",NA,20,NA
-"Benin","C.11.1",NA,0,NA
-"Benin","C.11.2",NA,0,NA
-"Botswana","C.3.1",NA,20,NA
-"Botswana","C.4.1",NA,40,NA
-"Botswana","C.5.1",NA,100,NA
-"Botswana","C.5.3",NA,60,NA
-"Botswana","C.6.1",NA,60,NA
-"Botswana","C.6.2",NA,60,NA
-"Botswana","C.11.1",NA,80,NA
-"Botswana","C.11.2",NA,40,NA
-"Burkina Faso","C.3.1",NA,80,NA
-"Burkina Faso","C.4.1",NA,60,NA
-"Burkina Faso","C.5.1",NA,80,NA
-"Burkina Faso","C.5.3",NA,80,NA
-"Burkina Faso","C.6.1",NA,60,NA
-"Burkina Faso","C.6.2",NA,80,NA
-"Burkina Faso","C.11.1",NA,20,NA
-"Burkina Faso","C.11.2",NA,40,NA
-"Burundi","C.3.1",NA,60,NA
-"Burundi","C.4.1",NA,40,NA
-"Burundi","C.5.1",NA,100,NA
-"Burundi","C.5.3",NA,60,NA
-"Burundi","C.6.1",NA,80,NA
-"Burundi","C.6.2",NA,60,NA
-"Burundi","C.11.1",NA,40,NA
-"Burundi","C.11.2",NA,40,NA
-"Cabo Verde","C.3.1",NA,40,NA
-"Cabo Verde","C.4.1",NA,80,NA
-"Cabo Verde","C.5.1",NA,80,NA
-"Cabo Verde","C.5.3",NA,100,NA
-"Cabo Verde","C.6.1",NA,80,NA
-"Cabo Verde","C.6.2",NA,60,NA
-"Cabo Verde","C.11.1",NA,60,NA
-"Cabo Verde","C.11.2",NA,60,NA
-"Cameroon","C.3.1",NA,80,NA
-"Cameroon","C.4.1",NA,40,NA
-"Cameroon","C.5.1",NA,60,NA
-"Cameroon","C.5.3",NA,80,NA
-"Cameroon","C.6.1",NA,80,NA
-"Cameroon","C.6.2",NA,80,NA
-"Cameroon","C.11.1",NA,40,NA
-"Cameroon","C.11.2",NA,40,NA
-"Central African Republic","C.3.1",NA,20,NA
-"Central African Republic","C.4.1",NA,0,NA
-"Central African Republic","C.5.1",NA,60,NA
-"Central African Republic","C.5.3",NA,100,NA
-"Central African Republic","C.6.1",NA,80,NA
-"Central African Republic","C.6.2",NA,20,NA
-"Central African Republic","C.11.1",NA,20,NA
-"Central African Republic","C.11.2",NA,20,NA
-"Chad","C.3.1",NA,40,NA
-"Chad","C.4.1",NA,20,NA
-"Chad","C.5.1",NA,60,NA
-"Chad","C.5.3",NA,60,NA
-"Chad","C.6.1",NA,80,NA
-"Chad","C.6.2",NA,80,NA
-"Chad","C.11.1",NA,40,NA
-"Chad","C.11.2",NA,40,NA
-"Comoros","C.3.1",NA,60,NA
-"Comoros","C.4.1",NA,40,NA
-"Comoros","C.5.1",NA,60,NA
-"Comoros","C.5.3",NA,40,NA
-"Comoros","C.6.1",NA,60,NA
-"Comoros","C.6.2",NA,40,NA
-"Comoros","C.11.1",NA,20,NA
-"Comoros","C.11.2",NA,20,NA
-"Congo","C.3.1",NA,20,NA
-"Congo","C.4.1",NA,40,NA
-"Congo","C.5.1",NA,40,NA
-"Congo","C.5.3",NA,40,NA
-"Congo","C.6.1",NA,60,NA
-"Congo","C.6.2",NA,40,NA
-"Congo","C.11.1",NA,20,NA
-"Congo","C.11.2",NA,20,NA
-"Cote d'Ivoire","C.3.1",NA,60,NA
-"Cote d'Ivoire","C.4.1",NA,0,NA
-"Cote d'Ivoire","C.5.1",NA,80,NA
-"Cote d'Ivoire","C.5.3",NA,100,NA
-"Cote d'Ivoire","C.6.1",NA,60,NA
-"Cote d'Ivoire","C.6.2",NA,40,NA
-"Cote d'Ivoire","C.11.1",NA,60,NA
-"Cote d'Ivoire","C.11.2",NA,40,NA
-"Democratic Republic of the Congo","C.3.1",NA,60,NA
-"Democratic Republic of the Congo","C.4.1",NA,20,NA
-"Democratic Republic of the Congo","C.5.1",NA,60,NA
-"Democratic Republic of the Congo","C.5.3",NA,60,NA
-"Democratic Republic of the Congo","C.6.1",NA,60,NA
-"Democratic Republic of the Congo","C.6.2",NA,60,NA
-"Democratic Republic of the Congo","C.11.1",NA,60,NA
-"Democratic Republic of the Congo","C.11.2",NA,40,NA
-"Djibouti","C.3.1",NA,40,NA
-"Djibouti","C.4.1",NA,20,NA
-"Djibouti","C.5.1",NA,20,NA
-"Djibouti","C.5.3",NA,40,NA
-"Djibouti","C.6.1",NA,60,NA
-"Djibouti","C.6.2",NA,20,NA
-"Djibouti","C.11.1",NA,40,NA
-"Djibouti","C.11.2",NA,20,NA
-"Egypt, Arab Rep.","C.3.1",NA,80,NA
-"Egypt, Arab Rep.","C.4.1",NA,80,NA
-"Egypt, Arab Rep.","C.5.1",NA,80,NA
-"Egypt, Arab Rep.","C.5.3",NA,80,NA
-"Egypt, Arab Rep.","C.6.1",NA,100,NA
-"Egypt, Arab Rep.","C.6.2",NA,100,NA
-"Egypt, Arab Rep.","C.11.1",NA,100,NA
-"Egypt, Arab Rep.","C.11.2",NA,100,NA
-"Equatorial Guinea","C.3.1",NA,20,NA
-"Equatorial Guinea","C.4.1",NA,20,NA
-"Equatorial Guinea","C.5.1",NA,40,NA
-"Equatorial Guinea","C.5.3",NA,20,NA
-"Equatorial Guinea","C.6.1",NA,40,NA
-"Equatorial Guinea","C.6.2",NA,40,NA
-"Equatorial Guinea","C.11.1",NA,20,NA
-"Equatorial Guinea","C.11.2",NA,20,NA
-"Eritrea","C.3.1",NA,80,NA
-"Eritrea","C.4.1",NA,60,NA
-"Eritrea","C.5.1",NA,80,NA
-"Eritrea","C.5.3",NA,60,NA
-"Eritrea","C.6.1",NA,80,NA
-"Eritrea","C.6.2",NA,60,NA
-"Eritrea","C.11.1",NA,60,NA
-"Eritrea","C.11.2",NA,40,NA
-"Eswatini","C.3.1",NA,60,NA
-"Eswatini","C.4.1",NA,40,NA
-"Eswatini","C.5.1",NA,80,NA
-"Eswatini","C.5.3",NA,80,NA
-"Eswatini","C.6.1",NA,80,NA
-"Eswatini","C.6.2",NA,60,NA
-"Eswatini","C.11.1",NA,80,NA
-"Eswatini","C.11.2",NA,80,NA
-"Ethiopia","C.3.1",NA,60,NA
-"Ethiopia","C.4.1",NA,40,NA
-"Ethiopia","C.5.1",NA,80,NA
-"Ethiopia","C.5.3",NA,100,NA
-"Ethiopia","C.6.1",NA,80,NA
-"Ethiopia","C.6.2",NA,80,NA
-"Ethiopia","C.11.1",NA,60,NA
-"Ethiopia","C.11.2",NA,40,NA
-"Gabon","C.3.1",NA,20,NA
-"Gabon","C.4.1",NA,20,NA
-"Gabon","C.5.1",NA,20,NA
-"Gabon","C.5.3",NA,100,NA
-"Gabon","C.6.1",NA,60,NA
-"Gabon","C.6.2",NA,40,NA
-"Gabon","C.11.1",NA,40,NA
-"Gabon","C.11.2",NA,20,NA
-"Gambia","C.3.1",NA,20,NA
-"Gambia","C.4.1",NA,20,NA
-"Gambia","C.5.1",NA,20,NA
-"Gambia","C.5.3",NA,40,NA
-"Gambia","C.6.1",NA,80,NA
-"Gambia","C.6.2",NA,60,NA
-"Gambia","C.11.1",NA,40,NA
-"Gambia","C.11.2",NA,20,NA
-"Ghana","C.3.1",NA,60,NA
-"Ghana","C.4.1",NA,40,NA
-"Ghana","C.5.1",NA,60,NA
-"Ghana","C.5.3",NA,60,NA
-"Ghana","C.6.1",NA,80,NA
-"Ghana","C.6.2",NA,80,NA
-"Ghana","C.11.1",NA,40,NA
-"Ghana","C.11.2",NA,40,NA
-"Guinea","C.3.1",NA,60,NA
-"Guinea","C.4.1",NA,40,NA
-"Guinea","C.5.1",NA,80,NA
-"Guinea","C.5.3",NA,60,NA
-"Guinea","C.6.1",NA,60,NA
-"Guinea","C.6.2",NA,80,NA
-"Guinea","C.11.1",NA,40,NA
-"Guinea","C.11.2",NA,40,NA
-"Guinea-Bissau","C.3.1",NA,20,NA
-"Guinea-Bissau","C.4.1",NA,40,NA
-"Guinea-Bissau","C.5.1",NA,20,NA
-"Guinea-Bissau","C.5.3",NA,20,NA
-"Guinea-Bissau","C.6.1",NA,60,NA
-"Guinea-Bissau","C.6.2",NA,40,NA
-"Guinea-Bissau","C.11.1",NA,20,NA
-"Guinea-Bissau","C.11.2",NA,40,NA
-"Kenya","C.3.1",NA,60,NA
-"Kenya","C.4.1",NA,60,NA
-"Kenya","C.5.1",NA,40,NA
-"Kenya","C.5.3",NA,80,NA
-"Kenya","C.6.1",NA,80,NA
-"Kenya","C.6.2",NA,20,NA
-"Kenya","C.11.1",NA,40,NA
-"Kenya","C.11.2",NA,40,NA
-"Lesotho","C.3.1",NA,40,NA
-"Lesotho","C.4.1",NA,80,NA
-"Lesotho","C.5.1",NA,100,NA
-"Lesotho","C.5.3",NA,80,NA
-"Lesotho","C.6.1",NA,60,NA
-"Lesotho","C.6.2",NA,40,NA
-"Lesotho","C.11.1",NA,40,NA
-"Lesotho","C.11.2",NA,40,NA
-"Liberia","C.3.1",NA,80,NA
-"Liberia","C.4.1",NA,40,NA
-"Liberia","C.5.1",NA,60,NA
-"Liberia","C.5.3",NA,60,NA
-"Liberia","C.6.1",NA,80,NA
-"Liberia","C.6.2",NA,80,NA
-"Liberia","C.11.1",NA,60,NA
-"Liberia","C.11.2",NA,60,NA
-"Libya","C.3.1",NA,80,NA
-"Libya","C.4.1",NA,60,NA
-"Libya","C.5.1",NA,100,NA
-"Libya","C.5.3",NA,100,NA
-"Libya","C.6.1",NA,80,NA
-"Libya","C.6.2",NA,80,NA
-"Libya","C.11.1",NA,0,NA
-"Libya","C.11.2",NA,0,NA
-"Madagascar","C.3.1",NA,20,NA
-"Madagascar","C.4.1",NA,40,NA
-"Madagascar","C.5.1",NA,40,NA
-"Madagascar","C.5.3",NA,60,NA
-"Madagascar","C.6.1",NA,60,NA
-"Madagascar","C.6.2",NA,80,NA
-"Madagascar","C.11.1",NA,40,NA
-"Madagascar","C.11.2",NA,20,NA
-"Malawi","C.3.1",NA,60,NA
-"Malawi","C.4.1",NA,20,NA
-"Malawi","C.5.1",NA,80,NA
-"Malawi","C.5.3",NA,20,NA
-"Malawi","C.6.1",NA,60,NA
-"Malawi","C.6.2",NA,20,NA
-"Malawi","C.11.1",NA,20,NA
-"Malawi","C.11.2",NA,0,NA
-"Mali","C.3.1",NA,80,NA
-"Mali","C.4.1",NA,80,NA
-"Mali","C.5.1",NA,80,NA
-"Mali","C.5.3",NA,80,NA
-"Mali","C.6.1",NA,80,NA
-"Mali","C.6.2",NA,60,NA
-"Mali","C.11.1",NA,20,NA
-"Mali","C.11.2",NA,20,NA
-"Mauritania","C.3.1",NA,80,NA
-"Mauritania","C.4.1",NA,20,NA
-"Mauritania","C.5.1",NA,60,NA
-"Mauritania","C.5.3",NA,60,NA
-"Mauritania","C.6.1",NA,60,NA
-"Mauritania","C.6.2",NA,20,NA
-"Mauritania","C.11.1",NA,20,NA
-"Mauritania","C.11.2",NA,20,NA
-"Mauritius","C.3.1",NA,20,NA
-"Mauritius","C.4.1",NA,80,NA
-"Mauritius","C.5.1",NA,100,NA
-"Mauritius","C.5.3",NA,40,NA
-"Mauritius","C.6.1",NA,60,NA
-"Mauritius","C.6.2",NA,60,NA
-"Mauritius","C.11.1",NA,100,NA
-"Mauritius","C.11.2",NA,80,NA
-"Morocco","C.3.1",NA,80,NA
-"Morocco","C.4.1",NA,80,NA
-"Morocco","C.5.1",NA,100,NA
-"Morocco","C.5.3",NA,100,NA
-"Morocco","C.6.1",NA,80,NA
-"Morocco","C.6.2",NA,80,NA
-"Morocco","C.11.1",NA,80,NA
-"Morocco","C.11.2",NA,60,NA
-"Mozambique","C.3.1",NA,80,NA
-"Mozambique","C.4.1",NA,80,NA
-"Mozambique","C.5.1",NA,80,NA
-"Mozambique","C.5.3",NA,80,NA
-"Mozambique","C.6.1",NA,80,NA
-"Mozambique","C.6.2",NA,80,NA
-"Mozambique","C.11.1",NA,100,NA
-"Mozambique","C.11.2",NA,100,NA
-"Namibia","C.3.1",NA,60,NA
-"Namibia","C.4.1",NA,60,NA
-"Namibia","C.5.1",NA,100,NA
-"Namibia","C.5.3",NA,60,NA
-"Namibia","C.6.1",NA,80,NA
-"Namibia","C.6.2",NA,80,NA
-"Namibia","C.11.1",NA,60,NA
-"Namibia","C.11.2",NA,60,NA
-"Niger","C.3.1",NA,20,NA
-"Niger","C.4.1",NA,20,NA
-"Niger","C.5.1",NA,0,NA
-"Niger","C.5.3",NA,0,NA
-"Niger","C.6.1",NA,0,NA
-"Niger","C.6.2",NA,0,NA
-"Niger","C.11.1",NA,20,NA
-"Niger","C.11.2",NA,20,NA
-"Nigeria","C.3.1",NA,60,NA
-"Nigeria","C.4.1",NA,40,NA
-"Nigeria","C.5.1",NA,60,NA
-"Nigeria","C.5.3",NA,80,NA
-"Nigeria","C.6.1",NA,80,NA
-"Nigeria","C.6.2",NA,80,NA
-"Nigeria","C.11.1",NA,60,NA
-"Nigeria","C.11.2",NA,40,NA
-"Rwanda","C.3.1",NA,60,NA
-"Rwanda","C.4.1",NA,40,NA
-"Rwanda","C.5.1",NA,100,NA
-"Rwanda","C.5.3",NA,80,NA
-"Rwanda","C.6.1",NA,80,NA
-"Rwanda","C.6.2",NA,40,NA
-"Rwanda","C.11.1",NA,60,NA
-"Rwanda","C.11.2",NA,40,NA
-"Sao Tome and Principe","C.3.1",NA,20,NA
-"Sao Tome and Principe","C.4.1",NA,40,NA
-"Sao Tome and Principe","C.5.1",NA,20,NA
-"Sao Tome and Principe","C.5.3",NA,20,NA
-"Sao Tome and Principe","C.6.1",NA,40,NA
-"Sao Tome and Principe","C.6.2",NA,40,NA
-"Sao Tome and Principe","C.11.1",NA,20,NA
-"Sao Tome and Principe","C.11.2",NA,40,NA
-"Senegal","C.3.1",NA,60,NA
-"Senegal","C.4.1",NA,80,NA
-"Senegal","C.5.1",NA,80,NA
-"Senegal","C.5.3",NA,80,NA
-"Senegal","C.6.1",NA,80,NA
-"Senegal","C.6.2",NA,60,NA
-"Senegal","C.11.1",NA,60,NA
-"Senegal","C.11.2",NA,20,NA
-"Seychelles","C.3.1",NA,80,NA
-"Seychelles","C.4.1",NA,80,NA
-"Seychelles","C.5.1",NA,100,NA
-"Seychelles","C.5.3",NA,100,NA
-"Seychelles","C.6.1",NA,80,NA
-"Seychelles","C.6.2",NA,80,NA
-"Seychelles","C.11.1",NA,40,NA
-"Seychelles","C.11.2",NA,40,NA
-"Sierra Leone","C.3.1",NA,60,NA
-"Sierra Leone","C.4.1",NA,20,NA
-"Sierra Leone","C.5.1",NA,60,NA
-"Sierra Leone","C.5.3",NA,80,NA
-"Sierra Leone","C.6.1",NA,80,NA
-"Sierra Leone","C.6.2",NA,80,NA
-"Sierra Leone","C.11.1",NA,60,NA
-"Sierra Leone","C.11.2",NA,40,NA
-"Somalia","C.3.1",NA,NA,NA
-"Somalia","C.4.1",NA,NA,NA
-"Somalia","C.5.1",NA,NA,NA
-"Somalia","C.5.3",NA,NA,NA
-"Somalia","C.6.1",NA,NA,NA
-"Somalia","C.6.2",NA,NA,NA
-"Somalia","C.11.1",NA,NA,NA
-"Somalia","C.11.2",NA,NA,NA
-"South Africa","C.3.1",NA,60,NA
-"South Africa","C.4.1",NA,100,NA
-"South Africa","C.5.1",NA,100,NA
-"South Africa","C.5.3",NA,100,NA
-"South Africa","C.6.1",NA,80,NA
-"South Africa","C.6.2",NA,80,NA
-"South Africa","C.11.1",NA,60,NA
-"South Africa","C.11.2",NA,60,NA
-"South Sudan","C.3.1",NA,20,NA
-"South Sudan","C.4.1",NA,20,NA
-"South Sudan","C.5.1",NA,60,NA
-"South Sudan","C.5.3",NA,80,NA
-"South Sudan","C.6.1",NA,100,NA
-"South Sudan","C.6.2",NA,60,NA
-"South Sudan","C.11.1",NA,40,NA
-"South Sudan","C.11.2",NA,20,NA
-"Sudan","C.3.1",NA,60,NA
-"Sudan","C.4.1",NA,80,NA
-"Sudan","C.5.1",NA,60,NA
-"Sudan","C.5.3",NA,60,NA
-"Sudan","C.6.1",NA,80,NA
-"Sudan","C.6.2",NA,80,NA
-"Sudan","C.11.1",NA,60,NA
-"Sudan","C.11.2",NA,20,NA
-"Togo","C.3.1",NA,80,NA
-"Togo","C.4.1",NA,40,NA
-"Togo","C.5.1",NA,80,NA
-"Togo","C.5.3",NA,80,NA
-"Togo","C.6.1",NA,60,NA
-"Togo","C.6.2",NA,80,NA
-"Togo","C.11.1",NA,40,NA
-"Togo","C.11.2",NA,40,NA
-"Tunisia","C.3.1",NA,100,NA
-"Tunisia","C.4.1",NA,80,NA
-"Tunisia","C.5.1",NA,100,NA
-"Tunisia","C.5.3",NA,100,NA
-"Tunisia","C.6.1",NA,80,NA
-"Tunisia","C.6.2",NA,80,NA
-"Tunisia","C.11.1",NA,80,NA
-"Tunisia","C.11.2",NA,20,NA
-"Uganda","C.3.1",NA,60,NA
-"Uganda","C.4.1",NA,40,NA
-"Uganda","C.5.1",NA,100,NA
-"Uganda","C.5.3",NA,100,NA
-"Uganda","C.6.1",NA,80,NA
-"Uganda","C.6.2",NA,80,NA
-"Uganda","C.11.1",NA,60,NA
-"Uganda","C.11.2",NA,40,NA
-"Tanzania","C.3.1",NA,60,NA
-"Tanzania","C.4.1",NA,60,NA
-"Tanzania","C.5.1",NA,100,NA
-"Tanzania","C.5.3",NA,80,NA
-"Tanzania","C.6.1",NA,60,NA
-"Tanzania","C.6.2",NA,20,NA
-"Tanzania","C.11.1",NA,60,NA
-"Tanzania","C.11.2",NA,0,NA
-"Zambia","C.3.1",NA,40,NA
-"Zambia","C.4.1",NA,80,NA
-"Zambia","C.5.1",NA,40,NA
-"Zambia","C.5.3",NA,80,NA
-"Zambia","C.6.1",NA,80,NA
-"Zambia","C.6.2",NA,60,NA
-"Zambia","C.11.1",NA,100,NA
-"Zambia","C.11.2",NA,100,NA
-"Zimbabwe","C.3.1",NA,60,NA
-"Zimbabwe","C.4.1",NA,80,NA
-"Zimbabwe","C.5.1",NA,60,NA
-"Zimbabwe","C.5.3",NA,60,NA
-"Zimbabwe","C.6.1",NA,80,NA
-"Zimbabwe","C.6.2",NA,80,NA
-"Zimbabwe","C.11.1",NA,40,NA
-"Zimbabwe","C.11.2",NA,20,NA
+"Algeria","C.3.1 Collaborative effort on activities to address zoonoses",NA,80,NA
+"Algeria","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,80,NA
+"Algeria","C.5.1 Specimen referral and transport system",NA,80,NA
+"Algeria","C.5.3 Access to laboratory testing capacity for priority diseases",NA,60,NA
+"Algeria","C.6.1 Early warning function: indicator- and event-based surveillance",NA,60,NA
+"Algeria","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,60,NA
+"Algeria","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,80,NA
+"Algeria","C.11.2 Effective public health response at points of entry",NA,60,NA
+"Angola","C.3.1 Collaborative effort on activities to address zoonoses",NA,100,NA
+"Angola","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,40,NA
+"Angola","C.5.1 Specimen referral and transport system",NA,80,NA
+"Angola","C.5.3 Access to laboratory testing capacity for priority diseases",NA,80,NA
+"Angola","C.6.1 Early warning function: indicator- and event-based surveillance",NA,100,NA
+"Angola","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,100,NA
+"Angola","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,40,NA
+"Angola","C.11.2 Effective public health response at points of entry",NA,20,NA
+"Benin","C.3.1 Collaborative effort on activities to address zoonoses",NA,20,NA
+"Benin","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,40,NA
+"Benin","C.5.1 Specimen referral and transport system",NA,60,NA
+"Benin","C.5.3 Access to laboratory testing capacity for priority diseases",NA,60,NA
+"Benin","C.6.1 Early warning function: indicator- and event-based surveillance",NA,60,NA
+"Benin","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,20,NA
+"Benin","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,0,NA
+"Benin","C.11.2 Effective public health response at points of entry",NA,0,NA
+"Botswana","C.3.1 Collaborative effort on activities to address zoonoses",NA,20,NA
+"Botswana","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,40,NA
+"Botswana","C.5.1 Specimen referral and transport system",NA,100,NA
+"Botswana","C.5.3 Access to laboratory testing capacity for priority diseases",NA,60,NA
+"Botswana","C.6.1 Early warning function: indicator- and event-based surveillance",NA,60,NA
+"Botswana","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,60,NA
+"Botswana","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,80,NA
+"Botswana","C.11.2 Effective public health response at points of entry",NA,40,NA
+"Burkina Faso","C.3.1 Collaborative effort on activities to address zoonoses",NA,80,NA
+"Burkina Faso","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,60,NA
+"Burkina Faso","C.5.1 Specimen referral and transport system",NA,80,NA
+"Burkina Faso","C.5.3 Access to laboratory testing capacity for priority diseases",NA,80,NA
+"Burkina Faso","C.6.1 Early warning function: indicator- and event-based surveillance",NA,60,NA
+"Burkina Faso","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,80,NA
+"Burkina Faso","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,20,NA
+"Burkina Faso","C.11.2 Effective public health response at points of entry",NA,40,NA
+"Burundi","C.3.1 Collaborative effort on activities to address zoonoses",NA,60,NA
+"Burundi","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,40,NA
+"Burundi","C.5.1 Specimen referral and transport system",NA,100,NA
+"Burundi","C.5.3 Access to laboratory testing capacity for priority diseases",NA,60,NA
+"Burundi","C.6.1 Early warning function: indicator- and event-based surveillance",NA,80,NA
+"Burundi","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,60,NA
+"Burundi","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,40,NA
+"Burundi","C.11.2 Effective public health response at points of entry",NA,40,NA
+"Cabo Verde","C.3.1 Collaborative effort on activities to address zoonoses",NA,40,NA
+"Cabo Verde","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,80,NA
+"Cabo Verde","C.5.1 Specimen referral and transport system",NA,80,NA
+"Cabo Verde","C.5.3 Access to laboratory testing capacity for priority diseases",NA,100,NA
+"Cabo Verde","C.6.1 Early warning function: indicator- and event-based surveillance",NA,80,NA
+"Cabo Verde","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,60,NA
+"Cabo Verde","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,60,NA
+"Cabo Verde","C.11.2 Effective public health response at points of entry",NA,60,NA
+"Cameroon","C.3.1 Collaborative effort on activities to address zoonoses",NA,80,NA
+"Cameroon","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,40,NA
+"Cameroon","C.5.1 Specimen referral and transport system",NA,60,NA
+"Cameroon","C.5.3 Access to laboratory testing capacity for priority diseases",NA,80,NA
+"Cameroon","C.6.1 Early warning function: indicator- and event-based surveillance",NA,80,NA
+"Cameroon","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,80,NA
+"Cameroon","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,40,NA
+"Cameroon","C.11.2 Effective public health response at points of entry",NA,40,NA
+"Central African Republic","C.3.1 Collaborative effort on activities to address zoonoses",NA,20,NA
+"Central African Republic","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,0,NA
+"Central African Republic","C.5.1 Specimen referral and transport system",NA,60,NA
+"Central African Republic","C.5.3 Access to laboratory testing capacity for priority diseases",NA,100,NA
+"Central African Republic","C.6.1 Early warning function: indicator- and event-based surveillance",NA,80,NA
+"Central African Republic","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,20,NA
+"Central African Republic","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,20,NA
+"Central African Republic","C.11.2 Effective public health response at points of entry",NA,20,NA
+"Chad","C.3.1 Collaborative effort on activities to address zoonoses",NA,40,NA
+"Chad","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,20,NA
+"Chad","C.5.1 Specimen referral and transport system",NA,60,NA
+"Chad","C.5.3 Access to laboratory testing capacity for priority diseases",NA,60,NA
+"Chad","C.6.1 Early warning function: indicator- and event-based surveillance",NA,80,NA
+"Chad","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,80,NA
+"Chad","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,40,NA
+"Chad","C.11.2 Effective public health response at points of entry",NA,40,NA
+"Comoros","C.3.1 Collaborative effort on activities to address zoonoses",NA,60,NA
+"Comoros","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,40,NA
+"Comoros","C.5.1 Specimen referral and transport system",NA,60,NA
+"Comoros","C.5.3 Access to laboratory testing capacity for priority diseases",NA,40,NA
+"Comoros","C.6.1 Early warning function: indicator- and event-based surveillance",NA,60,NA
+"Comoros","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,40,NA
+"Comoros","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,20,NA
+"Comoros","C.11.2 Effective public health response at points of entry",NA,20,NA
+"Congo","C.3.1 Collaborative effort on activities to address zoonoses",NA,20,NA
+"Congo","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,40,NA
+"Congo","C.5.1 Specimen referral and transport system",NA,40,NA
+"Congo","C.5.3 Access to laboratory testing capacity for priority diseases",NA,40,NA
+"Congo","C.6.1 Early warning function: indicator- and event-based surveillance",NA,60,NA
+"Congo","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,40,NA
+"Congo","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,20,NA
+"Congo","C.11.2 Effective public health response at points of entry",NA,20,NA
+"Cote d'Ivoire","C.3.1 Collaborative effort on activities to address zoonoses",NA,60,NA
+"Cote d'Ivoire","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,0,NA
+"Cote d'Ivoire","C.5.1 Specimen referral and transport system",NA,80,NA
+"Cote d'Ivoire","C.5.3 Access to laboratory testing capacity for priority diseases",NA,100,NA
+"Cote d'Ivoire","C.6.1 Early warning function: indicator- and event-based surveillance",NA,60,NA
+"Cote d'Ivoire","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,40,NA
+"Cote d'Ivoire","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,60,NA
+"Cote d'Ivoire","C.11.2 Effective public health response at points of entry",NA,40,NA
+"Democratic Republic of the Congo","C.3.1 Collaborative effort on activities to address zoonoses",NA,60,NA
+"Democratic Republic of the Congo","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,20,NA
+"Democratic Republic of the Congo","C.5.1 Specimen referral and transport system",NA,60,NA
+"Democratic Republic of the Congo","C.5.3 Access to laboratory testing capacity for priority diseases",NA,60,NA
+"Democratic Republic of the Congo","C.6.1 Early warning function: indicator- and event-based surveillance",NA,60,NA
+"Democratic Republic of the Congo","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,60,NA
+"Democratic Republic of the Congo","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,60,NA
+"Democratic Republic of the Congo","C.11.2 Effective public health response at points of entry",NA,40,NA
+"Djibouti","C.3.1 Collaborative effort on activities to address zoonoses",NA,40,NA
+"Djibouti","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,20,NA
+"Djibouti","C.5.1 Specimen referral and transport system",NA,20,NA
+"Djibouti","C.5.3 Access to laboratory testing capacity for priority diseases",NA,40,NA
+"Djibouti","C.6.1 Early warning function: indicator- and event-based surveillance",NA,60,NA
+"Djibouti","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,20,NA
+"Djibouti","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,40,NA
+"Djibouti","C.11.2 Effective public health response at points of entry",NA,20,NA
+"Egypt, Arab Rep.","C.3.1 Collaborative effort on activities to address zoonoses",NA,80,NA
+"Egypt, Arab Rep.","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,80,NA
+"Egypt, Arab Rep.","C.5.1 Specimen referral and transport system",NA,80,NA
+"Egypt, Arab Rep.","C.5.3 Access to laboratory testing capacity for priority diseases",NA,80,NA
+"Egypt, Arab Rep.","C.6.1 Early warning function: indicator- and event-based surveillance",NA,100,NA
+"Egypt, Arab Rep.","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,100,NA
+"Egypt, Arab Rep.","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,100,NA
+"Egypt, Arab Rep.","C.11.2 Effective public health response at points of entry",NA,100,NA
+"Equatorial Guinea","C.3.1 Collaborative effort on activities to address zoonoses",NA,20,NA
+"Equatorial Guinea","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,20,NA
+"Equatorial Guinea","C.5.1 Specimen referral and transport system",NA,40,NA
+"Equatorial Guinea","C.5.3 Access to laboratory testing capacity for priority diseases",NA,20,NA
+"Equatorial Guinea","C.6.1 Early warning function: indicator- and event-based surveillance",NA,40,NA
+"Equatorial Guinea","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,40,NA
+"Equatorial Guinea","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,20,NA
+"Equatorial Guinea","C.11.2 Effective public health response at points of entry",NA,20,NA
+"Eritrea","C.3.1 Collaborative effort on activities to address zoonoses",NA,80,NA
+"Eritrea","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,60,NA
+"Eritrea","C.5.1 Specimen referral and transport system",NA,80,NA
+"Eritrea","C.5.3 Access to laboratory testing capacity for priority diseases",NA,60,NA
+"Eritrea","C.6.1 Early warning function: indicator- and event-based surveillance",NA,80,NA
+"Eritrea","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,60,NA
+"Eritrea","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,60,NA
+"Eritrea","C.11.2 Effective public health response at points of entry",NA,40,NA
+"Eswatini","C.3.1 Collaborative effort on activities to address zoonoses",NA,60,NA
+"Eswatini","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,40,NA
+"Eswatini","C.5.1 Specimen referral and transport system",NA,80,NA
+"Eswatini","C.5.3 Access to laboratory testing capacity for priority diseases",NA,80,NA
+"Eswatini","C.6.1 Early warning function: indicator- and event-based surveillance",NA,80,NA
+"Eswatini","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,60,NA
+"Eswatini","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,80,NA
+"Eswatini","C.11.2 Effective public health response at points of entry",NA,80,NA
+"Ethiopia","C.3.1 Collaborative effort on activities to address zoonoses",NA,60,NA
+"Ethiopia","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,40,NA
+"Ethiopia","C.5.1 Specimen referral and transport system",NA,80,NA
+"Ethiopia","C.5.3 Access to laboratory testing capacity for priority diseases",NA,100,NA
+"Ethiopia","C.6.1 Early warning function: indicator- and event-based surveillance",NA,80,NA
+"Ethiopia","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,80,NA
+"Ethiopia","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,60,NA
+"Ethiopia","C.11.2 Effective public health response at points of entry",NA,40,NA
+"Gabon","C.3.1 Collaborative effort on activities to address zoonoses",NA,20,NA
+"Gabon","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,20,NA
+"Gabon","C.5.1 Specimen referral and transport system",NA,20,NA
+"Gabon","C.5.3 Access to laboratory testing capacity for priority diseases",NA,100,NA
+"Gabon","C.6.1 Early warning function: indicator- and event-based surveillance",NA,60,NA
+"Gabon","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,40,NA
+"Gabon","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,40,NA
+"Gabon","C.11.2 Effective public health response at points of entry",NA,20,NA
+"Gambia","C.3.1 Collaborative effort on activities to address zoonoses",NA,20,NA
+"Gambia","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,20,NA
+"Gambia","C.5.1 Specimen referral and transport system",NA,20,NA
+"Gambia","C.5.3 Access to laboratory testing capacity for priority diseases",NA,40,NA
+"Gambia","C.6.1 Early warning function: indicator- and event-based surveillance",NA,80,NA
+"Gambia","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,60,NA
+"Gambia","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,40,NA
+"Gambia","C.11.2 Effective public health response at points of entry",NA,20,NA
+"Ghana","C.3.1 Collaborative effort on activities to address zoonoses",NA,60,NA
+"Ghana","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,40,NA
+"Ghana","C.5.1 Specimen referral and transport system",NA,60,NA
+"Ghana","C.5.3 Access to laboratory testing capacity for priority diseases",NA,60,NA
+"Ghana","C.6.1 Early warning function: indicator- and event-based surveillance",NA,80,NA
+"Ghana","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,80,NA
+"Ghana","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,40,NA
+"Ghana","C.11.2 Effective public health response at points of entry",NA,40,NA
+"Guinea","C.3.1 Collaborative effort on activities to address zoonoses",NA,60,NA
+"Guinea","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,40,NA
+"Guinea","C.5.1 Specimen referral and transport system",NA,80,NA
+"Guinea","C.5.3 Access to laboratory testing capacity for priority diseases",NA,60,NA
+"Guinea","C.6.1 Early warning function: indicator- and event-based surveillance",NA,60,NA
+"Guinea","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,80,NA
+"Guinea","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,40,NA
+"Guinea","C.11.2 Effective public health response at points of entry",NA,40,NA
+"Guinea-Bissau","C.3.1 Collaborative effort on activities to address zoonoses",NA,20,NA
+"Guinea-Bissau","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,40,NA
+"Guinea-Bissau","C.5.1 Specimen referral and transport system",NA,20,NA
+"Guinea-Bissau","C.5.3 Access to laboratory testing capacity for priority diseases",NA,20,NA
+"Guinea-Bissau","C.6.1 Early warning function: indicator- and event-based surveillance",NA,60,NA
+"Guinea-Bissau","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,40,NA
+"Guinea-Bissau","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,20,NA
+"Guinea-Bissau","C.11.2 Effective public health response at points of entry",NA,40,NA
+"Kenya","C.3.1 Collaborative effort on activities to address zoonoses",NA,60,NA
+"Kenya","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,60,NA
+"Kenya","C.5.1 Specimen referral and transport system",NA,40,NA
+"Kenya","C.5.3 Access to laboratory testing capacity for priority diseases",NA,80,NA
+"Kenya","C.6.1 Early warning function: indicator- and event-based surveillance",NA,80,NA
+"Kenya","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,20,NA
+"Kenya","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,40,NA
+"Kenya","C.11.2 Effective public health response at points of entry",NA,40,NA
+"Lesotho","C.3.1 Collaborative effort on activities to address zoonoses",NA,40,NA
+"Lesotho","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,80,NA
+"Lesotho","C.5.1 Specimen referral and transport system",NA,100,NA
+"Lesotho","C.5.3 Access to laboratory testing capacity for priority diseases",NA,80,NA
+"Lesotho","C.6.1 Early warning function: indicator- and event-based surveillance",NA,60,NA
+"Lesotho","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,40,NA
+"Lesotho","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,40,NA
+"Lesotho","C.11.2 Effective public health response at points of entry",NA,40,NA
+"Liberia","C.3.1 Collaborative effort on activities to address zoonoses",NA,80,NA
+"Liberia","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,40,NA
+"Liberia","C.5.1 Specimen referral and transport system",NA,60,NA
+"Liberia","C.5.3 Access to laboratory testing capacity for priority diseases",NA,60,NA
+"Liberia","C.6.1 Early warning function: indicator- and event-based surveillance",NA,80,NA
+"Liberia","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,80,NA
+"Liberia","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,60,NA
+"Liberia","C.11.2 Effective public health response at points of entry",NA,60,NA
+"Libya","C.3.1 Collaborative effort on activities to address zoonoses",NA,80,NA
+"Libya","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,60,NA
+"Libya","C.5.1 Specimen referral and transport system",NA,100,NA
+"Libya","C.5.3 Access to laboratory testing capacity for priority diseases",NA,100,NA
+"Libya","C.6.1 Early warning function: indicator- and event-based surveillance",NA,80,NA
+"Libya","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,80,NA
+"Libya","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,0,NA
+"Libya","C.11.2 Effective public health response at points of entry",NA,0,NA
+"Madagascar","C.3.1 Collaborative effort on activities to address zoonoses",NA,20,NA
+"Madagascar","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,40,NA
+"Madagascar","C.5.1 Specimen referral and transport system",NA,40,NA
+"Madagascar","C.5.3 Access to laboratory testing capacity for priority diseases",NA,60,NA
+"Madagascar","C.6.1 Early warning function: indicator- and event-based surveillance",NA,60,NA
+"Madagascar","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,80,NA
+"Madagascar","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,40,NA
+"Madagascar","C.11.2 Effective public health response at points of entry",NA,20,NA
+"Malawi","C.3.1 Collaborative effort on activities to address zoonoses",NA,60,NA
+"Malawi","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,20,NA
+"Malawi","C.5.1 Specimen referral and transport system",NA,80,NA
+"Malawi","C.5.3 Access to laboratory testing capacity for priority diseases",NA,20,NA
+"Malawi","C.6.1 Early warning function: indicator- and event-based surveillance",NA,60,NA
+"Malawi","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,20,NA
+"Malawi","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,20,NA
+"Malawi","C.11.2 Effective public health response at points of entry",NA,0,NA
+"Mali","C.3.1 Collaborative effort on activities to address zoonoses",NA,80,NA
+"Mali","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,80,NA
+"Mali","C.5.1 Specimen referral and transport system",NA,80,NA
+"Mali","C.5.3 Access to laboratory testing capacity for priority diseases",NA,80,NA
+"Mali","C.6.1 Early warning function: indicator- and event-based surveillance",NA,80,NA
+"Mali","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,60,NA
+"Mali","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,20,NA
+"Mali","C.11.2 Effective public health response at points of entry",NA,20,NA
+"Mauritania","C.3.1 Collaborative effort on activities to address zoonoses",NA,80,NA
+"Mauritania","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,20,NA
+"Mauritania","C.5.1 Specimen referral and transport system",NA,60,NA
+"Mauritania","C.5.3 Access to laboratory testing capacity for priority diseases",NA,60,NA
+"Mauritania","C.6.1 Early warning function: indicator- and event-based surveillance",NA,60,NA
+"Mauritania","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,20,NA
+"Mauritania","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,20,NA
+"Mauritania","C.11.2 Effective public health response at points of entry",NA,20,NA
+"Mauritius","C.3.1 Collaborative effort on activities to address zoonoses",NA,20,NA
+"Mauritius","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,80,NA
+"Mauritius","C.5.1 Specimen referral and transport system",NA,100,NA
+"Mauritius","C.5.3 Access to laboratory testing capacity for priority diseases",NA,40,NA
+"Mauritius","C.6.1 Early warning function: indicator- and event-based surveillance",NA,60,NA
+"Mauritius","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,60,NA
+"Mauritius","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,100,NA
+"Mauritius","C.11.2 Effective public health response at points of entry",NA,80,NA
+"Morocco","C.3.1 Collaborative effort on activities to address zoonoses",NA,80,NA
+"Morocco","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,80,NA
+"Morocco","C.5.1 Specimen referral and transport system",NA,100,NA
+"Morocco","C.5.3 Access to laboratory testing capacity for priority diseases",NA,100,NA
+"Morocco","C.6.1 Early warning function: indicator- and event-based surveillance",NA,80,NA
+"Morocco","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,80,NA
+"Morocco","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,80,NA
+"Morocco","C.11.2 Effective public health response at points of entry",NA,60,NA
+"Mozambique","C.3.1 Collaborative effort on activities to address zoonoses",NA,80,NA
+"Mozambique","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,80,NA
+"Mozambique","C.5.1 Specimen referral and transport system",NA,80,NA
+"Mozambique","C.5.3 Access to laboratory testing capacity for priority diseases",NA,80,NA
+"Mozambique","C.6.1 Early warning function: indicator- and event-based surveillance",NA,80,NA
+"Mozambique","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,80,NA
+"Mozambique","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,100,NA
+"Mozambique","C.11.2 Effective public health response at points of entry",NA,100,NA
+"Namibia","C.3.1 Collaborative effort on activities to address zoonoses",NA,60,NA
+"Namibia","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,60,NA
+"Namibia","C.5.1 Specimen referral and transport system",NA,100,NA
+"Namibia","C.5.3 Access to laboratory testing capacity for priority diseases",NA,60,NA
+"Namibia","C.6.1 Early warning function: indicator- and event-based surveillance",NA,80,NA
+"Namibia","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,80,NA
+"Namibia","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,60,NA
+"Namibia","C.11.2 Effective public health response at points of entry",NA,60,NA
+"Niger","C.3.1 Collaborative effort on activities to address zoonoses",NA,20,NA
+"Niger","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,20,NA
+"Niger","C.5.1 Specimen referral and transport system",NA,0,NA
+"Niger","C.5.3 Access to laboratory testing capacity for priority diseases",NA,0,NA
+"Niger","C.6.1 Early warning function: indicator- and event-based surveillance",NA,0,NA
+"Niger","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,0,NA
+"Niger","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,20,NA
+"Niger","C.11.2 Effective public health response at points of entry",NA,20,NA
+"Nigeria","C.3.1 Collaborative effort on activities to address zoonoses",NA,60,NA
+"Nigeria","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,40,NA
+"Nigeria","C.5.1 Specimen referral and transport system",NA,60,NA
+"Nigeria","C.5.3 Access to laboratory testing capacity for priority diseases",NA,80,NA
+"Nigeria","C.6.1 Early warning function: indicator- and event-based surveillance",NA,80,NA
+"Nigeria","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,80,NA
+"Nigeria","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,60,NA
+"Nigeria","C.11.2 Effective public health response at points of entry",NA,40,NA
+"Rwanda","C.3.1 Collaborative effort on activities to address zoonoses",NA,60,NA
+"Rwanda","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,40,NA
+"Rwanda","C.5.1 Specimen referral and transport system",NA,100,NA
+"Rwanda","C.5.3 Access to laboratory testing capacity for priority diseases",NA,80,NA
+"Rwanda","C.6.1 Early warning function: indicator- and event-based surveillance",NA,80,NA
+"Rwanda","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,40,NA
+"Rwanda","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,60,NA
+"Rwanda","C.11.2 Effective public health response at points of entry",NA,40,NA
+"Sao Tome and Principe","C.3.1 Collaborative effort on activities to address zoonoses",NA,20,NA
+"Sao Tome and Principe","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,40,NA
+"Sao Tome and Principe","C.5.1 Specimen referral and transport system",NA,20,NA
+"Sao Tome and Principe","C.5.3 Access to laboratory testing capacity for priority diseases",NA,20,NA
+"Sao Tome and Principe","C.6.1 Early warning function: indicator- and event-based surveillance",NA,40,NA
+"Sao Tome and Principe","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,40,NA
+"Sao Tome and Principe","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,20,NA
+"Sao Tome and Principe","C.11.2 Effective public health response at points of entry",NA,40,NA
+"Senegal","C.3.1 Collaborative effort on activities to address zoonoses",NA,60,NA
+"Senegal","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,80,NA
+"Senegal","C.5.1 Specimen referral and transport system",NA,80,NA
+"Senegal","C.5.3 Access to laboratory testing capacity for priority diseases",NA,80,NA
+"Senegal","C.6.1 Early warning function: indicator- and event-based surveillance",NA,80,NA
+"Senegal","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,60,NA
+"Senegal","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,60,NA
+"Senegal","C.11.2 Effective public health response at points of entry",NA,20,NA
+"Seychelles","C.3.1 Collaborative effort on activities to address zoonoses",NA,80,NA
+"Seychelles","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,80,NA
+"Seychelles","C.5.1 Specimen referral and transport system",NA,100,NA
+"Seychelles","C.5.3 Access to laboratory testing capacity for priority diseases",NA,100,NA
+"Seychelles","C.6.1 Early warning function: indicator- and event-based surveillance",NA,80,NA
+"Seychelles","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,80,NA
+"Seychelles","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,40,NA
+"Seychelles","C.11.2 Effective public health response at points of entry",NA,40,NA
+"Sierra Leone","C.3.1 Collaborative effort on activities to address zoonoses",NA,60,NA
+"Sierra Leone","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,20,NA
+"Sierra Leone","C.5.1 Specimen referral and transport system",NA,60,NA
+"Sierra Leone","C.5.3 Access to laboratory testing capacity for priority diseases",NA,80,NA
+"Sierra Leone","C.6.1 Early warning function: indicator- and event-based surveillance",NA,80,NA
+"Sierra Leone","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,80,NA
+"Sierra Leone","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,60,NA
+"Sierra Leone","C.11.2 Effective public health response at points of entry",NA,40,NA
+"Somalia","C.3.1 Collaborative effort on activities to address zoonoses",NA,NA,NA
+"Somalia","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,NA,NA
+"Somalia","C.5.1 Specimen referral and transport system",NA,NA,NA
+"Somalia","C.5.3 Access to laboratory testing capacity for priority diseases",NA,NA,NA
+"Somalia","C.6.1 Early warning function: indicator- and event-based surveillance",NA,NA,NA
+"Somalia","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,NA,NA
+"Somalia","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,NA,NA
+"Somalia","C.11.2 Effective public health response at points of entry",NA,NA,NA
+"South Africa","C.3.1 Collaborative effort on activities to address zoonoses",NA,60,NA
+"South Africa","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,100,NA
+"South Africa","C.5.1 Specimen referral and transport system",NA,100,NA
+"South Africa","C.5.3 Access to laboratory testing capacity for priority diseases",NA,100,NA
+"South Africa","C.6.1 Early warning function: indicator- and event-based surveillance",NA,80,NA
+"South Africa","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,80,NA
+"South Africa","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,60,NA
+"South Africa","C.11.2 Effective public health response at points of entry",NA,60,NA
+"South Sudan","C.3.1 Collaborative effort on activities to address zoonoses",NA,20,NA
+"South Sudan","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,20,NA
+"South Sudan","C.5.1 Specimen referral and transport system",NA,60,NA
+"South Sudan","C.5.3 Access to laboratory testing capacity for priority diseases",NA,80,NA
+"South Sudan","C.6.1 Early warning function: indicator- and event-based surveillance",NA,100,NA
+"South Sudan","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,60,NA
+"South Sudan","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,40,NA
+"South Sudan","C.11.2 Effective public health response at points of entry",NA,20,NA
+"Sudan","C.3.1 Collaborative effort on activities to address zoonoses",NA,60,NA
+"Sudan","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,80,NA
+"Sudan","C.5.1 Specimen referral and transport system",NA,60,NA
+"Sudan","C.5.3 Access to laboratory testing capacity for priority diseases",NA,60,NA
+"Sudan","C.6.1 Early warning function: indicator- and event-based surveillance",NA,80,NA
+"Sudan","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,80,NA
+"Sudan","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,60,NA
+"Sudan","C.11.2 Effective public health response at points of entry",NA,20,NA
+"Togo","C.3.1 Collaborative effort on activities to address zoonoses",NA,80,NA
+"Togo","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,40,NA
+"Togo","C.5.1 Specimen referral and transport system",NA,80,NA
+"Togo","C.5.3 Access to laboratory testing capacity for priority diseases",NA,80,NA
+"Togo","C.6.1 Early warning function: indicator- and event-based surveillance",NA,60,NA
+"Togo","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,80,NA
+"Togo","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,40,NA
+"Togo","C.11.2 Effective public health response at points of entry",NA,40,NA
+"Tunisia","C.3.1 Collaborative effort on activities to address zoonoses",NA,100,NA
+"Tunisia","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,80,NA
+"Tunisia","C.5.1 Specimen referral and transport system",NA,100,NA
+"Tunisia","C.5.3 Access to laboratory testing capacity for priority diseases",NA,100,NA
+"Tunisia","C.6.1 Early warning function: indicator- and event-based surveillance",NA,80,NA
+"Tunisia","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,80,NA
+"Tunisia","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,80,NA
+"Tunisia","C.11.2 Effective public health response at points of entry",NA,20,NA
+"Uganda","C.3.1 Collaborative effort on activities to address zoonoses",NA,60,NA
+"Uganda","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,40,NA
+"Uganda","C.5.1 Specimen referral and transport system",NA,100,NA
+"Uganda","C.5.3 Access to laboratory testing capacity for priority diseases",NA,100,NA
+"Uganda","C.6.1 Early warning function: indicator- and event-based surveillance",NA,80,NA
+"Uganda","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,80,NA
+"Uganda","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,60,NA
+"Uganda","C.11.2 Effective public health response at points of entry",NA,40,NA
+"Tanzania","C.3.1 Collaborative effort on activities to address zoonoses",NA,60,NA
+"Tanzania","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,60,NA
+"Tanzania","C.5.1 Specimen referral and transport system",NA,100,NA
+"Tanzania","C.5.3 Access to laboratory testing capacity for priority diseases",NA,80,NA
+"Tanzania","C.6.1 Early warning function: indicator- and event-based surveillance",NA,60,NA
+"Tanzania","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,20,NA
+"Tanzania","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,60,NA
+"Tanzania","C.11.2 Effective public health response at points of entry",NA,0,NA
+"Zambia","C.3.1 Collaborative effort on activities to address zoonoses",NA,40,NA
+"Zambia","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,80,NA
+"Zambia","C.5.1 Specimen referral and transport system",NA,40,NA
+"Zambia","C.5.3 Access to laboratory testing capacity for priority diseases",NA,80,NA
+"Zambia","C.6.1 Early warning function: indicator- and event-based surveillance",NA,80,NA
+"Zambia","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,60,NA
+"Zambia","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,100,NA
+"Zambia","C.11.2 Effective public health response at points of entry",NA,100,NA
+"Zimbabwe","C.3.1 Collaborative effort on activities to address zoonoses",NA,60,NA
+"Zimbabwe","C.4.1 Multisectoral collaboration mechanism for food safety events",NA,80,NA
+"Zimbabwe","C.5.1 Specimen referral and transport system",NA,60,NA
+"Zimbabwe","C.5.3 Access to laboratory testing capacity for priority diseases",NA,60,NA
+"Zimbabwe","C.6.1 Early warning function: indicator- and event-based surveillance",NA,80,NA
+"Zimbabwe","C.6.2 Mechanism for event management (verification, risk assessment, analysis investigation)",NA,80,NA
+"Zimbabwe","C.11.1 Core capacity requirements at all times for designated airports, ports and ground crossings",NA,40,NA
+"Zimbabwe","C.11.2 Effective public health response at points of entry",NA,20,NA
+"Angola","Estimated number of malaria cases","2000",5340066,"number"
+"Burundi","Estimated number of malaria cases","2000",3047638,"number"
+"Benin","Estimated number of malaria cases","2000",2906648,"number"
+"Burkina Faso","Estimated number of malaria cases","2000",7002044,"number"
+"Botswana","Estimated number of malaria cases","2000",19146,"number"
+"Central African Republic","Estimated number of malaria cases","2000",1608936,"number"
+"Cameroon","Estimated number of malaria cases","2000",6263468,"number"
+"Democratic Republic of the Congo","Estimated number of malaria cases","2000",22117306,"number"
+"Congo","Estimated number of malaria cases","2000",1111363,"number"
+"Comoros","Estimated number of malaria cases","2000",35309,"number"
+"Cabo Verde","Estimated number of malaria cases","2000",144,"number"
+"Algeria","Estimated number of malaria cases","2000",34,"number"
+"Eritrea","Estimated number of malaria cases","2000",42048,"number"
+"Ethiopia","Estimated number of malaria cases","2000",10012002,"number"
+"Gabon","Estimated number of malaria cases","2000",398161,"number"
+"Ghana","Estimated number of malaria cases","2000",8390825,"number"
+"Guinea","Estimated number of malaria cases","2000",3667311,"number"
+"Gambia","Estimated number of malaria cases","2000",491730,"number"
+"Guinea-Bissau","Estimated number of malaria cases","2000",479861,"number"
+"Equatorial Guinea","Estimated number of malaria cases","2000",235276,"number"
+"Kenya","Estimated number of malaria cases","2000",6929773,"number"
+"Liberia","Estimated number of malaria cases","2000",1327183,"number"
+"Madagascar","Estimated number of malaria cases","2000",905987,"number"
+"Mali","Estimated number of malaria cases","2000",4446769,"number"
 "Mozambique","Estimated number of malaria cases","2000",8615872,"number"
 "Mauritania","Estimated number of malaria cases","2000",403918,"number"
 "Malawi","Estimated number of malaria cases","2000",5164430,"number"
@@ -1229,38 +1253,14 @@
 "Chad","Estimated number of malaria cases","2000",2206959,"number"
 "Togo","Estimated number of malaria cases","2000",2195221,"number"
 "Tanzania","Estimated number of malaria cases","2000",11387493,"number"
-"Mali","Estimated number of malaria cases","2000",4446769,"number"
-"Madagascar","Estimated number of malaria cases","2000",905987,"number"
-"Liberia","Estimated number of malaria cases","2000",1327183,"number"
-"Kenya","Estimated number of malaria cases","2000",6929773,"number"
-"Equatorial Guinea","Estimated number of malaria cases","2000",235276,"number"
-"Guinea-Bissau","Estimated number of malaria cases","2000",479861,"number"
-"Gambia","Estimated number of malaria cases","2000",491730,"number"
-"Guinea","Estimated number of malaria cases","2000",3667311,"number"
-"Ghana","Estimated number of malaria cases","2000",8390825,"number"
-"Gabon","Estimated number of malaria cases","2000",398161,"number"
-"Ethiopia","Estimated number of malaria cases","2000",10012002,"number"
-"Eritrea","Estimated number of malaria cases","2000",42048,"number"
-"Algeria","Estimated number of malaria cases","2000",34,"number"
-"Cabo Verde","Estimated number of malaria cases","2000",144,"number"
-"Comoros","Estimated number of malaria cases","2000",35309,"number"
-"Congo","Estimated number of malaria cases","2000",1111363,"number"
-"Democratic Republic of the Congo","Estimated number of malaria cases","2000",22117306,"number"
-"Cameroon","Estimated number of malaria cases","2000",6263468,"number"
-"Central African Republic","Estimated number of malaria cases","2000",1608936,"number"
-"Botswana","Estimated number of malaria cases","2000",19146,"number"
-"Burkina Faso","Estimated number of malaria cases","2000",7002044,"number"
-"Benin","Estimated number of malaria cases","2000",2906648,"number"
-"Burundi","Estimated number of malaria cases","2000",3047638,"number"
-"Angola","Estimated number of malaria cases","2000",5340066,"number"
 "Uganda","Estimated number of malaria cases","2000",11522961,"number"
-"Djibouti","Estimated number of malaria cases","2000",1832,"number"
-"Sudan","Estimated number of malaria cases","2000",2530343,"number"
-"Somalia","Estimated number of malaria cases","2000",1114212,"number"
 "South Africa","Estimated number of malaria cases","2000",18064,"number"
 "Zambia","Estimated number of malaria cases","2000",4136290,"number"
 "Zimbabwe","Estimated number of malaria cases","2000",1057512,"number"
 "Morocco","Estimated number of malaria cases","2000",3,"number"
+"Djibouti","Estimated number of malaria cases","2000",1832,"number"
+"Sudan","Estimated number of malaria cases","2000",2530343,"number"
+"Somalia","Estimated number of malaria cases","2000",1114212,"number"
 "Angola","Estimated number of malaria cases","2001",5535342,"number"
 "Burundi","Estimated number of malaria cases","2001",3060075,"number"
 "Benin","Estimated number of malaria cases","2001",3062820,"number"
@@ -1960,12 +1960,12 @@
 "Tanzania","Estimated number of malaria cases","2015",7223235,"number"
 "Uganda","Estimated number of malaria cases","2015",9690714,"number"
 "South Africa","Estimated number of malaria cases","2015",4959,"number"
+"Zambia","Estimated number of malaria cases","2015",3482707,"number"
+"Zimbabwe","Estimated number of malaria cases","2015",1061804,"number"
+"Morocco","Estimated number of malaria cases","2015",0,"number"
 "Djibouti","Estimated number of malaria cases","2015",9473,"number"
 "Sudan","Estimated number of malaria cases","2015",1642188,"number"
 "Somalia","Estimated number of malaria cases","2015",769171,"number"
-"Morocco","Estimated number of malaria cases","2015",0,"number"
-"Zimbabwe","Estimated number of malaria cases","2015",1061804,"number"
-"Zambia","Estimated number of malaria cases","2015",3482707,"number"
 "Angola","Estimated number of malaria cases","2016",5464271,"number"
 "Burundi","Estimated number of malaria cases","2016",2400698,"number"
 "Benin","Estimated number of malaria cases","2016",4549900,"number"
@@ -2228,6 +2228,7 @@
 "Cote d'Ivoire","Estimated number of malaria cases","2019",7231163,"number"
 "Cote d'Ivoire","Estimated number of malaria cases","2020",7571801,"number"
 "Mauritius","rabies deaths","2010",0,"number"
+"Seychelles","rabies deaths","2010",0,"number"
 "Zimbabwe","rabies deaths","2010",2,"number"
 "South Africa","rabies deaths","2010",12,"number"
 "Sudan","rabies deaths","2010",13,"number"
@@ -2237,7 +2238,6 @@
 "Uganda","rabies deaths","2010",45,"number"
 "Algeria","rabies deaths","2010",NA,"number"
 "Angola","rabies deaths","2010",NA,"number"
-"Seychelles","rabies deaths","2010",0,"number"
 "Benin","rabies deaths","2010",NA,"number"
 "Botswana","rabies deaths","2010",NA,"number"
 "Burkina Faso","rabies deaths","2010",NA,"number"
@@ -2281,6 +2281,8 @@
 "Zambia","rabies deaths","2010",NA,"number"
 "South Sudan","rabies deaths","2010",NA,"number"
 "Cabo Verde","rabies deaths","2011",0,"number"
+"Mauritius","rabies deaths","2011",0,"number"
+"Seychelles","rabies deaths","2011",0,"number"
 "Zimbabwe","rabies deaths","2011",2,"number"
 "Morocco","rabies deaths","2011",5,"number"
 "Sudan","rabies deaths","2011",5,"number"
@@ -2290,8 +2292,6 @@
 "Uganda","rabies deaths","2011",37,"number"
 "Algeria","rabies deaths","2011",NA,"number"
 "Angola","rabies deaths","2011",NA,"number"
-"Seychelles","rabies deaths","2011",0,"number"
-"Mauritius","rabies deaths","2011",0,"number"
 "Benin","rabies deaths","2011",NA,"number"
 "Botswana","rabies deaths","2011",NA,"number"
 "Burkina Faso","rabies deaths","2011",NA,"number"
@@ -2395,6 +2395,23 @@
 "Algeria","rabies deaths","2013",NA,"number"
 "Angola","rabies deaths","2013",NA,"number"
 "Benin","rabies deaths","2013",NA,"number"
+"Botswana","rabies deaths","2013",NA,"number"
+"Burundi","rabies deaths","2013",NA,"number"
+"Cameroon","rabies deaths","2013",NA,"number"
+"Cabo Verde","rabies deaths","2013",NA,"number"
+"Central African Republic","rabies deaths","2013",NA,"number"
+"Chad","rabies deaths","2013",NA,"number"
+"Comoros","rabies deaths","2013",NA,"number"
+"Congo","rabies deaths","2013",NA,"number"
+"Cote d'Ivoire","rabies deaths","2013",NA,"number"
+"Democratic Republic of the Congo","rabies deaths","2013",NA,"number"
+"Djibouti","rabies deaths","2013",NA,"number"
+"Equatorial Guinea","rabies deaths","2013",NA,"number"
+"Eritrea","rabies deaths","2013",NA,"number"
+"Ethiopia","rabies deaths","2013",NA,"number"
+"Gabon","rabies deaths","2013",NA,"number"
+"Gambia","rabies deaths","2013",NA,"number"
+"Ghana","rabies deaths","2013",NA,"number"
 "Guinea","rabies deaths","2013",NA,"number"
 "Guinea-Bissau","rabies deaths","2013",NA,"number"
 "Kenya","rabies deaths","2013",NA,"number"
@@ -2403,35 +2420,20 @@
 "Libya","rabies deaths","2013",NA,"number"
 "Madagascar","rabies deaths","2013",NA,"number"
 "Malawi","rabies deaths","2013",NA,"number"
-"Ghana","rabies deaths","2013",NA,"number"
-"Gambia","rabies deaths","2013",NA,"number"
-"Gabon","rabies deaths","2013",NA,"number"
-"Ethiopia","rabies deaths","2013",NA,"number"
-"Eritrea","rabies deaths","2013",NA,"number"
-"Equatorial Guinea","rabies deaths","2013",NA,"number"
-"Djibouti","rabies deaths","2013",NA,"number"
-"Democratic Republic of the Congo","rabies deaths","2013",NA,"number"
-"Cote d'Ivoire","rabies deaths","2013",NA,"number"
-"Congo","rabies deaths","2013",NA,"number"
-"Comoros","rabies deaths","2013",NA,"number"
-"Chad","rabies deaths","2013",NA,"number"
-"Central African Republic","rabies deaths","2013",NA,"number"
-"Cabo Verde","rabies deaths","2013",NA,"number"
-"Cameroon","rabies deaths","2013",NA,"number"
-"Burundi","rabies deaths","2013",NA,"number"
-"Botswana","rabies deaths","2013",NA,"number"
 "Mali","rabies deaths","2013",NA,"number"
 "Mauritania","rabies deaths","2013",NA,"number"
 "Mozambique","rabies deaths","2013",NA,"number"
 "Namibia","rabies deaths","2013",NA,"number"
 "Niger","rabies deaths","2013",NA,"number"
 "Nigeria","rabies deaths","2013",NA,"number"
+"Rwanda","rabies deaths","2013",NA,"number"
 "Sao Tome and Principe","rabies deaths","2013",NA,"number"
 "Sierra Leone","rabies deaths","2013",NA,"number"
 "Somalia","rabies deaths","2013",NA,"number"
 "Eswatini","rabies deaths","2013",NA,"number"
 "Togo","rabies deaths","2013",NA,"number"
-"Rwanda","rabies deaths","2013",NA,"number"
+"Zambia","rabies deaths","2013",NA,"number"
+"South Sudan","rabies deaths","2013",NA,"number"
 "Mauritius","rabies deaths","2014",0,"number"
 "Seychelles","rabies deaths","2014",0,"number"
 "Sudan","rabies deaths","2014",1,"number"
@@ -2442,8 +2444,6 @@
 "Madagascar","rabies deaths","2014",8,"number"
 "Zimbabwe","rabies deaths","2014",16,"number"
 "Uganda","rabies deaths","2014",23,"number"
-"Zambia","rabies deaths","2013",NA,"number"
-"South Sudan","rabies deaths","2013",NA,"number"
 "Angola","rabies deaths","2014",NA,"number"
 "Benin","rabies deaths","2014",NA,"number"
 "Burundi","rabies deaths","2014",NA,"number"
@@ -2575,6 +2575,16 @@
 "Tanzania","rabies deaths","2016",26,"number"
 "Sierra Leone","rabies deaths","2016",27,"number"
 "Mozambique","rabies deaths","2016",29,"number"
+"Kenya","rabies deaths","2016",727,"number"
+"Angola","rabies deaths","2016",NA,"number"
+"Benin","rabies deaths","2016",NA,"number"
+"Burkina Faso","rabies deaths","2016",NA,"number"
+"Burundi","rabies deaths","2016",NA,"number"
+"Cameroon","rabies deaths","2016",NA,"number"
+"Cabo Verde","rabies deaths","2016",NA,"number"
+"Central African Republic","rabies deaths","2016",NA,"number"
+"Comoros","rabies deaths","2016",NA,"number"
+"Congo","rabies deaths","2016",NA,"number"
 "Democratic Republic of the Congo","rabies deaths","2016",NA,"number"
 "Djibouti","rabies deaths","2016",NA,"number"
 "Egypt, Arab Rep.","rabies deaths","2016",NA,"number"
@@ -2584,29 +2594,24 @@
 "Gambia","rabies deaths","2016",NA,"number"
 "Guinea","rabies deaths","2016",NA,"number"
 "Guinea-Bissau","rabies deaths","2016",NA,"number"
-"Congo","rabies deaths","2016",NA,"number"
-"Comoros","rabies deaths","2016",NA,"number"
-"Central African Republic","rabies deaths","2016",NA,"number"
-"Cabo Verde","rabies deaths","2016",NA,"number"
-"Cameroon","rabies deaths","2016",NA,"number"
-"Burundi","rabies deaths","2016",NA,"number"
-"Burkina Faso","rabies deaths","2016",NA,"number"
-"Benin","rabies deaths","2016",NA,"number"
-"Angola","rabies deaths","2016",NA,"number"
-"Kenya","rabies deaths","2016",727,"number"
-"Rwanda","rabies deaths","2016",NA,"number"
-"Sao Tome and Principe","rabies deaths","2016",NA,"number"
-"Seychelles","rabies deaths","2016",NA,"number"
 "Libya","rabies deaths","2016",NA,"number"
 "Mauritania","rabies deaths","2016",NA,"number"
 "Mauritius","rabies deaths","2016",NA,"number"
 "Namibia","rabies deaths","2016",NA,"number"
-"Liberia","rabies deaths","2017",0,"number"
+"Rwanda","rabies deaths","2016",NA,"number"
+"Sao Tome and Principe","rabies deaths","2016",NA,"number"
+"Seychelles","rabies deaths","2016",NA,"number"
 "Togo","rabies deaths","2016",NA,"number"
 "Uganda","rabies deaths","2016",NA,"number"
 "Zambia","rabies deaths","2016",NA,"number"
 "South Sudan","rabies deaths","2016",NA,"number"
 "Chad","rabies deaths","2017",0,"number"
+"Liberia","rabies deaths","2017",0,"number"
+"Senegal","rabies deaths","2017",0,"number"
+"Eswatini","rabies deaths","2017",0,"number"
+"Somalia","rabies deaths","2017",1,"number"
+"Sudan","rabies deaths","2017",1,"number"
+"Tunisia","rabies deaths","2017",1,"number"
 "Nigeria","rabies deaths","2017",4,"number"
 "Lesotho","rabies deaths","2017",7,"number"
 "Mali","rabies deaths","2017",7,"number"
@@ -2621,11 +2626,6 @@
 "Ethiopia","rabies deaths","2017",17,"number"
 "Algeria","rabies deaths","2017",18,"number"
 "Cote d'Ivoire","rabies deaths","2017",18,"number"
-"Senegal","rabies deaths","2017",0,"number"
-"Eswatini","rabies deaths","2017",0,"number"
-"Somalia","rabies deaths","2017",1,"number"
-"Sudan","rabies deaths","2017",1,"number"
-"Tunisia","rabies deaths","2017",1,"number"
 "Mozambique","rabies deaths","2017",89,"number"
 "Kenya","rabies deaths","2017",350,"number"
 "Angola","rabies deaths","2017",NA,"number"
@@ -2659,393 +2659,393 @@
 "Uganda","rabies deaths","2017",NA,"number"
 "Zambia","rabies deaths","2017",NA,"number"
 "South Sudan","rabies deaths","2017",NA,"number"
-"Angola","Yellow fever - number of reported cases","2010",0,"number"
-"Burundi","Yellow fever - number of reported cases","2010",0,"number"
-"Benin","Yellow fever - number of reported cases","2010",0,"number"
-"Burkina Faso","Yellow fever - number of reported cases","2010",7,"number"
 "Central African Republic","Yellow fever - number of reported cases","2010",6,"number"
-"Cote d'Ivoire","Yellow fever - number of reported cases","2010",49,"number"
-"Cameroon","Yellow fever - number of reported cases","2010",16,"number"
-"Democratic Republic of the Congo","Yellow fever - number of reported cases","2010",289,"number"
-"Congo","Yellow fever - number of reported cases","2010",0,"number"
-"Comoros","Yellow fever - number of reported cases","2010",0,"number"
-"Cabo Verde","Yellow fever - number of reported cases","2010",0,"number"
 "Djibouti","Yellow fever - number of reported cases","2010",0,"number"
 "Algeria","Yellow fever - number of reported cases","2010",0,"number"
-"Gabon","Yellow fever - number of reported cases","2010",0,"number"
-"Ghana","Yellow fever - number of reported cases","2010",155,"number"
-"Guinea","Yellow fever - number of reported cases","2010",2,"number"
-"Gambia","Yellow fever - number of reported cases","2010",0,"number"
-"Guinea-Bissau","Yellow fever - number of reported cases","2010",0,"number"
 "Equatorial Guinea","Yellow fever - number of reported cases","2010",0,"number"
 "Kenya","Yellow fever - number of reported cases","2010",0,"number"
-"Liberia","Yellow fever - number of reported cases","2010",1,"number"
-"Lesotho","Yellow fever - number of reported cases","2010",0,"number"
-"Madagascar","Yellow fever - number of reported cases","2010",0,"number"
-"Mali","Yellow fever - number of reported cases","2010",3,"number"
-"Mauritius","Yellow fever - number of reported cases","2010",0,"number"
-"Namibia","Yellow fever - number of reported cases","2010",0,"number"
-"Niger","Yellow fever - number of reported cases","2010",0,"number"
-"Nigeria","Yellow fever - number of reported cases","2010",0,"number"
-"Senegal","Yellow fever - number of reported cases","2010",1,"number"
 "Sierra Leone","Yellow fever - number of reported cases","2010",0,"number"
 "Sao Tome and Principe","Yellow fever - number of reported cases","2010",0,"number"
-"Seychelles","Yellow fever - number of reported cases","2010",0,"number"
-"Chad","Yellow fever - number of reported cases","2010",79,"number"
-"Togo","Yellow fever - number of reported cases","2010",0,"number"
 "Uganda","Yellow fever - number of reported cases","2010",106,"number"
-"Zambia","Yellow fever - number of reported cases","2010",0,"number"
 "Angola","Yellow fever - number of reported cases","2011",0,"number"
-"Burundi","Yellow fever - number of reported cases","2011",0,"number"
-"Benin","Yellow fever - number of reported cases","2011",0,"number"
-"Burkina Faso","Yellow fever - number of reported cases","2011",1024,"number"
-"Central African Republic","Yellow fever - number of reported cases","2011",7,"number"
-"Cote d'Ivoire","Yellow fever - number of reported cases","2011",10,"number"
-"Cameroon","Yellow fever - number of reported cases","2011",29,"number"
-"Democratic Republic of the Congo","Yellow fever - number of reported cases","2011",195,"number"
 "Congo","Yellow fever - number of reported cases","2011",188,"number"
 "Cabo Verde","Yellow fever - number of reported cases","2011",0,"number"
-"Algeria","Yellow fever - number of reported cases","2011",0,"number"
-"Gabon","Yellow fever - number of reported cases","2011",0,"number"
 "Ghana","Yellow fever - number of reported cases","2011",30,"number"
 "Guinea","Yellow fever - number of reported cases","2011",0,"number"
-"Gambia","Yellow fever - number of reported cases","2011",0,"number"
-"Guinea-Bissau","Yellow fever - number of reported cases","2011",0,"number"
-"Equatorial Guinea","Yellow fever - number of reported cases","2011",0,"number"
-"Kenya","Yellow fever - number of reported cases","2011",0,"number"
-"Liberia","Yellow fever - number of reported cases","2011",0,"number"
-"Lesotho","Yellow fever - number of reported cases","2011",0,"number"
 "Morocco","Yellow fever - number of reported cases","2011",0,"number"
-"Madagascar","Yellow fever - number of reported cases","2011",0,"number"
-"Mali","Yellow fever - number of reported cases","2011",0,"number"
-"Mauritius","Yellow fever - number of reported cases","2011",0,"number"
-"Namibia","Yellow fever - number of reported cases","2011",0,"number"
 "Niger","Yellow fever - number of reported cases","2011",20,"number"
 "Nigeria","Yellow fever - number of reported cases","2011",387,"number"
 "Rwanda","Yellow fever - number of reported cases","2011",0,"number"
-"Senegal","Yellow fever - number of reported cases","2011",7,"number"
-"Sierra Leone","Yellow fever - number of reported cases","2011",361,"number"
-"South Sudan","Yellow fever - number of reported cases","2011",128,"number"
-"Sao Tome and Principe","Yellow fever - number of reported cases","2011",0,"number"
-"Eswatini","Yellow fever - number of reported cases","2011",0,"number"
 "Seychelles","Yellow fever - number of reported cases","2011",0,"number"
 "Chad","Yellow fever - number of reported cases","2011",122,"number"
 "Togo","Yellow fever - number of reported cases","2011",0,"number"
-"Uganda","Yellow fever - number of reported cases","2011",66,"number"
 "South Africa","Yellow fever - number of reported cases","2011",0,"number"
-"Zambia","Yellow fever - number of reported cases","2011",0,"number"
-"Angola","Yellow fever - number of reported cases","2012",0,"number"
-"Benin","Yellow fever - number of reported cases","2012",0,"number"
-"Burkina Faso","Yellow fever - number of reported cases","2012",0,"number"
 "Central African Republic","Yellow fever - number of reported cases","2012",0,"number"
-"Cote d'Ivoire","Yellow fever - number of reported cases","2012",5,"number"
-"Cameroon","Yellow fever - number of reported cases","2012",31,"number"
-"Democratic Republic of the Congo","Yellow fever - number of reported cases","2012",1,"number"
-"Congo","Yellow fever - number of reported cases","2012",1,"number"
-"Cabo Verde","Yellow fever - number of reported cases","2012",0,"number"
 "Algeria","Yellow fever - number of reported cases","2012",0,"number"
-"Eritrea","Yellow fever - number of reported cases","2012",0,"number"
-"Ethiopia","Yellow fever - number of reported cases","2012",0,"number"
-"Gabon","Yellow fever - number of reported cases","2012",0,"number"
-"Ghana","Yellow fever - number of reported cases","2012",3,"number"
-"Guinea","Yellow fever - number of reported cases","2012",0,"number"
-"Gambia","Yellow fever - number of reported cases","2012",1,"number"
-"Guinea-Bissau","Yellow fever - number of reported cases","2012",0,"number"
 "Equatorial Guinea","Yellow fever - number of reported cases","2012",0,"number"
 "Kenya","Yellow fever - number of reported cases","2012",0,"number"
-"Liberia","Yellow fever - number of reported cases","2012",17,"number"
-"Libya","Yellow fever - number of reported cases","2012",0,"number"
-"Lesotho","Yellow fever - number of reported cases","2012",0,"number"
-"Mali","Yellow fever - number of reported cases","2012",0,"number"
-"Mauritania","Yellow fever - number of reported cases","2012",0,"number"
-"Mauritius","Yellow fever - number of reported cases","2012",0,"number"
-"Niger","Yellow fever - number of reported cases","2012",0,"number"
-"Nigeria","Yellow fever - number of reported cases","2012",0,"number"
-"Rwanda","Yellow fever - number of reported cases","2012",0,"number"
-"Senegal","Yellow fever - number of reported cases","2012",1,"number"
-"Sierra Leone","Yellow fever - number of reported cases","2012",94,"number"
 "South Sudan","Yellow fever - number of reported cases","2012",0,"number"
 "Sao Tome and Principe","Yellow fever - number of reported cases","2012",0,"number"
-"Eswatini","Yellow fever - number of reported cases","2012",0,"number"
-"Seychelles","Yellow fever - number of reported cases","2012",0,"number"
-"Chad","Yellow fever - number of reported cases","2012",48,"number"
-"Togo","Yellow fever - number of reported cases","2012",12,"number"
 "Tunisia","Yellow fever - number of reported cases","2012",0,"number"
 "Tanzania","Yellow fever - number of reported cases","2012",0,"number"
 "Uganda","Yellow fever - number of reported cases","2012",32,"number"
-"Zambia","Yellow fever - number of reported cases","2012",0,"number"
-"Zimbabwe","Yellow fever - number of reported cases","2012",0,"number"
-"Angola","Yellow fever - number of reported cases","2013",0,"number"
 "Benin","Yellow fever - number of reported cases","2013",0,"number"
 "Burkina Faso","Yellow fever - number of reported cases","2013",0,"number"
-"Central African Republic","Yellow fever - number of reported cases","2013",4,"number"
-"Cote d'Ivoire","Yellow fever - number of reported cases","2013",6,"number"
-"Cameroon","Yellow fever - number of reported cases","2013",15,"number"
-"Congo","Yellow fever - number of reported cases","2013",1,"number"
 "Cabo Verde","Yellow fever - number of reported cases","2013",0,"number"
-"Eritrea","Yellow fever - number of reported cases","2013",0,"number"
-"Ethiopia","Yellow fever - number of reported cases","2013",223,"number"
-"Gabon","Yellow fever - number of reported cases","2013",0,"number"
 "Ghana","Yellow fever - number of reported cases","2013",7,"number"
 "Guinea","Yellow fever - number of reported cases","2013",2,"number"
 "Gambia","Yellow fever - number of reported cases","2013",0,"number"
-"Guinea-Bissau","Yellow fever - number of reported cases","2013",0,"number"
-"Equatorial Guinea","Yellow fever - number of reported cases","2013",0,"number"
-"Kenya","Yellow fever - number of reported cases","2013",0,"number"
-"Liberia","Yellow fever - number of reported cases","2013",0,"number"
-"Lesotho","Yellow fever - number of reported cases","2013",0,"number"
-"Mali","Yellow fever - number of reported cases","2013",0,"number"
-"Mauritania","Yellow fever - number of reported cases","2013",0,"number"
-"Mauritius","Yellow fever - number of reported cases","2013",0,"number"
-"Malawi","Yellow fever - number of reported cases","2013",0,"number"
-"Niger","Yellow fever - number of reported cases","2013",0,"number"
-"Nigeria","Yellow fever - number of reported cases","2013",0,"number"
-"Rwanda","Yellow fever - number of reported cases","2013",0,"number"
 "Senegal","Yellow fever - number of reported cases","2013",2,"number"
 "Sierra Leone","Yellow fever - number of reported cases","2013",3,"number"
-"Sao Tome and Principe","Yellow fever - number of reported cases","2013",0,"number"
-"Eswatini","Yellow fever - number of reported cases","2013",0,"number"
-"Seychelles","Yellow fever - number of reported cases","2013",0,"number"
-"Chad","Yellow fever - number of reported cases","2013",5,"number"
-"Togo","Yellow fever - number of reported cases","2013",0,"number"
 "Tanzania","Yellow fever - number of reported cases","2013",0,"number"
-"South Africa","Yellow fever - number of reported cases","2013",0,"number"
-"Zambia","Yellow fever - number of reported cases","2013",0,"number"
-"Angola","Yellow fever - number of reported cases","2014",0,"number"
-"Benin","Yellow fever - number of reported cases","2014",0,"number"
-"Burkina Faso","Yellow fever - number of reported cases","2014",0,"number"
-"Central African Republic","Yellow fever - number of reported cases","2014",0,"number"
-"Cote d'Ivoire","Yellow fever - number of reported cases","2014",21,"number"
-"Cameroon","Yellow fever - number of reported cases","2014",3,"number"
-"Democratic Republic of the Congo","Yellow fever - number of reported cases","2014",3,"number"
-"Congo","Yellow fever - number of reported cases","2014",0,"number"
 "Comoros","Yellow fever - number of reported cases","2014",0,"number"
 "Cabo Verde","Yellow fever - number of reported cases","2014",0,"number"
-"Gabon","Yellow fever - number of reported cases","2014",0,"number"
-"Ghana","Yellow fever - number of reported cases","2014",0,"number"
 "Guinea","Yellow fever - number of reported cases","2014",2,"number"
 "Gambia","Yellow fever - number of reported cases","2014",0,"number"
 "Guinea-Bissau","Yellow fever - number of reported cases","2014",0,"number"
 "Equatorial Guinea","Yellow fever - number of reported cases","2014",0,"number"
 "Kenya","Yellow fever - number of reported cases","2014",0,"number"
-"Liberia","Yellow fever - number of reported cases","2014",1,"number"
-"Lesotho","Yellow fever - number of reported cases","2014",0,"number"
 "Mali","Yellow fever - number of reported cases","2014",1,"number"
 "Mauritius","Yellow fever - number of reported cases","2014",0,"number"
 "Malawi","Yellow fever - number of reported cases","2014",0,"number"
-"Namibia","Yellow fever - number of reported cases","2014",0,"number"
-"Niger","Yellow fever - number of reported cases","2014",0,"number"
-"Nigeria","Yellow fever - number of reported cases","2014",0,"number"
-"Rwanda","Yellow fever - number of reported cases","2014",0,"number"
-"Senegal","Yellow fever - number of reported cases","2014",0,"number"
-"Sierra Leone","Yellow fever - number of reported cases","2014",0,"number"
-"South Sudan","Yellow fever - number of reported cases","2014",0,"number"
-"Sao Tome and Principe","Yellow fever - number of reported cases","2014",0,"number"
-"Seychelles","Yellow fever - number of reported cases","2014",0,"number"
 "Chad","Yellow fever - number of reported cases","2014",0,"number"
 "Togo","Yellow fever - number of reported cases","2014",0,"number"
-"South Africa","Yellow fever - number of reported cases","2014",0,"number"
-"Zambia","Yellow fever - number of reported cases","2014",0,"number"
-"Angola","Yellow fever - number of reported cases","2015",3,"number"
-"Benin","Yellow fever - number of reported cases","2015",0,"number"
-"Burkina Faso","Yellow fever - number of reported cases","2015",2,"number"
-"Botswana","Yellow fever - number of reported cases","2015",0,"number"
-"Central African Republic","Yellow fever - number of reported cases","2015",0,"number"
-"Cote d'Ivoire","Yellow fever - number of reported cases","2015",15,"number"
-"Cameroon","Yellow fever - number of reported cases","2015",2,"number"
-"Democratic Republic of the Congo","Yellow fever - number of reported cases","2015",0,"number"
-"Congo","Yellow fever - number of reported cases","2015",0,"number"
-"Comoros","Yellow fever - number of reported cases","2015",0,"number"
 "Cabo Verde","Yellow fever - number of reported cases","2015",0,"number"
-"Algeria","Yellow fever - number of reported cases","2015",0,"number"
-"Gabon","Yellow fever - number of reported cases","2015",1,"number"
-"Ghana","Yellow fever - number of reported cases","2015",0,"number"
-"Gambia","Yellow fever - number of reported cases","2015",0,"number"
-"Guinea-Bissau","Yellow fever - number of reported cases","2015",0,"number"
 "Equatorial Guinea","Yellow fever - number of reported cases","2015",0,"number"
 "Kenya","Yellow fever - number of reported cases","2015",0,"number"
-"Liberia","Yellow fever - number of reported cases","2015",1,"number"
-"Lesotho","Yellow fever - number of reported cases","2015",0,"number"
-"Mali","Yellow fever - number of reported cases","2015",10,"number"
 "Mozambique","Yellow fever - number of reported cases","2015",0,"number"
 "Mauritania","Yellow fever - number of reported cases","2015",0,"number"
-"Malawi","Yellow fever - number of reported cases","2015",0,"number"
-"Namibia","Yellow fever - number of reported cases","2015",0,"number"
-"Niger","Yellow fever - number of reported cases","2015",0,"number"
-"Nigeria","Yellow fever - number of reported cases","2015",0,"number"
-"Rwanda","Yellow fever - number of reported cases","2015",0,"number"
-"Senegal","Yellow fever - number of reported cases","2015",1,"number"
-"Sierra Leone","Yellow fever - number of reported cases","2015",0,"number"
-"South Sudan","Yellow fever - number of reported cases","2015",0,"number"
-"Sao Tome and Principe","Yellow fever - number of reported cases","2015",0,"number"
 "Seychelles","Yellow fever - number of reported cases","2015",0,"number"
 "Chad","Yellow fever - number of reported cases","2015",0,"number"
 "Togo","Yellow fever - number of reported cases","2015",0,"number"
-"South Africa","Yellow fever - number of reported cases","2015",0,"number"
-"Zambia","Yellow fever - number of reported cases","2015",0,"number"
-"Zimbabwe","Yellow fever - number of reported cases","2015",0,"number"
-"Angola","Yellow fever - number of reported cases","2016",881,"number"
-"Benin","Yellow fever - number of reported cases","2016",0,"number"
 "Burkina Faso","Yellow fever - number of reported cases","2016",1,"number"
-"Botswana","Yellow fever - number of reported cases","2016",0,"number"
-"Central African Republic","Yellow fever - number of reported cases","2016",0,"number"
 "Cote d'Ivoire","Yellow fever - number of reported cases","2016",3,"number"
 "Cameroon","Yellow fever - number of reported cases","2016",61,"number"
 "Democratic Republic of the Congo","Yellow fever - number of reported cases","2016",77,"number"
 "Congo","Yellow fever - number of reported cases","2016",0,"number"
-"Algeria","Yellow fever - number of reported cases","2016",0,"number"
-"Eritrea","Yellow fever - number of reported cases","2016",0,"number"
 "Ethiopia","Yellow fever - number of reported cases","2016",0,"number"
 "Gabon","Yellow fever - number of reported cases","2016",0,"number"
-"Ghana","Yellow fever - number of reported cases","2016",1,"number"
-"Guinea","Yellow fever - number of reported cases","2016",4,"number"
-"Gambia","Yellow fever - number of reported cases","2016",0,"number"
-"Guinea-Bissau","Yellow fever - number of reported cases","2016",0,"number"
-"Equatorial Guinea","Yellow fever - number of reported cases","2016",0,"number"
-"Kenya","Yellow fever - number of reported cases","2016",3,"number"
-"Liberia","Yellow fever - number of reported cases","2016",0,"number"
-"Lesotho","Yellow fever - number of reported cases","2016",0,"number"
-"Mali","Yellow fever - number of reported cases","2016",0,"number"
-"Mauritania","Yellow fever - number of reported cases","2016",0,"number"
-"Malawi","Yellow fever - number of reported cases","2016",0,"number"
-"Namibia","Yellow fever - number of reported cases","2016",0,"number"
-"Niger","Yellow fever - number of reported cases","2016",0,"number"
-"Nigeria","Yellow fever - number of reported cases","2016",0,"number"
-"Rwanda","Yellow fever - number of reported cases","2016",0,"number"
-"Senegal","Yellow fever - number of reported cases","2016",0,"number"
-"Sierra Leone","Yellow fever - number of reported cases","2016",0,"number"
 "Sao Tome and Principe","Yellow fever - number of reported cases","2016",0,"number"
-"Seychelles","Yellow fever - number of reported cases","2016",0,"number"
-"Chad","Yellow fever - number of reported cases","2016",1,"number"
-"Togo","Yellow fever - number of reported cases","2016",0,"number"
-"Tunisia","Yellow fever - number of reported cases","2016",0,"number"
 "Uganda","Yellow fever - number of reported cases","2016",8,"number"
-"South Africa","Yellow fever - number of reported cases","2016",0,"number"
-"Zambia","Yellow fever - number of reported cases","2016",0,"number"
 "Angola","Yellow fever - number of reported cases","2017",0,"number"
-"Benin","Yellow fever - number of reported cases","2017",0,"number"
-"Burkina Faso","Yellow fever - number of reported cases","2017",5,"number"
-"Botswana","Yellow fever - number of reported cases","2017",0,"number"
-"Central African Republic","Yellow fever - number of reported cases","2017",0,"number"
-"Cote d'Ivoire","Yellow fever - number of reported cases","2017",11,"number"
-"Cameroon","Yellow fever - number of reported cases","2017",4,"number"
-"Democratic Republic of the Congo","Yellow fever - number of reported cases","2017",2,"number"
 "Congo","Yellow fever - number of reported cases","2017",0,"number"
 "Comoros","Yellow fever - number of reported cases","2017",0,"number"
 "Cabo Verde","Yellow fever - number of reported cases","2017",0,"number"
-"Algeria","Yellow fever - number of reported cases","2017",0,"number"
-"Eritrea","Yellow fever - number of reported cases","2017",0,"number"
 "Ethiopia","Yellow fever - number of reported cases","2017",0,"number"
-"Gabon","Yellow fever - number of reported cases","2017",0,"number"
-"Ghana","Yellow fever - number of reported cases","2017",0,"number"
+"Liberia","Yellow fever - number of reported cases","2017",1,"number"
+"Mauritius","Yellow fever - number of reported cases","2017",0,"number"
+"Malawi","Yellow fever - number of reported cases","2017",0,"number"
+"Namibia","Yellow fever - number of reported cases","2017",0,"number"
+"Seychelles","Yellow fever - number of reported cases","2017",0,"number"
+"Chad","Yellow fever - number of reported cases","2017",0,"number"
+"South Africa","Yellow fever - number of reported cases","2017",0,"number"
+"Zambia","Yellow fever - number of reported cases","2017",0,"number"
+"Zimbabwe","Yellow fever - number of reported cases","2017",0,"number"
+"Cabo Verde","Yellow fever - number of reported cases","2018",0,"number"
+"Gabon","Yellow fever - number of reported cases","2018",0,"number"
+"Lesotho","Yellow fever - number of reported cases","2018",0,"number"
+"Namibia","Yellow fever - number of reported cases","2018",0,"number"
+"Niger","Yellow fever - number of reported cases","2018",0,"number"
+"Rwanda","Yellow fever - number of reported cases","2018",0,"number"
+"Eswatini","Yellow fever - number of reported cases","2018",0,"number"
+"Seychelles","Yellow fever - number of reported cases","2018",0,"number"
+"Cameroon","Yellow fever - number of reported cases","2019",22,"number"
+"Democratic Republic of the Congo","Yellow fever - number of reported cases","2019",5,"number"
+"Congo","Yellow fever - number of reported cases","2019",0,"number"
+"Ethiopia","Yellow fever - number of reported cases","2019",0,"number"
+"Liberia","Yellow fever - number of reported cases","2019",2,"number"
+"Mozambique","Yellow fever - number of reported cases","2019",0,"number"
+"Mauritania","Yellow fever - number of reported cases","2019",0,"number"
+"Rwanda","Yellow fever - number of reported cases","2019",0,"number"
+"Senegal","Yellow fever - number of reported cases","2019",0,"number"
+"Chad","Yellow fever - number of reported cases","2019",0,"number"
+"Togo","Yellow fever - number of reported cases","2019",0,"number"
+"Zimbabwe","Yellow fever - number of reported cases","2019",0,"number"
+"Angola","Yellow fever - number of reported cases","2010",0,"number"
+"Comoros","Yellow fever - number of reported cases","2010",0,"number"
+"Cabo Verde","Yellow fever - number of reported cases","2010",0,"number"
+"Gabon","Yellow fever - number of reported cases","2010",0,"number"
+"Liberia","Yellow fever - number of reported cases","2010",1,"number"
+"Lesotho","Yellow fever - number of reported cases","2010",0,"number"
+"Mauritius","Yellow fever - number of reported cases","2010",0,"number"
+"Namibia","Yellow fever - number of reported cases","2010",0,"number"
+"Niger","Yellow fever - number of reported cases","2010",0,"number"
+"Chad","Yellow fever - number of reported cases","2010",79,"number"
+"Togo","Yellow fever - number of reported cases","2010",0,"number"
+"Zambia","Yellow fever - number of reported cases","2010",0,"number"
+"Central African Republic","Yellow fever - number of reported cases","2011",7,"number"
+"Algeria","Yellow fever - number of reported cases","2011",0,"number"
+"Liberia","Yellow fever - number of reported cases","2011",0,"number"
+"Mali","Yellow fever - number of reported cases","2011",0,"number"
+"South Sudan","Yellow fever - number of reported cases","2011",128,"number"
+"Sao Tome and Principe","Yellow fever - number of reported cases","2011",0,"number"
+"Uganda","Yellow fever - number of reported cases","2011",66,"number"
+"Benin","Yellow fever - number of reported cases","2012",0,"number"
+"Burkina Faso","Yellow fever - number of reported cases","2012",0,"number"
+"Democratic Republic of the Congo","Yellow fever - number of reported cases","2012",1,"number"
+"Congo","Yellow fever - number of reported cases","2012",1,"number"
+"Ethiopia","Yellow fever - number of reported cases","2012",0,"number"
+"Gabon","Yellow fever - number of reported cases","2012",0,"number"
+"Liberia","Yellow fever - number of reported cases","2012",17,"number"
+"Libya","Yellow fever - number of reported cases","2012",0,"number"
+"Mauritania","Yellow fever - number of reported cases","2012",0,"number"
+"Mauritius","Yellow fever - number of reported cases","2012",0,"number"
+"Niger","Yellow fever - number of reported cases","2012",0,"number"
+"Rwanda","Yellow fever - number of reported cases","2012",0,"number"
+"Eswatini","Yellow fever - number of reported cases","2012",0,"number"
+"Seychelles","Yellow fever - number of reported cases","2012",0,"number"
+"Chad","Yellow fever - number of reported cases","2012",48,"number"
+"Zambia","Yellow fever - number of reported cases","2012",0,"number"
+"Zimbabwe","Yellow fever - number of reported cases","2012",0,"number"
+"Central African Republic","Yellow fever - number of reported cases","2013",4,"number"
+"Eritrea","Yellow fever - number of reported cases","2013",0,"number"
+"Liberia","Yellow fever - number of reported cases","2013",0,"number"
+"Mauritania","Yellow fever - number of reported cases","2013",0,"number"
+"Mauritius","Yellow fever - number of reported cases","2013",0,"number"
+"Eswatini","Yellow fever - number of reported cases","2013",0,"number"
+"Seychelles","Yellow fever - number of reported cases","2013",0,"number"
+"South Africa","Yellow fever - number of reported cases","2013",0,"number"
+"Zambia","Yellow fever - number of reported cases","2013",0,"number"
+"Central African Republic","Yellow fever - number of reported cases","2014",0,"number"
+"Lesotho","Yellow fever - number of reported cases","2014",0,"number"
+"Sierra Leone","Yellow fever - number of reported cases","2014",0,"number"
+"South Sudan","Yellow fever - number of reported cases","2014",0,"number"
+"Sao Tome and Principe","Yellow fever - number of reported cases","2014",0,"number"
+"South Africa","Yellow fever - number of reported cases","2014",0,"number"
+"Zambia","Yellow fever - number of reported cases","2014",0,"number"
+"Cote d'Ivoire","Yellow fever - number of reported cases","2015",15,"number"
+"Cameroon","Yellow fever - number of reported cases","2015",2,"number"
+"Gabon","Yellow fever - number of reported cases","2015",1,"number"
+"Nigeria","Yellow fever - number of reported cases","2015",0,"number"
+"Sierra Leone","Yellow fever - number of reported cases","2015",0,"number"
+"South Sudan","Yellow fever - number of reported cases","2015",0,"number"
+"Sao Tome and Principe","Yellow fever - number of reported cases","2015",0,"number"
+"South Africa","Yellow fever - number of reported cases","2015",0,"number"
+"Zambia","Yellow fever - number of reported cases","2015",0,"number"
+"Zimbabwe","Yellow fever - number of reported cases","2015",0,"number"
+"Guinea-Bissau","Yellow fever - number of reported cases","2016",0,"number"
+"Equatorial Guinea","Yellow fever - number of reported cases","2016",0,"number"
+"Liberia","Yellow fever - number of reported cases","2016",0,"number"
+"Mauritania","Yellow fever - number of reported cases","2016",0,"number"
+"Malawi","Yellow fever - number of reported cases","2016",0,"number"
+"Chad","Yellow fever - number of reported cases","2016",1,"number"
+"Togo","Yellow fever - number of reported cases","2016",0,"number"
+"Botswana","Yellow fever - number of reported cases","2017",0,"number"
+"Central African Republic","Yellow fever - number of reported cases","2017",0,"number"
 "Guinea","Yellow fever - number of reported cases","2017",1,"number"
 "Gambia","Yellow fever - number of reported cases","2017",0,"number"
 "Guinea-Bissau","Yellow fever - number of reported cases","2017",0,"number"
 "Equatorial Guinea","Yellow fever - number of reported cases","2017",0,"number"
 "Kenya","Yellow fever - number of reported cases","2017",0,"number"
-"Liberia","Yellow fever - number of reported cases","2017",1,"number"
-"Lesotho","Yellow fever - number of reported cases","2017",0,"number"
 "Mali","Yellow fever - number of reported cases","2017",0,"number"
-"Mozambique","Yellow fever - number of reported cases","2017",0,"number"
-"Mauritius","Yellow fever - number of reported cases","2017",0,"number"
-"Malawi","Yellow fever - number of reported cases","2017",0,"number"
-"Namibia","Yellow fever - number of reported cases","2017",0,"number"
-"Niger","Yellow fever - number of reported cases","2017",0,"number"
-"Nigeria","Yellow fever - number of reported cases","2017",26,"number"
-"Rwanda","Yellow fever - number of reported cases","2017",0,"number"
-"Senegal","Yellow fever - number of reported cases","2017",0,"number"
-"Sierra Leone","Yellow fever - number of reported cases","2017",0,"number"
 "South Sudan","Yellow fever - number of reported cases","2017",0,"number"
 "Sao Tome and Principe","Yellow fever - number of reported cases","2017",0,"number"
-"Seychelles","Yellow fever - number of reported cases","2017",0,"number"
-"Chad","Yellow fever - number of reported cases","2017",0,"number"
-"Togo","Yellow fever - number of reported cases","2017",0,"number"
 "Tanzania","Yellow fever - number of reported cases","2017",0,"number"
 "Uganda","Yellow fever - number of reported cases","2017",3,"number"
-"South Africa","Yellow fever - number of reported cases","2017",0,"number"
-"Zambia","Yellow fever - number of reported cases","2017",0,"number"
-"Zimbabwe","Yellow fever - number of reported cases","2017",0,"number"
 "Benin","Yellow fever - number of reported cases","2018",0,"number"
 "Burkina Faso","Yellow fever - number of reported cases","2018",0,"number"
-"Botswana","Yellow fever - number of reported cases","2018",0,"number"
-"Central African Republic","Yellow fever - number of reported cases","2018",1,"number"
 "Cote d'Ivoire","Yellow fever - number of reported cases","2018",2,"number"
 "Cameroon","Yellow fever - number of reported cases","2018",5,"number"
-"Democratic Republic of the Congo","Yellow fever - number of reported cases","2018",15,"number"
-"Congo","Yellow fever - number of reported cases","2018",1,"number"
-"Comoros","Yellow fever - number of reported cases","2018",0,"number"
-"Cabo Verde","Yellow fever - number of reported cases","2018",0,"number"
 "Algeria","Yellow fever - number of reported cases","2018",0,"number"
 "Eritrea","Yellow fever - number of reported cases","2018",0,"number"
+"Burkina Faso","Yellow fever - number of reported cases","2010",7,"number"
+"Cameroon","Yellow fever - number of reported cases","2010",16,"number"
+"Congo","Yellow fever - number of reported cases","2010",0,"number"
+"Ghana","Yellow fever - number of reported cases","2010",155,"number"
+"Gambia","Yellow fever - number of reported cases","2010",0,"number"
+"Madagascar","Yellow fever - number of reported cases","2010",0,"number"
+"Mali","Yellow fever - number of reported cases","2010",3,"number"
+"Nigeria","Yellow fever - number of reported cases","2010",0,"number"
+"Burundi","Yellow fever - number of reported cases","2011",0,"number"
+"Benin","Yellow fever - number of reported cases","2011",0,"number"
+"Cote d'Ivoire","Yellow fever - number of reported cases","2011",10,"number"
+"Democratic Republic of the Congo","Yellow fever - number of reported cases","2011",195,"number"
+"Guinea-Bissau","Yellow fever - number of reported cases","2011",0,"number"
+"Kenya","Yellow fever - number of reported cases","2011",0,"number"
+"Mauritius","Yellow fever - number of reported cases","2011",0,"number"
+"Senegal","Yellow fever - number of reported cases","2011",7,"number"
+"Angola","Yellow fever - number of reported cases","2012",0,"number"
+"Cameroon","Yellow fever - number of reported cases","2012",31,"number"
+"Cabo Verde","Yellow fever - number of reported cases","2012",0,"number"
+"Guinea","Yellow fever - number of reported cases","2012",0,"number"
+"Guinea-Bissau","Yellow fever - number of reported cases","2012",0,"number"
+"Lesotho","Yellow fever - number of reported cases","2012",0,"number"
+"Senegal","Yellow fever - number of reported cases","2012",1,"number"
+"Togo","Yellow fever - number of reported cases","2012",12,"number"
+"Angola","Yellow fever - number of reported cases","2013",0,"number"
+"Cote d'Ivoire","Yellow fever - number of reported cases","2013",6,"number"
+"Congo","Yellow fever - number of reported cases","2013",1,"number"
+"Ethiopia","Yellow fever - number of reported cases","2013",223,"number"
+"Gabon","Yellow fever - number of reported cases","2013",0,"number"
+"Equatorial Guinea","Yellow fever - number of reported cases","2013",0,"number"
+"Kenya","Yellow fever - number of reported cases","2013",0,"number"
+"Niger","Yellow fever - number of reported cases","2013",0,"number"
+"Rwanda","Yellow fever - number of reported cases","2013",0,"number"
+"Sao Tome and Principe","Yellow fever - number of reported cases","2013",0,"number"
+"Togo","Yellow fever - number of reported cases","2013",0,"number"
+"Benin","Yellow fever - number of reported cases","2014",0,"number"
+"Cameroon","Yellow fever - number of reported cases","2014",3,"number"
+"Congo","Yellow fever - number of reported cases","2014",0,"number"
+"Gabon","Yellow fever - number of reported cases","2014",0,"number"
+"Liberia","Yellow fever - number of reported cases","2014",1,"number"
+"Namibia","Yellow fever - number of reported cases","2014",0,"number"
+"Nigeria","Yellow fever - number of reported cases","2014",0,"number"
+"Senegal","Yellow fever - number of reported cases","2014",0,"number"
+"Seychelles","Yellow fever - number of reported cases","2014",0,"number"
+"Burkina Faso","Yellow fever - number of reported cases","2015",2,"number"
+"Botswana","Yellow fever - number of reported cases","2015",0,"number"
+"Congo","Yellow fever - number of reported cases","2015",0,"number"
+"Comoros","Yellow fever - number of reported cases","2015",0,"number"
+"Algeria","Yellow fever - number of reported cases","2015",0,"number"
+"Gambia","Yellow fever - number of reported cases","2015",0,"number"
+"Liberia","Yellow fever - number of reported cases","2015",1,"number"
+"Mali","Yellow fever - number of reported cases","2015",10,"number"
+"Malawi","Yellow fever - number of reported cases","2015",0,"number"
+"Namibia","Yellow fever - number of reported cases","2015",0,"number"
+"Rwanda","Yellow fever - number of reported cases","2015",0,"number"
+"Senegal","Yellow fever - number of reported cases","2015",1,"number"
+"Botswana","Yellow fever - number of reported cases","2016",0,"number"
+"Ghana","Yellow fever - number of reported cases","2016",1,"number"
+"Gambia","Yellow fever - number of reported cases","2016",0,"number"
+"Kenya","Yellow fever - number of reported cases","2016",3,"number"
+"Lesotho","Yellow fever - number of reported cases","2016",0,"number"
+"Mali","Yellow fever - number of reported cases","2016",0,"number"
+"Namibia","Yellow fever - number of reported cases","2016",0,"number"
+"Nigeria","Yellow fever - number of reported cases","2016",0,"number"
+"Rwanda","Yellow fever - number of reported cases","2016",0,"number"
+"Senegal","Yellow fever - number of reported cases","2016",0,"number"
+"Seychelles","Yellow fever - number of reported cases","2016",0,"number"
+"Tunisia","Yellow fever - number of reported cases","2016",0,"number"
+"Zambia","Yellow fever - number of reported cases","2016",0,"number"
+"Benin","Yellow fever - number of reported cases","2017",0,"number"
+"Cote d'Ivoire","Yellow fever - number of reported cases","2017",11,"number"
+"Democratic Republic of the Congo","Yellow fever - number of reported cases","2017",2,"number"
+"Algeria","Yellow fever - number of reported cases","2017",0,"number"
+"Eritrea","Yellow fever - number of reported cases","2017",0,"number"
+"Gabon","Yellow fever - number of reported cases","2017",0,"number"
+"Ghana","Yellow fever - number of reported cases","2017",0,"number"
+"Lesotho","Yellow fever - number of reported cases","2017",0,"number"
+"Mozambique","Yellow fever - number of reported cases","2017",0,"number"
+"Nigeria","Yellow fever - number of reported cases","2017",26,"number"
+"Rwanda","Yellow fever - number of reported cases","2017",0,"number"
+"Togo","Yellow fever - number of reported cases","2017",0,"number"
+"Botswana","Yellow fever - number of reported cases","2018",0,"number"
+"Democratic Republic of the Congo","Yellow fever - number of reported cases","2018",15,"number"
 "Ethiopia","Yellow fever - number of reported cases","2018",5,"number"
-"Gabon","Yellow fever - number of reported cases","2018",0,"number"
 "Ghana","Yellow fever - number of reported cases","2018",0,"number"
-"Gambia","Yellow fever - number of reported cases","2018",0,"number"
 "Guinea-Bissau","Yellow fever - number of reported cases","2018",11,"number"
-"Equatorial Guinea","Yellow fever - number of reported cases","2018",0,"number"
-"Kenya","Yellow fever - number of reported cases","2018",0,"number"
-"Liberia","Yellow fever - number of reported cases","2018",1,"number"
-"Libya","Yellow fever - number of reported cases","2018",0,"number"
-"Lesotho","Yellow fever - number of reported cases","2018",0,"number"
 "Mali","Yellow fever - number of reported cases","2018",225,"number"
-"Mauritania","Yellow fever - number of reported cases","2018",0,"number"
-"Malawi","Yellow fever - number of reported cases","2018",0,"number"
-"Namibia","Yellow fever - number of reported cases","2018",0,"number"
-"Niger","Yellow fever - number of reported cases","2018",0,"number"
-"Nigeria","Yellow fever - number of reported cases","2018",47,"number"
-"Rwanda","Yellow fever - number of reported cases","2018",0,"number"
-"Senegal","Yellow fever - number of reported cases","2018",0,"number"
-"Sierra Leone","Yellow fever - number of reported cases","2018",0,"number"
 "South Sudan","Yellow fever - number of reported cases","2018",3,"number"
-"Sao Tome and Principe","Yellow fever - number of reported cases","2018",0,"number"
-"Eswatini","Yellow fever - number of reported cases","2018",0,"number"
-"Seychelles","Yellow fever - number of reported cases","2018",0,"number"
-"Chad","Yellow fever - number of reported cases","2018",416,"number"
-"Togo","Yellow fever - number of reported cases","2018",0,"number"
-"Tanzania","Yellow fever - number of reported cases","2018",0,"number"
-"Uganda","Yellow fever - number of reported cases","2018",2,"number"
 "South Africa","Yellow fever - number of reported cases","2018",0,"number"
 "Zambia","Yellow fever - number of reported cases","2018",0,"number"
 "Zimbabwe","Yellow fever - number of reported cases","2018",0,"number"
-"Angola","Yellow fever - number of reported cases","2019",0,"number"
-"Benin","Yellow fever - number of reported cases","2019",0,"number"
-"Burkina Faso","Yellow fever - number of reported cases","2019",0,"number"
 "Botswana","Yellow fever - number of reported cases","2019",0,"number"
-"Central African Republic","Yellow fever - number of reported cases","2019",0,"number"
-"Cote d'Ivoire","Yellow fever - number of reported cases","2019",165,"number"
-"Cameroon","Yellow fever - number of reported cases","2019",22,"number"
-"Democratic Republic of the Congo","Yellow fever - number of reported cases","2019",5,"number"
-"Congo","Yellow fever - number of reported cases","2019",0,"number"
-"Comoros","Yellow fever - number of reported cases","2019",0,"number"
-"Cabo Verde","Yellow fever - number of reported cases","2019",0,"number"
-"Eritrea","Yellow fever - number of reported cases","2019",0,"number"
-"Ethiopia","Yellow fever - number of reported cases","2019",0,"number"
-"Gabon","Yellow fever - number of reported cases","2019",3,"number"
 "Ghana","Yellow fever - number of reported cases","2019",0,"number"
 "Guinea","Yellow fever - number of reported cases","2019",0,"number"
 "Gambia","Yellow fever - number of reported cases","2019",0,"number"
 "Guinea-Bissau","Yellow fever - number of reported cases","2019",4,"number"
+"Sao Tome and Principe","Yellow fever - number of reported cases","2019",0,"number"
+"Kenya","Yellow fever - number of reported cases","2018",0,"number"
+"Libya","Yellow fever - number of reported cases","2018",0,"number"
+"Mauritania","Yellow fever - number of reported cases","2018",0,"number"
+"Malawi","Yellow fever - number of reported cases","2018",0,"number"
+"Nigeria","Yellow fever - number of reported cases","2018",47,"number"
+"Sierra Leone","Yellow fever - number of reported cases","2018",0,"number"
+"Sao Tome and Principe","Yellow fever - number of reported cases","2018",0,"number"
+"Togo","Yellow fever - number of reported cases","2018",0,"number"
+"Tanzania","Yellow fever - number of reported cases","2018",0,"number"
+"Burkina Faso","Yellow fever - number of reported cases","2019",0,"number"
+"Cote d'Ivoire","Yellow fever - number of reported cases","2019",165,"number"
+"Cabo Verde","Yellow fever - number of reported cases","2019",0,"number"
+"Gabon","Yellow fever - number of reported cases","2019",3,"number"
 "Equatorial Guinea","Yellow fever - number of reported cases","2019",0,"number"
+"Niger","Yellow fever - number of reported cases","2019",0,"number"
+"Sierra Leone","Yellow fever - number of reported cases","2019",0,"number"
+"Burundi","Yellow fever - number of reported cases","2010",0,"number"
+"Benin","Yellow fever - number of reported cases","2010",0,"number"
+"Cote d'Ivoire","Yellow fever - number of reported cases","2010",49,"number"
+"Democratic Republic of the Congo","Yellow fever - number of reported cases","2010",289,"number"
+"Guinea","Yellow fever - number of reported cases","2010",2,"number"
+"Guinea-Bissau","Yellow fever - number of reported cases","2010",0,"number"
+"Senegal","Yellow fever - number of reported cases","2010",1,"number"
+"Seychelles","Yellow fever - number of reported cases","2010",0,"number"
+"Burkina Faso","Yellow fever - number of reported cases","2011",1024,"number"
+"Cameroon","Yellow fever - number of reported cases","2011",29,"number"
+"Gabon","Yellow fever - number of reported cases","2011",0,"number"
+"Gambia","Yellow fever - number of reported cases","2011",0,"number"
+"Equatorial Guinea","Yellow fever - number of reported cases","2011",0,"number"
+"Lesotho","Yellow fever - number of reported cases","2011",0,"number"
+"Madagascar","Yellow fever - number of reported cases","2011",0,"number"
+"Namibia","Yellow fever - number of reported cases","2011",0,"number"
+"Sierra Leone","Yellow fever - number of reported cases","2011",361,"number"
+"Eswatini","Yellow fever - number of reported cases","2011",0,"number"
+"Zambia","Yellow fever - number of reported cases","2011",0,"number"
+"Cote d'Ivoire","Yellow fever - number of reported cases","2012",5,"number"
+"Eritrea","Yellow fever - number of reported cases","2012",0,"number"
+"Ghana","Yellow fever - number of reported cases","2012",3,"number"
+"Gambia","Yellow fever - number of reported cases","2012",1,"number"
+"Mali","Yellow fever - number of reported cases","2012",0,"number"
+"Nigeria","Yellow fever - number of reported cases","2012",0,"number"
+"Sierra Leone","Yellow fever - number of reported cases","2012",94,"number"
+"Cameroon","Yellow fever - number of reported cases","2013",15,"number"
+"Guinea-Bissau","Yellow fever - number of reported cases","2013",0,"number"
+"Lesotho","Yellow fever - number of reported cases","2013",0,"number"
+"Mali","Yellow fever - number of reported cases","2013",0,"number"
+"Malawi","Yellow fever - number of reported cases","2013",0,"number"
+"Nigeria","Yellow fever - number of reported cases","2013",0,"number"
+"Chad","Yellow fever - number of reported cases","2013",5,"number"
+"Angola","Yellow fever - number of reported cases","2014",0,"number"
+"Burkina Faso","Yellow fever - number of reported cases","2014",0,"number"
+"Cote d'Ivoire","Yellow fever - number of reported cases","2014",21,"number"
+"Democratic Republic of the Congo","Yellow fever - number of reported cases","2014",3,"number"
+"Ghana","Yellow fever - number of reported cases","2014",0,"number"
+"Niger","Yellow fever - number of reported cases","2014",0,"number"
+"Rwanda","Yellow fever - number of reported cases","2014",0,"number"
+"Angola","Yellow fever - number of reported cases","2015",3,"number"
+"Benin","Yellow fever - number of reported cases","2015",0,"number"
+"Central African Republic","Yellow fever - number of reported cases","2015",0,"number"
+"Democratic Republic of the Congo","Yellow fever - number of reported cases","2015",0,"number"
+"Ghana","Yellow fever - number of reported cases","2015",0,"number"
+"Guinea-Bissau","Yellow fever - number of reported cases","2015",0,"number"
+"Lesotho","Yellow fever - number of reported cases","2015",0,"number"
+"Niger","Yellow fever - number of reported cases","2015",0,"number"
+"Angola","Yellow fever - number of reported cases","2016",881,"number"
+"Benin","Yellow fever - number of reported cases","2016",0,"number"
+"Central African Republic","Yellow fever - number of reported cases","2016",0,"number"
+"Algeria","Yellow fever - number of reported cases","2016",0,"number"
+"Eritrea","Yellow fever - number of reported cases","2016",0,"number"
+"Guinea","Yellow fever - number of reported cases","2016",4,"number"
+"Niger","Yellow fever - number of reported cases","2016",0,"number"
+"Sierra Leone","Yellow fever - number of reported cases","2016",0,"number"
+"South Africa","Yellow fever - number of reported cases","2016",0,"number"
+"Burkina Faso","Yellow fever - number of reported cases","2017",5,"number"
+"Cameroon","Yellow fever - number of reported cases","2017",4,"number"
+"Niger","Yellow fever - number of reported cases","2017",0,"number"
+"Senegal","Yellow fever - number of reported cases","2017",0,"number"
+"Sierra Leone","Yellow fever - number of reported cases","2017",0,"number"
+"Central African Republic","Yellow fever - number of reported cases","2018",1,"number"
+"Congo","Yellow fever - number of reported cases","2018",1,"number"
+"Comoros","Yellow fever - number of reported cases","2018",0,"number"
+"Gambia","Yellow fever - number of reported cases","2018",0,"number"
+"Equatorial Guinea","Yellow fever - number of reported cases","2018",0,"number"
+"Liberia","Yellow fever - number of reported cases","2018",1,"number"
+"Senegal","Yellow fever - number of reported cases","2018",0,"number"
+"Chad","Yellow fever - number of reported cases","2018",416,"number"
+"Uganda","Yellow fever - number of reported cases","2018",2,"number"
+"Angola","Yellow fever - number of reported cases","2019",0,"number"
+"Benin","Yellow fever - number of reported cases","2019",0,"number"
+"Central African Republic","Yellow fever - number of reported cases","2019",0,"number"
+"Comoros","Yellow fever - number of reported cases","2019",0,"number"
+"Eritrea","Yellow fever - number of reported cases","2019",0,"number"
 "Kenya","Yellow fever - number of reported cases","2019",0,"number"
-"Liberia","Yellow fever - number of reported cases","2019",2,"number"
 "Lesotho","Yellow fever - number of reported cases","2019",0,"number"
 "Mali","Yellow fever - number of reported cases","2019",5,"number"
-"Mozambique","Yellow fever - number of reported cases","2019",0,"number"
-"Mauritania","Yellow fever - number of reported cases","2019",0,"number"
 "Namibia","Yellow fever - number of reported cases","2019",0,"number"
-"Niger","Yellow fever - number of reported cases","2019",0,"number"
 "Nigeria","Yellow fever - number of reported cases","2019",154,"number"
-"Rwanda","Yellow fever - number of reported cases","2019",0,"number"
-"Senegal","Yellow fever - number of reported cases","2019",0,"number"
-"Sierra Leone","Yellow fever - number of reported cases","2019",0,"number"
 "Somalia","Yellow fever - number of reported cases","2019",0,"number"
-"Sao Tome and Principe","Yellow fever - number of reported cases","2019",0,"number"
 "Seychelles","Yellow fever - number of reported cases","2019",0,"number"
-"Chad","Yellow fever - number of reported cases","2019",0,"number"
-"Togo","Yellow fever - number of reported cases","2019",0,"number"
 "Tunisia","Yellow fever - number of reported cases","2019",0,"number"
 "South Africa","Yellow fever - number of reported cases","2019",0,"number"
-"Zimbabwe","Yellow fever - number of reported cases","2019",0,"number"
 "Algeria","water_national_at_least_basic","2017",93.6,"percent"
 "Algeria","water_rural_at_least_basic","2017",88.7,"percent"
 "Angola","water_national_at_least_basic","2017",55.8,"percent"
@@ -20156,57 +20156,111 @@
 "Uganda","eid_risk",NA,0.00220711,NA
 "Zambia","eid_risk",NA,0.001185342,NA
 "Zimbabwe","eid_risk",NA,0.0013965,NA
-"Democratic Republic of the Congo","mammals_count",NA,566,"number"
-"Kenya","mammals_count",NA,476,"number"
-"Tanzania","mammals_count",NA,475,"number"
-"Uganda","mammals_count",NA,422,"number"
-"Cameroon","mammals_count",NA,418,"number"
-"Angola","mammals_count",NA,390,"number"
-"Nigeria","mammals_count",NA,380,"number"
-"South Africa","mammals_count",NA,375,"number"
-"Ethiopia","mammals_count",NA,363,"number"
-"Sudan","mammals_count",NA,334,"number"
-"Cote d'Ivoire","mammals_count",NA,318,"number"
-"Ghana","mammals_count",NA,314,"number"
-"Mozambique","mammals_count",NA,303,"number"
-"Central African Republic","mammals_count",NA,302,"number"
-"Zambia","mammals_count",NA,298,"number"
-"Guinea","mammals_count",NA,295,"number"
-"Madagascar","mammals_count",NA,273,"number"
-"Namibia","mammals_count",NA,259,"number"
-"Congo","mammals_count",NA,257,"number"
-"Senegal","mammals_count",NA,257,"number"
-"Rwanda","mammals_count",NA,248,"number"
-"Zimbabwe","mammals_count",NA,248,"number"
-"Sierra Leone","mammals_count",NA,242,"number"
-"Benin","mammals_count",NA,240,"number"
-"Togo","mammals_count",NA,238,"number"
-"Somalia","mammals_count",NA,235,"number"
-"Malawi","mammals_count",NA,231,"number"
-"Gabon","mammals_count",NA,227,"number"
-"Morocco","mammals_count",NA,227,"number"
-"Liberia","mammals_count",NA,224,"number"
-"Egypt, Arab Rep.","mammals_count",NA,214,"number"
-"Mali","mammals_count",NA,214,"number"
-"Equatorial Guinea","mammals_count",NA,211,"number"
-"Chad","mammals_count",NA,210,"number"
-"Algeria","mammals_count",NA,205,"number"
-"Botswana","mammals_count",NA,203,"number"
-"Burundi","mammals_count",NA,203,"number"
-"Niger","mammals_count",NA,200,"number"
-"Burkina Faso","mammals_count",NA,188,"number"
-"Gambia","mammals_count",NA,182,"number"
-"Mauritania","mammals_count",NA,181,"number"
-"Eritrea","mammals_count",NA,179,"number"
-"Guinea-Bissau","mammals_count",NA,177,"number"
-"Tunisia","mammals_count",NA,168,"number"
-"Libya","mammals_count",NA,167,"number"
-"Eswatini","mammals_count",NA,166,"number"
-"South Sudan","mammals_count",NA,142,"number"
-"Djibouti","mammals_count",NA,125,"number"
-"Lesotho","mammals_count",NA,100,"number"
-"Comoros","mammals_count",NA,42,"number"
-"Sao Tome and Principe","mammals_count",NA,38,"number"
-"Mauritius","mammals_count",NA,34,"number"
-"Seychelles","mammals_count",NA,34,"number"
-"Cabo Verde","mammals_count",NA,31,"number"
+"Algeria","mammal species_all",NA,205,"number"
+"Algeria","mammal species_extinct_introduced_vagrant_removed",NA,116,"number"
+"Angola","mammal species_all",NA,390,"number"
+"Angola","mammal species_extinct_introduced_vagrant_removed",NA,332,"number"
+"Benin","mammal species_all",NA,240,"number"
+"Benin","mammal species_extinct_introduced_vagrant_removed",NA,200,"number"
+"Botswana","mammal species_all",NA,203,"number"
+"Botswana","mammal species_extinct_introduced_vagrant_removed",NA,165,"number"
+"Burkina Faso","mammal species_all",NA,188,"number"
+"Burkina Faso","mammal species_extinct_introduced_vagrant_removed",NA,143,"number"
+"Burundi","mammal species_all",NA,203,"number"
+"Burundi","mammal species_extinct_introduced_vagrant_removed",NA,174,"number"
+"Cabo Verde","mammal species_all",NA,31,"number"
+"Cabo Verde","mammal species_extinct_introduced_vagrant_removed",NA,30,"number"
+"Cameroon","mammal species_all",NA,418,"number"
+"Cameroon","mammal species_extinct_introduced_vagrant_removed",NA,361,"number"
+"Central African Republic","mammal species_all",NA,302,"number"
+"Central African Republic","mammal species_extinct_introduced_vagrant_removed",NA,253,"number"
+"Chad","mammal species_all",NA,210,"number"
+"Chad","mammal species_extinct_introduced_vagrant_removed",NA,145,"number"
+"Comoros","mammal species_all",NA,42,"number"
+"Comoros","mammal species_extinct_introduced_vagrant_removed",NA,42,"number"
+"Congo","mammal species_all",NA,257,"number"
+"Congo","mammal species_extinct_introduced_vagrant_removed",NA,231,"number"
+"Democratic Republic of the Congo","mammal species_all",NA,566,"number"
+"Democratic Republic of the Congo","mammal species_extinct_introduced_vagrant_removed",NA,493,"number"
+"Cote d'Ivoire","mammal species_all",NA,318,"number"
+"Cote d'Ivoire","mammal species_extinct_introduced_vagrant_removed",NA,277,"number"
+"Djibouti","mammal species_all",NA,125,"number"
+"Djibouti","mammal species_extinct_introduced_vagrant_removed",NA,100,"number"
+"Egypt, Arab Rep.","mammal species_all",NA,214,"number"
+"Egypt, Arab Rep.","mammal species_extinct_introduced_vagrant_removed",NA,121,"number"
+"Equatorial Guinea","mammal species_all",NA,211,"number"
+"Equatorial Guinea","mammal species_extinct_introduced_vagrant_removed",NA,189,"number"
+"Eritrea","mammal species_all",NA,179,"number"
+"Eritrea","mammal species_extinct_introduced_vagrant_removed",NA,134,"number"
+"Eswatini","mammal species_all",NA,166,"number"
+"Eswatini","mammal species_extinct_introduced_vagrant_removed",NA,136,"number"
+"Ethiopia","mammal species_all",NA,363,"number"
+"Ethiopia","mammal species_extinct_introduced_vagrant_removed",NA,298,"number"
+"Gabon","mammal species_all",NA,227,"number"
+"Gabon","mammal species_extinct_introduced_vagrant_removed",NA,204,"number"
+"Gambia","mammal species_all",NA,182,"number"
+"Gambia","mammal species_extinct_introduced_vagrant_removed",NA,146,"number"
+"Ghana","mammal species_all",NA,314,"number"
+"Ghana","mammal species_extinct_introduced_vagrant_removed",NA,270,"number"
+"Guinea","mammal species_all",NA,295,"number"
+"Guinea","mammal species_extinct_introduced_vagrant_removed",NA,255,"number"
+"Guinea-Bissau","mammal species_all",NA,177,"number"
+"Guinea-Bissau","mammal species_extinct_introduced_vagrant_removed",NA,143,"number"
+"Kenya","mammal species_all",NA,476,"number"
+"Kenya","mammal species_extinct_introduced_vagrant_removed",NA,399,"number"
+"Lesotho","mammal species_all",NA,100,"number"
+"Lesotho","mammal species_extinct_introduced_vagrant_removed",NA,80,"number"
+"Liberia","mammal species_all",NA,224,"number"
+"Liberia","mammal species_extinct_introduced_vagrant_removed",NA,205,"number"
+"Libya","mammal species_all",NA,167,"number"
+"Libya","mammal species_extinct_introduced_vagrant_removed",NA,89,"number"
+"Madagascar","mammal species_all",NA,273,"number"
+"Madagascar","mammal species_extinct_introduced_vagrant_removed",NA,260,"number"
+"Malawi","mammal species_all",NA,231,"number"
+"Malawi","mammal species_extinct_introduced_vagrant_removed",NA,202,"number"
+"Mali","mammal species_all",NA,214,"number"
+"Mali","mammal species_extinct_introduced_vagrant_removed",NA,152,"number"
+"Mauritania","mammal species_all",NA,181,"number"
+"Mauritania","mammal species_extinct_introduced_vagrant_removed",NA,125,"number"
+"Mauritius","mammal species_all",NA,34,"number"
+"Mauritius","mammal species_extinct_introduced_vagrant_removed",NA,33,"number"
+"Morocco","mammal species_all",NA,227,"number"
+"Morocco","mammal species_extinct_introduced_vagrant_removed",NA,136,"number"
+"Mozambique","mammal species_all",NA,303,"number"
+"Mozambique","mammal species_extinct_introduced_vagrant_removed",NA,262,"number"
+"Namibia","mammal species_all",NA,259,"number"
+"Namibia","mammal species_extinct_introduced_vagrant_removed",NA,220,"number"
+"Niger","mammal species_all",NA,200,"number"
+"Niger","mammal species_extinct_introduced_vagrant_removed",NA,137,"number"
+"Nigeria","mammal species_all",NA,380,"number"
+"Nigeria","mammal species_extinct_introduced_vagrant_removed",NA,313,"number"
+"Rwanda","mammal species_all",NA,248,"number"
+"Rwanda","mammal species_extinct_introduced_vagrant_removed",NA,213,"number"
+"Sao Tome and Principe","mammal species_all",NA,38,"number"
+"Sao Tome and Principe","mammal species_extinct_introduced_vagrant_removed",NA,37,"number"
+"Senegal","mammal species_all",NA,257,"number"
+"Senegal","mammal species_extinct_introduced_vagrant_removed",NA,201,"number"
+"Seychelles","mammal species_all",NA,34,"number"
+"Seychelles","mammal species_extinct_introduced_vagrant_removed",NA,34,"number"
+"Sierra Leone","mammal species_all",NA,242,"number"
+"Sierra Leone","mammal species_extinct_introduced_vagrant_removed",NA,211,"number"
+"Somalia","mammal species_all",NA,235,"number"
+"Somalia","mammal species_extinct_introduced_vagrant_removed",NA,193,"number"
+"South Africa","mammal species_all",NA,375,"number"
+"South Africa","mammal species_extinct_introduced_vagrant_removed",NA,325,"number"
+"South Sudan","mammal species_all",NA,142,"number"
+"South Sudan","mammal species_extinct_introduced_vagrant_removed",NA,119,"number"
+"Sudan","mammal species_all",NA,334,"number"
+"Sudan","mammal species_extinct_introduced_vagrant_removed",NA,260,"number"
+"Tanzania","mammal species_all",NA,475,"number"
+"Tanzania","mammal species_extinct_introduced_vagrant_removed",NA,402,"number"
+"Togo","mammal species_all",NA,238,"number"
+"Togo","mammal species_extinct_introduced_vagrant_removed",NA,197,"number"
+"Tunisia","mammal species_all",NA,168,"number"
+"Tunisia","mammal species_extinct_introduced_vagrant_removed",NA,95,"number"
+"Uganda","mammal species_all",NA,422,"number"
+"Uganda","mammal species_extinct_introduced_vagrant_removed",NA,356,"number"
+"Zambia","mammal species_all",NA,298,"number"
+"Zambia","mammal species_extinct_introduced_vagrant_removed",NA,252,"number"
+"Zimbabwe","mammal species_all",NA,248,"number"
+"Zimbabwe","mammal species_extinct_introduced_vagrant_removed",NA,209,"number"

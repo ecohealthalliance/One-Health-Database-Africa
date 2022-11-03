@@ -8,3 +8,5 @@ library(tm)
 library(httr)
 library(jsonlite)
 library(rgbif)
+library(countrycode)
+

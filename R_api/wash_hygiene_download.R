@@ -20,7 +20,7 @@ ingest_indicators.wash_hygiene_download <- function(){
     mutate_if(is.character, as.numeric) %>%
     mutate_at("hygiene_national_at_least_basic", round, 1) %>%
     rename(value = "hygiene_national_at_least_basic") %>%
-    mutate(indicator = "hygiene_national_at_least_basic") %>%
+    mutate(indicator = "Access to basic hygiene (national)") %>%
     mutate(indicator = as.factor(indicator)) %>%
     mutate(units = "percent") %>%
     relocate(country, indicator, year, value, units) %>%

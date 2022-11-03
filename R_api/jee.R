@@ -17,6 +17,7 @@ ingest_indicators.jee <- function(){
                       "R.5.2 Internal and partner communication and coordination (v1)/ R.5.2 Internal and partner coordination for emergency risk communication (v2)",
                       "PoE.1 Routine capacities established at points of entry",
                       "PoE.2 E ective public health response at points of entry")
+  
   read_xlsx("data/JEE scores.xlsx")  %>%
     select(all_of(jee_indicators)) %>%
     mutate_if(is.character, as.factor) %>%
@@ -32,6 +33,11 @@ ingest_indicators.jee <- function(){
     mutate(year = fct_recode(year, "2016" = "2016 - some with 2 assessments Country vs external experts")) %>%
     droplevels() %>%
     mutate(indicator = as.factor(indicator)) %>%
+    mutate(indicator = fct_recode(indicator, 
+                                "D.3.1 System for efficient reporting to FAO, OIE and WHO" = "D.3.1 System for e cient reporting to FAO, OIE and WHO",
+                                "D.4.4 FETP or other applied epidemiology training programme is in place (v2)" = "D.4.2 FETP1 or other applied epidemiology training programme in place (v1)/ D.4.4 FETP or other applied epidemiology training programme is in place (v2)",
+                                "R.3.1 Public health and security authorities (e.g. law enforcement, border control, customs) are linked during a suspect or confirmed biological event (v1)/ R.3.1 Public health and security authorities (e.g. law enforcement, border control, customs) linked during a suspect or confirmed biological, chemical or radiological event"="R.3.1 Public health and security authorities (e.g. law enforcement, border control, customs) are linked during a suspect or con rmed biological event (v1)/ R.3.1 Public health and security authorities (e.g. law enforcement, border control, customs) linked during a suspect or confirmed biological, chemical or radiological event",
+                                "PoE.2 Effective public health response at points of entry" = "PoE.2 E ective public health response at points of entry")) %>% 
     relocate(Country, indicator, year, value, units) %>%
     set_names(colnames_list)
 }
