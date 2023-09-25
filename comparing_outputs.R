@@ -1,3 +1,5 @@
+## this file will not run because there is no full_data_combined.csv file
+
 # Looking more closely at any data sets with data that doesn't match between the api and non-api ones
 
 rm(list =ls())
@@ -5,6 +7,7 @@ library(tidyverse)
 
 api_data <- read.csv("Output/full_data_combined_api.csv", stringsAsFactors = T)
 api_data <- api_data[,-1]
+# this csv appears not to exist...
 data <- read.csv("Output/full_data_combined.csv", stringsAsFactors = T)
 data <- data[,-1]
 
