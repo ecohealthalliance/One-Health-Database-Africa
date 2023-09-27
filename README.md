@@ -1,5 +1,16 @@
+Licenses:
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7051952.svg)](https://doi.org/10.5281/zenodo.7051952)
+[![License (for code):
+MIT](https://img.shields.io/badge/License%20(for%20code)-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![License:
+CC-BY-4.0](https://img.shields.io/badge/License%20(for%20text)-CC_BY_4.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
+
+
 Data:  
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7278190.svg)](https://doi.org/10.5281/zenodo.7278190)
+
+See [licenses_data_sources.csv]("./licenses_data_sources.csv") for data licenses 
+and terms of use. 
 
 
 # One Health Database Africa
