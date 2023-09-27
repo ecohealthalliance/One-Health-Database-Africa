@@ -1,5 +1,4 @@
 Licenses:
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7051952.svg)](https://doi.org/10.5281/zenodo.7051952)
 [![License (for code):
 MIT](https://img.shields.io/badge/License%20(for%20code)-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![License:
